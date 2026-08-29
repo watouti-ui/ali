@@ -14,6 +14,13 @@ pipeline, not by this code.
 - `scout/sources/{greenhouse,lever,ashby}.py` — adapters for each ATS's
   public, unauthenticated JSON job-board API. Verified live against real
   boards (GitLab/Airbnb on Greenhouse, Trainline on Ashby).
+- `scout/sources/apify.py` — runs a configured Apify actor synchronously
+  and normalizes its dataset items (field names vary by actor, so it maps
+  the common variants seen across job-scraper actors). Reads
+  `APIFY_API_TOKEN`/`APIFY_TOKEN` from the environment at run time — never
+  hardcode a token in this repo. Normalization is unit-tested against
+  sample data; **not yet run against a real actor**, since that spends
+  Apify platform credits and needs a deliberate actor choice first.
 - `scout/dedup.py` — merges freshly fetched jobs into existing state by
   `canonical_id`.
 - `scout/filters.py` — Stage 1 hard filters (spec §4): word-boundary
@@ -30,11 +37,11 @@ pipeline, not by this code.
 
 ## Not yet wired up
 
-- **Apify** — MCP server is installed and connected (`claude mcp list`
-  shows `apify: https://mcp.apify.com (HTTP) - Connected`), but no adapter
-  uses it yet. Add once the Apify tools are available in a running session
-  and you've decided which actors to use (LinkedIn/Indeed need it; ATS
-  boards don't).
+- **Apify actor choice** — the adapter is built and unit-tested, but
+  `config/target_roles.yaml` has no `source: apify` board yet. Needs a
+  deliberate choice of which actor(s) to run for LinkedIn/Indeed (running
+  one spends Apify platform credits), then add a board entry per the
+  comment in that file.
 - **Scoring** (spec §4 stages 2–4) — not implemented as code. The plan is
   for the daily-run Claude session to read `state/jobs.json`, score each
   job against the evidence bank, and write the scores back.

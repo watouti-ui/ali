@@ -18,12 +18,15 @@ import yaml
 from .dedup import merge_records
 from .filters import apply_hard_filters
 from .schema import JobRecord
-from .sources import ashby, greenhouse, lever
+from .sources import apify, ashby, greenhouse, lever
 
 PACKAGE_ROOT = Path(__file__).resolve().parents[1]
 STATE_PATH = PACKAGE_ROOT / "state" / "jobs.json"
 CONFIG_PATH = PACKAGE_ROOT / "config" / "target_roles.yaml"
 
+# ATS adapters share one calling convention: fetch(token). Apify doesn't --
+# it takes an actor ID plus an arbitrary input dict -- so it's dispatched
+# separately in fetch_all() rather than forced into this table.
 FETCHERS = {
     "greenhouse": greenhouse.fetch,
     "lever": lever.fetch,
@@ -49,23 +52,30 @@ def save_state(state: Dict[str, JobRecord], path: Path = STATE_PATH) -> None:
 
 
 def fetch_all(boards: List[Dict]) -> List[JobRecord]:
-    """boards: list of {"source": "greenhouse"|"lever"|"ashby", "token": "..."}
+    """boards: list of board configs, e.g.:
+        {"source": "greenhouse"|"lever"|"ashby", "token": "..."}
+        {"source": "apify", "actor": "...", "input": {...}}
 
-    A single bad board (typo'd token, board taken down) must not kill the
-    whole run -- its error is collected and reported, and every other
-    board still gets fetched.
+    A single bad board (typo'd token, board taken down, actor run failure)
+    must not kill the whole run -- its error is collected and reported,
+    and every other board still gets fetched.
     """
     records: List[JobRecord] = []
     errors: List[str] = []
     for board in boards:
-        fetcher = FETCHERS.get(board["source"])
-        if not fetcher:
-            errors.append(f"unknown source: {board['source']}")
-            continue
+        source = board["source"]
+        label = board.get("token") or board.get("actor") or "?"
         try:
-            records.extend(fetcher(board["token"]))
+            if source == "apify":
+                records.extend(apify.fetch(board["actor"], board.get("input")))
+            else:
+                fetcher = FETCHERS.get(source)
+                if not fetcher:
+                    errors.append(f"unknown source: {source}")
+                    continue
+                records.extend(fetcher(board["token"]))
         except Exception as exc:  # noqa: BLE001 - isolate per-board failures
-            errors.append(f"{board['source']}/{board['token']}: {exc}")
+            errors.append(f"{source}/{label}: {exc}")
     if errors:
         print("Scout fetch errors:\n  " + "\n  ".join(errors))
     return records

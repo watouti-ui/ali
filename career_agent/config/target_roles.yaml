@@ -50,6 +50,15 @@ boards:
 #   boards.greenhouse.io/<token>  -> source: greenhouse, token: <token>
 #   jobs.lever.co/<token>         -> source: lever, token: <token>
 #   jobs.ashbyhq.com/<token>      -> source: ashby, token: <token>
+#
+# Apify (for LinkedIn/Indeed and other sources without a public API) --
+# needs APIFY_API_TOKEN set in the environment when the pipeline runs, and
+# a deliberately chosen actor (running one spends Apify credits):
+# boards:
+#   - source: apify
+#     actor: <owner>/<actor-name>
+#     input:
+#       # actor-specific fields, e.g. search query, location, max results
 
 # Stage 1 hard filters (spec section 4). Keep these conservative — false
 # suppression is worse than a bit of noise in the shortlist.
