@@ -1,0 +1,61 @@
+# Target-role taxonomy and search config for the career agent Scout.
+# Seeded from interview-prep and the Master Resume & Career Evidence Bank.
+# Ali: review and adjust — this is a starting point, not a final answer.
+
+markets:
+  # Dublin/Ireland and London/England are co-primary markets (evidence bank v2.11).
+  primary:
+    - Dublin, Ireland
+    - London, England
+    - Remote (Ireland)
+    - Remote (UK)
+  secondary: []  # add other markets you'd consider (e.g. remote EU-wide)
+
+role_families:
+  - name: Technical Program Management
+    titles:
+      - Technical Program Manager
+      - Senior Technical Program Manager
+      - Principal Technical Program Manager
+      - Lead Technical Program Manager
+  - name: PMO Leadership
+    titles:
+      - Head of PMO
+      - Director of PMO
+      - PMO Lead
+      - Global PMO Manager
+  - name: Transformation
+    titles:
+      - Director of Transformation
+      - Head of Transformation
+      - Business Transformation Lead
+      - Product & Technology Transformation Lead
+  - name: Platform Consolidation / Product Operations
+    titles:
+      - Platform Program Manager
+      - Product Operations Lead
+      - Platform Consolidation Manager
+      - Director of Product Operations
+
+# Company ATS boards to poll. Each entry maps to a source adapter in
+# career_agent/scout/sources/. Populate with real companies you're
+# targeting — board tokens are usually visible in the company's careers
+# page URL (e.g. jobs.lever.co/<token>, boards.greenhouse.io/<token>,
+# jobs.ashbyhq.com/<token>).
+boards:
+  - source: ashby
+    token: trainline  # real target -- Lead Technical Programme Manager application already in flight
+# add more as you confirm target companies. Board tokens are usually
+# visible in the company's careers page URL, e.g.:
+#   boards.greenhouse.io/<token>  -> source: greenhouse, token: <token>
+#   jobs.lever.co/<token>         -> source: lever, token: <token>
+#   jobs.ashbyhq.com/<token>      -> source: ashby, token: <token>
+
+# Stage 1 hard filters (spec section 4). Keep these conservative — false
+# suppression is worse than a bit of noise in the shortlist.
+hard_filters:
+  exclude_title_keywords:
+    - intern
+    - internship
+    - junior
+  exclude_location_keywords: []  # e.g. locations with no viable remote/relocation path
