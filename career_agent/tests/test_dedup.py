@@ -154,5 +154,39 @@ class MergeRecordsTests(unittest.TestCase):
         self.assertEqual(merged.first_seen, first_seen)
 
 
+
+class WorkdayLocationFormTests(unittest.TestCase):
+    """Formats the ATS adapters actually returned, which aggregators write
+    differently for the same opening."""
+
+    def test_workday_office_parenthetical_collapses(self):
+        # Mastercard's Cardholder Services role arrived from LinkedIn as
+        # "London, United Kingdom" and from Workday as "London, England
+        # (Angel Lane)"; the parenthetical names a sub-site, not a place.
+        ids = {
+            canonical_job_id("Mastercard", "Manager, Program Manager - Cardholder Services", loc)
+            for loc in ["London, United Kingdom", "London, England (Angel Lane)", "London"]
+        }
+        self.assertEqual(len(ids), 1)
+
+    def test_reversed_and_code_prefixed_forms_collapse(self):
+        # Salesforce writes "Ireland - Dublin"; Citi writes "London
+        # United Kingdom" with no comma.
+        self.assertEqual(
+            canonical_job_id("Acme", "Program Manager", "Ireland - Dublin"),
+            canonical_job_id("Acme", "Program Manager", "Dublin, Ireland"),
+        )
+        self.assertEqual(
+            canonical_job_id("Acme", "Program Manager", "London  United Kingdom"),
+            canonical_job_id("Acme", "Program Manager", "London"),
+        )
+
+    def test_a_distinct_town_is_not_swallowed_by_its_county(self):
+        # MSD's "IRL - Dublin - Swords" is Swords, not Dublin city.
+        self.assertNotEqual(
+            canonical_job_id("MSD", "Senior Specialist, Project Management", "IRL - Dublin - Swords (Biotech)"),
+            canonical_job_id("MSD", "Senior Specialist, Project Management", "Dublin, Ireland"),
+        )
+
 if __name__ == "__main__":
     unittest.main()

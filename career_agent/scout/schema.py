@@ -27,8 +27,8 @@ def _normalize_title(title: str) -> str:
 _ADMIN_TOKENS = frozenset(
     {
         "england", "scotland", "wales", "northern ireland",
-        "united kingdom", "uk", "great britain", "britain", "gb",
-        "ireland", "republic of ireland", "eire",
+        "united kingdom", "uk", "great britain", "britain", "gb", "gbr",
+        "ireland", "republic of ireland", "eire", "irl",
     }
 )
 
@@ -52,6 +52,10 @@ def _normalize_location(location: str) -> str:
     if not location:
         return ""
     text = location.lower()
+    # A parenthetical in a location always names a sub-site, never the
+    # place: Workday writes "London, England (Angel Lane)" for the same
+    # opening an aggregator lists as "London, United Kingdom".
+    text = re.sub(r"\([^)]*\)", " ", text)
     text = re.sub(r"\b(county|co\.?|city of|greater|area|metropolitan)\b", " ", text)
     text = re.sub(r"[^a-z]+", " ", text)  # also drops postal digits
     text = " ".join(text.split())

@@ -46,6 +46,92 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "0062774c3e772a64": {
+    "blockers": [],
+    "canonical_id": "0062774c3e772a64",
+    "concerns": [
+      "Lead Site Reliability Engineer is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.400543+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "00cd09de76fc9e30": {
+    "blockers": [
+      "title signals a level well above target band ('vice president')"
+    ],
+    "canonical_id": "00cd09de76fc9e30",
+    "concerns": [
+      "Suppressed by a hard blocker before scoring"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 20,
+    "profile_version": "1.1.0",
+    "qualification_match": 20,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 20,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.410042+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "00e227adf582c061": {
+    "blockers": [
+      "title signals a level well above target band ('vice president')"
+    ],
+    "canonical_id": "00e227adf582c061",
+    "concerns": [
+      "Suppressed by a hard blocker before scoring"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 20,
+    "profile_version": "1.1.0",
+    "qualification_match": 20,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 20,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.418045+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "01a785592a85588f": {
+    "blockers": [],
+    "canonical_id": "01a785592a85588f",
+    "concerns": [
+      "Commercial, sales or presales role, unrelated to programme, product-operations or delivery leadership"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [
+      "location '7 Locations' not recognised \u2014 confirm it is within IE/UK before discounting or pursuing"
+    ],
+    "overall": 25,
+    "profile_version": "1.1.0",
+    "qualification_match": 25,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 24,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.425588+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "01e5f0190cc4e147": {
     "blockers": [],
     "canonical_id": "01e5f0190cc4e147",
@@ -83,6 +169,26 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:28.459461+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "0227a16acee3c197": {
+    "blockers": [],
+    "canonical_id": "0227a16acee3c197",
+    "concerns": [
+      "Finance function role, outside the target remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 22,
+    "profile_version": "1.1.0",
+    "qualification_match": 22,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 21,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.433479+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -196,6 +302,26 @@
     "scored_at": "2026-08-30T08:01:06.308963+00:00",
     "surfaced": true,
     "tier": "worth reviewing"
+  },
+  "03c0a1eafd50c97c": {
+    "blockers": [],
+    "canonical_id": "03c0a1eafd50c97c",
+    "concerns": [
+      "Success Architect - Industries cloud is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.441996+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
   },
   "040b4223b37233d9": {
     "blockers": [],
@@ -345,6 +471,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "063954cb8043df11": {
+    "blockers": [],
+    "canonical_id": "063954cb8043df11",
+    "concerns": [
+      "Mid Market Account Executive is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.449657+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "064db8223833718a": {
     "blockers": [],
     "canonical_id": "064db8223833718a",
@@ -432,6 +578,28 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "08597bb8a6054b55": {
+    "blockers": [
+      "location 'Poland, Warsaw' is outside Ali's IE/UK right to work"
+    ],
+    "canonical_id": "08597bb8a6054b55",
+    "concerns": [
+      "Suppressed by a hard blocker before scoring"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 20,
+    "profile_version": "1.1.0",
+    "qualification_match": 20,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 20,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.457569+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "085ed3ac791f8217": {
     "blockers": [],
     "canonical_id": "085ed3ac791f8217",
@@ -457,6 +625,29 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "0918de6a23b7da32": {
+    "blockers": [],
+    "canonical_id": "0918de6a23b7da32",
+    "concerns": [
+      "Pharmaceutical Sales Representative / Repr\u00e9sentant(e) en ventes pharmaceutiques is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [
+      "location '2 Locations' not recognised \u2014 confirm it is within IE/UK before discounting or pursuing",
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.465959+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "094553068aa4b5b4": {
     "blockers": [],
     "canonical_id": "094553068aa4b5b4",
@@ -474,6 +665,28 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:01:06.997154+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "09474a60914c73bb": {
+    "blockers": [],
+    "canonical_id": "09474a60914c73bb",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "location '4 Locations' not recognised \u2014 confirm it is within IE/UK before discounting or pursuing"
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.472644+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -497,6 +710,88 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "09cf787184aa2a71": {
+    "blockers": [],
+    "canonical_id": "09cf787184aa2a71",
+    "concerns": [
+      "ECS Account Executive is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.479354+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "09fef18b134fc1f4": {
+    "blockers": [],
+    "canonical_id": "09fef18b134fc1f4",
+    "concerns": [
+      "Commercial, sales or presales role, unrelated to programme, product-operations or delivery leadership"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 25,
+    "profile_version": "1.1.0",
+    "qualification_match": 25,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 24,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.486155+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "0a5ae659297cf522": {
+    "blockers": [],
+    "canonical_id": "0a5ae659297cf522",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "location 'Bogota, Colombia' not recognised \u2014 confirm it is within IE/UK before discounting or pursuing"
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.494254+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "0b22e5a360549e85": {
+    "blockers": [],
+    "canonical_id": "0b22e5a360549e85",
+    "concerns": [
+      "Commercial, sales or presales role, unrelated to programme, product-operations or delivery leadership"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 25,
+    "profile_version": "1.1.0",
+    "qualification_match": 25,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 24,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.502130+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "0b34469b969a294d": {
     "blockers": [],
     "canonical_id": "0b34469b969a294d",
@@ -514,6 +809,68 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:28.511662+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "0b71ecbf9f93fe89": {
+    "blockers": [],
+    "canonical_id": "0b71ecbf9f93fe89",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "location 'Manila, Philippines' not recognised \u2014 confirm it is within IE/UK before discounting or pursuing"
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.511930+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "0b87e74db3fd6cba": {
+    "blockers": [],
+    "canonical_id": "0b87e74db3fd6cba",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.519352+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "0bb12118fd0117b8": {
+    "blockers": [],
+    "canonical_id": "0bb12118fd0117b8",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.527372+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -589,6 +946,51 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "0c16657c7eae4104": {
+    "blockers": [],
+    "canonical_id": "0c16657c7eae4104",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.535498+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "0ca92296bad023ce": {
+    "blockers": [],
+    "canonical_id": "0ca92296bad023ce",
+    "concerns": [
+      "Scoped to one product area (Time & Attendance) rather than the operating model as a whole"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support",
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [],
+    "overall": 78,
+    "profile_version": "1.1.0",
+    "qualification_match": 79,
+    "reasons": [
+      "Staff-level Product Operations, above the manager band and a direct family match"
+    ],
+    "recommendation": "apply",
+    "recruiter_interest": 77,
+    "role_family": "product_operations",
+    "scored_at": "2026-08-30T13:00:01.544543+00:00",
+    "surfaced": true,
+    "tier": "strong"
+  },
   "0d502f2c4a1a2a98": {
     "blockers": [],
     "canonical_id": "0d502f2c4a1a2a98",
@@ -613,6 +1015,26 @@
     "scored_at": "2026-08-30T08:17:28.516495+00:00",
     "surfaced": true,
     "tier": "worth reviewing"
+  },
+  "0dd3b428f2b2dc01": {
+    "blockers": [],
+    "canonical_id": "0dd3b428f2b2dc01",
+    "concerns": [
+      "Finance function role, outside the target remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 22,
+    "profile_version": "1.1.0",
+    "qualification_match": 22,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 21,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.552702+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
   },
   "0e09cb2334c2a310": {
     "blockers": [],
@@ -708,6 +1130,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "0fa847ef8767d733": {
+    "blockers": [],
+    "canonical_id": "0fa847ef8767d733",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.560683+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "0fbe8e38a28ec5b7": {
     "blockers": [],
     "canonical_id": "0fbe8e38a28ec5b7",
@@ -745,6 +1187,68 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:28.521286+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "0fdf8efb4e075661": {
+    "blockers": [],
+    "canonical_id": "0fdf8efb4e075661",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.568328+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "0fe65934ad1e72ca": {
+    "blockers": [],
+    "canonical_id": "0fe65934ad1e72ca",
+    "concerns": [
+      "Senior Software Developer - Authentication Team is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.575207+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "10a642e48391125d": {
+    "blockers": [
+      "title signals a level well above target band ('vice president')"
+    ],
+    "canonical_id": "10a642e48391125d",
+    "concerns": [
+      "Suppressed by a hard blocker before scoring"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 20,
+    "profile_version": "1.1.0",
+    "qualification_match": 20,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 20,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.581982+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -836,6 +1340,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "13376ac5012d58c0": {
+    "blockers": [],
+    "canonical_id": "13376ac5012d58c0",
+    "concerns": [
+      "Senior Identity & Access Management (IAM) Engineer is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.593386+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "145b5bf7a4f85d6c": {
     "blockers": [],
     "canonical_id": "145b5bf7a4f85d6c",
@@ -853,6 +1377,46 @@
     "recruiter_interest": 12,
     "role_family": null,
     "scored_at": "2026-08-30T08:01:07.014056+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "1487c50bbcd5a7df": {
+    "blockers": [],
+    "canonical_id": "1487c50bbcd5a7df",
+    "concerns": [
+      "Account Executive - SMB Eastern Europe - Lithuanian, Latvian, Estonian, Ukrainian or Russian speaker is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.601249+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "148d6c72f9ccba5f": {
+    "blockers": [],
+    "canonical_id": "148d6c72f9ccba5f",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.608341+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -938,6 +1502,48 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:28.546275+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "15c495febb38d1c9": {
+    "blockers": [],
+    "canonical_id": "15c495febb38d1c9",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.616323+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "15e3a57b6be3ae37": {
+    "blockers": [
+      "location 'USA, NY, New York City' is outside Ali's IE/UK right to work"
+    ],
+    "canonical_id": "15e3a57b6be3ae37",
+    "concerns": [
+      "Suppressed by a hard blocker before scoring"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 20,
+    "profile_version": "1.1.0",
+    "qualification_match": 20,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 20,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.623138+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1126,6 +1732,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "1772ae8ef1056459": {
+    "blockers": [],
+    "canonical_id": "1772ae8ef1056459",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.630583+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "1797780406c7aebe": {
     "blockers": [],
     "canonical_id": "1797780406c7aebe",
@@ -1145,6 +1771,75 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:28.572800+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "17c17bbbfffb21fb": {
+    "blockers": [],
+    "canonical_id": "17c17bbbfffb21fb",
+    "concerns": [
+      "Scientific-software domain is new, and the posting does not establish level"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "25M+ customer migration off a legacy stack, zero service interruption",
+      "~3M customer migration in a full brand/product sunset, installation-verified cutover"
+    ],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role.",
+      "JD emphasises 'scrum master', a known weak-fit signal for Delivery Management"
+    ],
+    "overall": 76,
+    "profile_version": "1.1.0",
+    "qualification_match": 77,
+    "reasons": [
+      "A programme manager role named for release and delivery, which is the release-lifecycle evidence by title"
+    ],
+    "recommendation": "apply",
+    "recruiter_interest": 75,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T13:00:01.639600+00:00",
+    "surfaced": true,
+    "tier": "strong"
+  },
+  "18014aa46b19775d": {
+    "blockers": [],
+    "canonical_id": "18014aa46b19775d",
+    "concerns": [
+      "Senior Software Development Engineer - Product Development Tools is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.648305+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "182d51c0876be0d8": {
+    "blockers": [],
+    "canonical_id": "182d51c0876be0d8",
+    "concerns": [
+      "Senior Software Engineer - API Platform (Python/Typescript) is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.656774+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1212,6 +1907,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "1a1c2c06ffbef477": {
+    "blockers": [],
+    "canonical_id": "1a1c2c06ffbef477",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.667060+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "1b16169cf9b3d35e": {
     "blockers": [],
     "canonical_id": "1b16169cf9b3d35e",
@@ -1229,6 +1944,26 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:28.584230+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "1b70258babcf60ac": {
+    "blockers": [],
+    "canonical_id": "1b70258babcf60ac",
+    "concerns": [
+      "Data Scientist is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.678286+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1322,6 +2057,26 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:01:06.777050+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "1d1741a9dacc1669": {
+    "blockers": [],
+    "canonical_id": "1d1741a9dacc1669",
+    "concerns": [
+      "Qualified Success Architect / Sr Success Architect (UK/I) is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.688587+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1445,6 +2200,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "1e94abbc1e0ac9b1": {
+    "blockers": [],
+    "canonical_id": "1e94abbc1e0ac9b1",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.697824+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "1ec887d939dd0cca": {
     "blockers": [],
     "canonical_id": "1ec887d939dd0cca",
@@ -1535,6 +2310,32 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "203b3993695ad449": {
+    "blockers": [],
+    "canonical_id": "203b3993695ad449",
+    "concerns": [
+      "Gaming domain is new and the level is not established from the posting"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "25M+ customer migration off a legacy stack, zero service interruption",
+      "~3M customer migration in a full brand/product sunset, installation-verified cutover"
+    ],
+    "flags": [],
+    "overall": 69,
+    "profile_version": "1.1.0",
+    "qualification_match": 70,
+    "reasons": [
+      "Technical delivery management in London within the derived delivery family"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 68,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T13:00:01.705865+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "20cbfa1bfe41590d": {
     "blockers": [],
     "canonical_id": "20cbfa1bfe41590d",
@@ -1562,6 +2363,28 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "20f2a7301c7aec12": {
+    "blockers": [],
+    "canonical_id": "20f2a7301c7aec12",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.715600+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "2374fed2d660c1c1": {
     "blockers": [],
     "canonical_id": "2374fed2d660c1c1",
@@ -1583,6 +2406,48 @@
     "recruiter_interest": 62,
     "role_family": "technical_programme",
     "scored_at": "2026-08-30T08:17:28.631992+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "239debf2fbd35d0c": {
+    "blockers": [],
+    "canonical_id": "239debf2fbd35d0c",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.726782+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "240aff1e06afa448": {
+    "blockers": [],
+    "canonical_id": "240aff1e06afa448",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.737593+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1716,6 +2581,26 @@
     "recruiter_interest": 12,
     "role_family": null,
     "scored_at": "2026-08-30T08:01:06.855528+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "26e6cb658f3573ec": {
+    "blockers": [],
+    "canonical_id": "26e6cb658f3573ec",
+    "concerns": [
+      "Manager Security Engineer & Enablement is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.744564+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1879,6 +2764,68 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "29344efef2bbe616": {
+    "blockers": [],
+    "canonical_id": "29344efef2bbe616",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "location '2 Locations' not recognised \u2014 confirm it is within IE/UK before discounting or pursuing"
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.753954+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "295ce8a78a04b9c0": {
+    "blockers": [],
+    "canonical_id": "295ce8a78a04b9c0",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.764192+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "297aba6df2a77110": {
+    "blockers": [],
+    "canonical_id": "297aba6df2a77110",
+    "concerns": [
+      "Senior Information Security Engineer is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.774345+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "29925c5872195670": {
     "blockers": [],
     "canonical_id": "29925c5872195670",
@@ -1946,6 +2893,28 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "2aa8fe488d1b6129": {
+    "blockers": [],
+    "canonical_id": "2aa8fe488d1b6129",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.784079+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "2b1f1b78845ec1e8": {
     "blockers": [],
     "canonical_id": "2b1f1b78845ec1e8",
@@ -1970,6 +2939,32 @@
     "scored_at": "2026-08-30T08:17:28.689610+00:00",
     "surfaced": true,
     "tier": "worth reviewing"
+  },
+  "2b9d55bdae00779b": {
+    "blockers": [],
+    "canonical_id": "2b9d55bdae00779b",
+    "concerns": [
+      "Occupational-health services delivery is operational rather than technology delivery"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "25M+ customer migration off a legacy stack, zero service interruption",
+      "~3M customer migration in a full brand/product sunset, installation-verified cutover"
+    ],
+    "flags": [],
+    "overall": 62,
+    "profile_version": "1.1.0",
+    "qualification_match": 62,
+    "reasons": [
+      "Delivery management title, UK-wide"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 61,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T13:00:01.793440+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
   },
   "2ba960b42f2a8c7b": {
     "blockers": [],
@@ -2166,6 +3161,46 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "2dc63a008ce8ac1a": {
+    "blockers": [],
+    "canonical_id": "2dc63a008ce8ac1a",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.803001+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "2dccc2ea60eae6b8": {
+    "blockers": [],
+    "canonical_id": "2dccc2ea60eae6b8",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.814137+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "2e03858cc97c9eed": {
     "blockers": [],
     "canonical_id": "2e03858cc97c9eed",
@@ -2220,6 +3255,48 @@
     "scored_at": "2026-08-30T08:01:06.423280+00:00",
     "surfaced": true,
     "tier": "strong"
+  },
+  "2e6a93a04cce9a12": {
+    "blockers": [],
+    "canonical_id": "2e6a93a04cce9a12",
+    "concerns": [
+      "Lead AI Platform Engineer is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.823770+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "2e83c7159770c3b3": {
+    "blockers": [],
+    "canonical_id": "2e83c7159770c3b3",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.835212+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
   },
   "2e846ac75e0044cb": {
     "blockers": [],
@@ -2287,6 +3364,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "2f4f614f408ae382": {
+    "blockers": [],
+    "canonical_id": "2f4f614f408ae382",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.844305+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "308649e8089ab775": {
     "blockers": [],
     "canonical_id": "308649e8089ab775",
@@ -2312,6 +3409,74 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "308c98bce3ed9a93": {
+    "blockers": [],
+    "canonical_id": "308c98bce3ed9a93",
+    "concerns": [
+      "Channel/managed-services delivery sits away from product and platform work"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "25M+ customer migration off a legacy stack, zero service interruption",
+      "~3M customer migration in a full brand/product sunset, installation-verified cutover"
+    ],
+    "flags": [],
+    "overall": 63,
+    "profile_version": "1.1.0",
+    "qualification_match": 63,
+    "reasons": [
+      "Delivery leadership at a UK cloud-services company"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 62,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T13:00:01.853678+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "30e5064c76b07a50": {
+    "blockers": [
+      "title signals a level well above target band ('vice president')"
+    ],
+    "canonical_id": "30e5064c76b07a50",
+    "concerns": [
+      "Suppressed by a hard blocker before scoring"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 20,
+    "profile_version": "1.1.0",
+    "qualification_match": 20,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 20,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.863199+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "314f56e515bc4106": {
+    "blockers": [],
+    "canonical_id": "314f56e515bc4106",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.873060+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "3170b2735a442285": {
     "blockers": [],
     "canonical_id": "3170b2735a442285",
@@ -2334,6 +3499,28 @@
     "recruiter_interest": 47,
     "role_family": "delivery_management",
     "scored_at": "2026-08-30T08:01:06.634687+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "31b9cb31c7fd94be": {
+    "blockers": [
+      "title signals a level well above target band ('svp')"
+    ],
+    "canonical_id": "31b9cb31c7fd94be",
+    "concerns": [
+      "Suppressed by a hard blocker before scoring"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 20,
+    "profile_version": "1.1.0",
+    "qualification_match": 20,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 20,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.883137+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -2401,6 +3588,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "33d3da36dd7ed1ba": {
+    "blockers": [],
+    "canonical_id": "33d3da36dd7ed1ba",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.891737+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "33d5b3ba68f8543c": {
     "blockers": [],
     "canonical_id": "33d5b3ba68f8543c",
@@ -2421,6 +3628,28 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "34143b74504edbad": {
+    "blockers": [],
+    "canonical_id": "34143b74504edbad",
+    "concerns": [
+      "Technical Architect - Keynote Demos is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [
+      "location '2 Locations' not recognised \u2014 confirm it is within IE/UK before discounting or pursuing"
+    ],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.903562+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "34396abfe135b7d6": {
     "blockers": [],
     "canonical_id": "34396abfe135b7d6",
@@ -2438,6 +3667,46 @@
     "recruiter_interest": 12,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:28.764459+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "344ff92b9a140b27": {
+    "blockers": [],
+    "canonical_id": "344ff92b9a140b27",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.912306+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "34778f0dea33cf90": {
+    "blockers": [],
+    "canonical_id": "34778f0dea33cf90",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.922671+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -2466,6 +3735,48 @@
     "surfaced": true,
     "tier": "worth reviewing"
   },
+  "34c4f50e5738d021": {
+    "blockers": [],
+    "canonical_id": "34c4f50e5738d021",
+    "concerns": [
+      "Treasury & Liquidity Operations Group Manager is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.932411+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "350facba6f5adc8d": {
+    "blockers": [],
+    "canonical_id": "350facba6f5adc8d",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.941501+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "36434e99d12e3194": {
     "blockers": [],
     "canonical_id": "36434e99d12e3194",
@@ -2486,6 +3797,48 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "36be17c849841584": {
+    "blockers": [],
+    "canonical_id": "36be17c849841584",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.949904+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "37ca14c921a33d63": {
+    "blockers": [
+      "location 'Pune, India' is outside Ali's IE/UK right to work"
+    ],
+    "canonical_id": "37ca14c921a33d63",
+    "concerns": [
+      "Suppressed by a hard blocker before scoring"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 20,
+    "profile_version": "1.1.0",
+    "qualification_match": 20,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 20,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.959528+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "37f315d7e1d97461": {
     "blockers": [],
     "canonical_id": "37f315d7e1d97461",
@@ -2503,6 +3856,26 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:01:07.009446+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "3814100e6f62c515": {
+    "blockers": [],
+    "canonical_id": "3814100e6f62c515",
+    "concerns": [
+      "Sr Cloud Engineer is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.969052+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -2528,6 +3901,33 @@
     "recruiter_interest": 65,
     "role_family": "technical_programme",
     "scored_at": "2026-08-30T08:17:28.769591+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "38f12befb6616543": {
+    "blockers": [],
+    "canonical_id": "38f12befb6616543",
+    "concerns": [
+      "Supply-chain planning domain is unsupported by Ali's evidence"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "led six Senior Programme Managers across five global sites, four countries",
+      "25M+ customer migration off a legacy stack, zero service interruption"
+    ],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 64,
+    "profile_version": "1.1.0",
+    "qualification_match": 64,
+    "reasons": [
+      "Programme management at a supply-chain software vendor, UK-wide"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 63,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T13:00:01.978372+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -2601,6 +4001,49 @@
     "recruiter_interest": 42,
     "role_family": "delivery_management",
     "scored_at": "2026-08-30T08:01:06.631002+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "3a90e30ad06382bf": {
+    "blockers": [],
+    "canonical_id": "3a90e30ad06382bf",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.987887+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "3a936817f5e0c45d": {
+    "blockers": [],
+    "canonical_id": "3a936817f5e0c45d",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "location '2 Locations' not recognised \u2014 confirm it is within IE/UK before discounting or pursuing",
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:01.997544+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -2715,6 +4158,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "3c244fe2b6d92f98": {
+    "blockers": [],
+    "canonical_id": "3c244fe2b6d92f98",
+    "concerns": [
+      "Account Executive - SMB (German Speaking) is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.006036+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "3c8e74c2e9b7d3c7": {
     "blockers": [],
     "canonical_id": "3c8e74c2e9b7d3c7",
@@ -2737,6 +4200,26 @@
     "recruiter_interest": 67,
     "role_family": "technical_programme",
     "scored_at": "2026-08-30T08:17:28.796170+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "3cbb068f15122bb3": {
+    "blockers": [],
+    "canonical_id": "3cbb068f15122bb3",
+    "concerns": [
+      "Software Development Engineer - DevOps - Security is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.014660+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -2858,6 +4341,48 @@
     "surfaced": true,
     "tier": "worth reviewing"
   },
+  "3dbb06800ea41e03": {
+    "blockers": [
+      "title signals a level well above target band ('vice president')"
+    ],
+    "canonical_id": "3dbb06800ea41e03",
+    "concerns": [
+      "Suppressed by a hard blocker before scoring"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 20,
+    "profile_version": "1.1.0",
+    "qualification_match": 20,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 20,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.023210+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "3dfe40204d4484a6": {
+    "blockers": [],
+    "canonical_id": "3dfe40204d4484a6",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.031725+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "3e270a225ad4499a": {
     "blockers": [],
     "canonical_id": "3e270a225ad4499a",
@@ -2909,6 +4434,79 @@
     "scored_at": "2026-08-30T08:17:28.820728+00:00",
     "surfaced": true,
     "tier": "worth reviewing"
+  },
+  "3ef2d7e7f104c9d3": {
+    "blockers": [],
+    "canonical_id": "3ef2d7e7f104c9d3",
+    "concerns": [
+      "Business Support Engineer is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.041210+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "3f22a197fdf499db": {
+    "blockers": [],
+    "canonical_id": "3f22a197fdf499db",
+    "concerns": [
+      "Salesforce-product-specific migration (Tableau/Data 360) narrows how far the evidence transfers"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "25M+ customer migration off a legacy stack, zero service interruption",
+      "~3M customer migration in a full brand/product sunset, installation-verified cutover"
+    ],
+    "flags": [
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 75,
+    "profile_version": "1.1.0",
+    "qualification_match": 76,
+    "reasons": [
+      "Migration delivery leadership is Ali's single strongest evidence area: a 25M+ customer migration and 12 data centres retired"
+    ],
+    "recommendation": "apply",
+    "recruiter_interest": 74,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T13:00:02.051062+00:00",
+    "surfaced": true,
+    "tier": "strong"
+  },
+  "4018dcc1b0a5a121": {
+    "blockers": [],
+    "canonical_id": "4018dcc1b0a5a121",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "location '2 Locations' not recognised \u2014 confirm it is within IE/UK before discounting or pursuing",
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.060745+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
   },
   "4095b443e8a96cbd": {
     "blockers": [],
@@ -3122,6 +4720,48 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "45a195aca69644f9": {
+    "blockers": [
+      "title signals a level well above target band ('vice president')"
+    ],
+    "canonical_id": "45a195aca69644f9",
+    "concerns": [
+      "Suppressed by a hard blocker before scoring"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 20,
+    "profile_version": "1.1.0",
+    "qualification_match": 20,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 20,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.070149+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "45a2e57de9353fd9": {
+    "blockers": [],
+    "canonical_id": "45a2e57de9353fd9",
+    "concerns": [
+      "Commercial, sales or presales role, unrelated to programme, product-operations or delivery leadership"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 25,
+    "profile_version": "1.1.0",
+    "qualification_match": 25,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 24,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.080253+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "45ab268f3a3e8fc3": {
     "blockers": [],
     "canonical_id": "45ab268f3a3e8fc3",
@@ -3181,6 +4821,48 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:28.868408+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "4660b50d3ce34ead": {
+    "blockers": [],
+    "canonical_id": "4660b50d3ce34ead",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.089509+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "466fd2733c94912c": {
+    "blockers": [],
+    "canonical_id": "466fd2733c94912c",
+    "concerns": [
+      "Applications Developer Lead is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.098213+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -3337,6 +5019,154 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "4900da3600e8be40": {
+    "blockers": [],
+    "canonical_id": "4900da3600e8be40",
+    "concerns": [
+      "Commercial, sales or presales role, unrelated to programme, product-operations or delivery leadership"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 25,
+    "profile_version": "1.1.0",
+    "qualification_match": 25,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 24,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.106964+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "4915b255c0107012": {
+    "blockers": [],
+    "canonical_id": "4915b255c0107012",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.116543+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "499e44f6bc70deeb": {
+    "blockers": [],
+    "canonical_id": "499e44f6bc70deeb",
+    "concerns": [
+      "Account Executive - German Speaking Markets (Germany, Austria & Switzerland) is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.123949+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "49b7111e955e8cf8": {
+    "blockers": [],
+    "canonical_id": "49b7111e955e8cf8",
+    "concerns": [
+      "SMB UKI Account Executive - English Speaker is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.131865+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "4a21fde4dc89f66b": {
+    "blockers": [],
+    "canonical_id": "4a21fde4dc89f66b",
+    "concerns": [
+      "Salesforce-product-specific migration (Tableau/Data 360) narrows how far the evidence transfers"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "25M+ customer migration off a legacy stack, zero service interruption",
+      "~3M customer migration in a full brand/product sunset, installation-verified cutover"
+    ],
+    "flags": [],
+    "overall": 75,
+    "profile_version": "1.1.0",
+    "qualification_match": 76,
+    "reasons": [
+      "Migration delivery leadership is Ali's single strongest evidence area: a 25M+ customer migration and 12 data centres retired"
+    ],
+    "recommendation": "apply",
+    "recruiter_interest": 74,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T13:00:02.140661+00:00",
+    "surfaced": true,
+    "tier": "strong"
+  },
+  "4a4a838ebbd81ae2": {
+    "blockers": [],
+    "canonical_id": "4a4a838ebbd81ae2",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.150722+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "4a4db6bbe05f10bf": {
+    "blockers": [
+      "title signals a level well above target band ('vice president')"
+    ],
+    "canonical_id": "4a4db6bbe05f10bf",
+    "concerns": [
+      "Suppressed by a hard blocker before scoring"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 20,
+    "profile_version": "1.1.0",
+    "qualification_match": 20,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 20,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.160768+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "4ab3e49bdbd51b10": {
     "blockers": [],
     "canonical_id": "4ab3e49bdbd51b10",
@@ -3381,6 +5211,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "4b626d05a8b5e5de": {
+    "blockers": [],
+    "canonical_id": "4b626d05a8b5e5de",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.170767+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "4b676131721d2781": {
     "blockers": [],
     "canonical_id": "4b676131721d2781",
@@ -3421,6 +5271,29 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:28.913595+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "4c63e5fd12a6c963": {
+    "blockers": [],
+    "canonical_id": "4c63e5fd12a6c963",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "location '2 Locations' not recognised \u2014 confirm it is within IE/UK before discounting or pursuing",
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.180831+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -3470,6 +5343,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "4d0261b7fddc8eb1": {
+    "blockers": [],
+    "canonical_id": "4d0261b7fddc8eb1",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.194760+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "4d8c877fdcb4e5c1": {
     "blockers": [],
     "canonical_id": "4d8c877fdcb4e5c1",
@@ -3487,6 +5380,28 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:28.934861+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "4d8ff77c894f1381": {
+    "blockers": [],
+    "canonical_id": "4d8ff77c894f1381",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD emphasises 'service delivery manager', a known weak-fit signal for Delivery Management"
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.205477+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -3578,6 +5493,26 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:28.953110+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "5228ecf071cade30": {
+    "blockers": [],
+    "canonical_id": "5228ecf071cade30",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.214604+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -3718,6 +5653,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "54d0cbf8c4315104": {
+    "blockers": [],
+    "canonical_id": "54d0cbf8c4315104",
+    "concerns": [
+      "Lead Software Engineer (DevOps) is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.222796+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "551fc98366760220": {
     "blockers": [],
     "canonical_id": "551fc98366760220",
@@ -3738,6 +5693,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "554be374a1fb5acb": {
+    "blockers": [],
+    "canonical_id": "554be374a1fb5acb",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.232715+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "55a21e9a1983ffb3": {
     "blockers": [],
     "canonical_id": "55a21e9a1983ffb3",
@@ -3755,6 +5730,71 @@
     "recruiter_interest": 24,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:28.979124+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "564ff19ebc29b9c5": {
+    "blockers": [],
+    "canonical_id": "564ff19ebc29b9c5",
+    "concerns": [
+      "Electrical-engineering domain is unsupported"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "led six Senior Programme Managers across five global sites, four countries",
+      "25M+ customer migration off a legacy stack, zero service interruption"
+    ],
+    "flags": [],
+    "overall": 61,
+    "profile_version": "1.1.0",
+    "qualification_match": 61,
+    "reasons": [
+      "Programme management with data-centre scope"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 60,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T13:00:02.242142+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "56eb860a1d8a5fe5": {
+    "blockers": [],
+    "canonical_id": "56eb860a1d8a5fe5",
+    "concerns": [
+      "Commercial, sales or presales role, unrelated to programme, product-operations or delivery leadership"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 25,
+    "profile_version": "1.1.0",
+    "qualification_match": 25,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 24,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.251088+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "570694689db3e16b": {
+    "blockers": [],
+    "canonical_id": "570694689db3e16b",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.259400+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -3799,6 +5839,28 @@
     "recruiter_interest": 8,
     "role_family": null,
     "scored_at": "2026-08-30T08:01:06.348887+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "57c382ea3f781157": {
+    "blockers": [],
+    "canonical_id": "57c382ea3f781157",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.267769+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -4039,6 +6101,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "5a43afa376f37d3d": {
+    "blockers": [],
+    "canonical_id": "5a43afa376f37d3d",
+    "concerns": [
+      "Process Technician (11-Month Contract) is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.276284+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "5ad44481a7103e22": {
     "blockers": [],
     "canonical_id": "5ad44481a7103e22",
@@ -4221,6 +6303,29 @@
     "recruiter_interest": 45,
     "role_family": "delivery_management",
     "scored_at": "2026-08-30T08:01:06.621408+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "5ce233d89b14f5ec": {
+    "blockers": [],
+    "canonical_id": "5ce233d89b14f5ec",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role.",
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.285100+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -4452,6 +6557,26 @@
     "surfaced": true,
     "tier": "worth reviewing"
   },
+  "61328fca2c52be20": {
+    "blockers": [],
+    "canonical_id": "61328fca2c52be20",
+    "concerns": [
+      "Operations Manager | Payroll Migrations is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.295329+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "620664f590e45691": {
     "blockers": [],
     "canonical_id": "620664f590e45691",
@@ -4554,6 +6679,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "64b7a8ecf1d58038": {
+    "blockers": [],
+    "canonical_id": "64b7a8ecf1d58038",
+    "concerns": [
+      "Qualified Success Architect / Sr. Success Architect - Italian, French, or German speaking is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.305391+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "65689a9d0e1e71b5": {
     "blockers": [],
     "canonical_id": "65689a9d0e1e71b5",
@@ -4595,6 +6740,26 @@
     "recruiter_interest": 24,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:29.121336+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "65b018e163bc8993": {
+    "blockers": [],
+    "canonical_id": "65b018e163bc8993",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.315088+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -4648,6 +6813,46 @@
     "scored_at": "2026-08-30T08:01:06.297682+00:00",
     "surfaced": true,
     "tier": "worth reviewing"
+  },
+  "673d1769f47764af": {
+    "blockers": [],
+    "canonical_id": "673d1769f47764af",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.325048+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "67746b525cbae986": {
+    "blockers": [],
+    "canonical_id": "67746b525cbae986",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.334088+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
   },
   "6797c8f4ebc09a2a": {
     "blockers": [],
@@ -4731,6 +6936,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "6928000a60856026": {
+    "blockers": [],
+    "canonical_id": "6928000a60856026",
+    "concerns": [
+      "Barista/All Rounder is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.344479+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "692d25829632700c": {
     "blockers": [],
     "canonical_id": "692d25829632700c",
@@ -4757,6 +6982,28 @@
     "scored_at": "2026-08-30T08:17:29.160291+00:00",
     "surfaced": true,
     "tier": "worth reviewing"
+  },
+  "6a680b7584729244": {
+    "blockers": [],
+    "canonical_id": "6a680b7584729244",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "location '2 Locations' not recognised \u2014 confirm it is within IE/UK before discounting or pursuing"
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.355051+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
   },
   "6ad6126c8593fe0a": {
     "blockers": [],
@@ -4916,6 +7163,70 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "6c91c4f499276f87": {
+    "blockers": [],
+    "canonical_id": "6c91c4f499276f87",
+    "concerns": [
+      "Named Account Executive - Dept of Health & Social Care is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.364084+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "6eb1f52efafd9dc7": {
+    "blockers": [
+      "location 'USA.VA.Reston' is outside Ali's IE/UK right to work"
+    ],
+    "canonical_id": "6eb1f52efafd9dc7",
+    "concerns": [
+      "Suppressed by a hard blocker before scoring"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 20,
+    "profile_version": "1.1.0",
+    "qualification_match": 20,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 20,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.373388+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "6efa13f3c845f7a6": {
+    "blockers": [],
+    "canonical_id": "6efa13f3c845f7a6",
+    "concerns": [
+      "Commercial, sales or presales role, unrelated to programme, product-operations or delivery leadership"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [
+      "location '2 Locations' not recognised \u2014 confirm it is within IE/UK before discounting or pursuing"
+    ],
+    "overall": 25,
+    "profile_version": "1.1.0",
+    "qualification_match": 25,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 24,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.384002+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "6f6e9128a8903157": {
     "blockers": [],
     "canonical_id": "6f6e9128a8903157",
@@ -4933,6 +7244,26 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:29.187456+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "702e34868551af4e": {
+    "blockers": [],
+    "canonical_id": "702e34868551af4e",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.393111+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -4956,6 +7287,34 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "713f06cad1d4d5b0": {
+    "blockers": [],
+    "canonical_id": "713f06cad1d4d5b0",
+    "concerns": [
+      "Crypto/RegTech domain is new and the company is small"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "led six Senior Programme Managers across five global sites, four countries",
+      "25M+ customer migration off a legacy stack, zero service interruption"
+    ],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role.",
+      "JD emphasises 'scrum master', a known weak-fit signal for Delivery Management"
+    ],
+    "overall": 71,
+    "profile_version": "1.1.0",
+    "qualification_match": 72,
+    "reasons": [
+      "TPM at a market-surveillance platform in London"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 70,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T13:00:02.402941+00:00",
+    "surfaced": true,
+    "tier": "worth reviewing"
+  },
   "71f78eef4f7bb674": {
     "blockers": [],
     "canonical_id": "71f78eef4f7bb674",
@@ -4975,6 +7334,46 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:01:06.842367+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "72519e79e8ec689a": {
+    "blockers": [],
+    "canonical_id": "72519e79e8ec689a",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.412417+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "72fbd1eb4b8b9a7f": {
+    "blockers": [],
+    "canonical_id": "72fbd1eb4b8b9a7f",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.422547+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -5042,6 +7441,46 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "73fe6f0e22a3fb20": {
+    "blockers": [],
+    "canonical_id": "73fe6f0e22a3fb20",
+    "concerns": [
+      "Commercial, sales or presales role, unrelated to programme, product-operations or delivery leadership"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 25,
+    "profile_version": "1.1.0",
+    "qualification_match": 25,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 24,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.431676+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "745fe6de90cb3079": {
+    "blockers": [],
+    "canonical_id": "745fe6de90cb3079",
+    "concerns": [
+      "Account Executive - SMB UKI - Financial Services is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.441400+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "74999d795bc5ab8b": {
     "blockers": [],
     "canonical_id": "74999d795bc5ab8b",
@@ -5103,6 +7542,26 @@
     "recruiter_interest": 61,
     "role_family": "delivery_management",
     "scored_at": "2026-08-30T08:17:29.207312+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "75345adc5fd38699": {
+    "blockers": [],
+    "canonical_id": "75345adc5fd38699",
+    "concerns": [
+      "Customer Outcome Executive (Account Executive) is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.454293+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -5243,6 +7702,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "78001205a61dbbe4": {
+    "blockers": [],
+    "canonical_id": "78001205a61dbbe4",
+    "concerns": [
+      "Commercial, sales or presales role, unrelated to programme, product-operations or delivery leadership"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 25,
+    "profile_version": "1.1.0",
+    "qualification_match": 25,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 24,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.462952+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "787dc36f0eb806e2": {
     "blockers": [],
     "canonical_id": "787dc36f0eb806e2",
@@ -5267,6 +7746,26 @@
     "surfaced": true,
     "tier": "worth reviewing"
   },
+  "79803a485059f954": {
+    "blockers": [],
+    "canonical_id": "79803a485059f954",
+    "concerns": [
+      "Cybersecurity Engineer is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.472337+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "7a1b41a1de53b137": {
     "blockers": [],
     "canonical_id": "7a1b41a1de53b137",
@@ -5287,6 +7786,28 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "7a9f508d4e4e473f": {
+    "blockers": [],
+    "canonical_id": "7a9f508d4e4e473f",
+    "concerns": [
+      "Commercial, sales or presales role, unrelated to programme, product-operations or delivery leadership"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 25,
+    "profile_version": "1.1.0",
+    "qualification_match": 25,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 24,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.482793+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "7aecee770d4c4f86": {
     "blockers": [],
     "canonical_id": "7aecee770d4c4f86",
@@ -5304,6 +7825,26 @@
     "recruiter_interest": 12,
     "role_family": null,
     "scored_at": "2026-08-30T08:01:06.788824+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "7b1aae14b8cb9d90": {
+    "blockers": [],
+    "canonical_id": "7b1aae14b8cb9d90",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.492100+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -5450,6 +7991,46 @@
     "surfaced": true,
     "tier": "worth reviewing"
   },
+  "7cd28c0cb3e8ad63": {
+    "blockers": [],
+    "canonical_id": "7cd28c0cb3e8ad63",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.501182+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "7ceb169cece0d6e3": {
+    "blockers": [],
+    "canonical_id": "7ceb169cece0d6e3",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.510092+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "7d4d6bf3fe3a9cf1": {
     "blockers": [],
     "canonical_id": "7d4d6bf3fe3a9cf1",
@@ -5492,6 +8073,26 @@
     "recruiter_interest": 49,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:29.281323+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "7e9cbb0cbe16d96a": {
+    "blockers": [],
+    "canonical_id": "7e9cbb0cbe16d96a",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.519738+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -5584,6 +8185,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "82fe0adb1be5d14c": {
+    "blockers": [],
+    "canonical_id": "82fe0adb1be5d14c",
+    "concerns": [
+      "Senior Account Executive - SMB (German Speaking) is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.531024+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "83024d3386a723bf": {
     "blockers": [],
     "canonical_id": "83024d3386a723bf",
@@ -5647,6 +8268,26 @@
     "recruiter_interest": 12,
     "role_family": null,
     "scored_at": "2026-08-30T08:01:06.375391+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "841b80a994f654a0": {
+    "blockers": [],
+    "canonical_id": "841b80a994f654a0",
+    "concerns": [
+      "Senior FX eTrading Developer - VP - London is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.540220+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -5807,6 +8448,53 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "8743440baf6f4328": {
+    "blockers": [],
+    "canonical_id": "8743440baf6f4328",
+    "concerns": [
+      "Core-banking engineering depth may be probed harder than platform-programme evidence supports"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "led six Senior Programme Managers across five global sites, four countries",
+      "25M+ customer migration off a legacy stack, zero service interruption"
+    ],
+    "flags": [],
+    "overall": 77,
+    "profile_version": "1.1.0",
+    "qualification_match": 78,
+    "reasons": [
+      "TPM at a core-banking platform company in London, platform delivery at genuine scale"
+    ],
+    "recommendation": "apply",
+    "recruiter_interest": 76,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T13:00:02.549581+00:00",
+    "surfaced": true,
+    "tier": "strong"
+  },
+  "875236454b9a76df": {
+    "blockers": [
+      "title signals a level well above target band ('vice president')"
+    ],
+    "canonical_id": "875236454b9a76df",
+    "concerns": [
+      "Suppressed by a hard blocker before scoring"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 20,
+    "profile_version": "1.1.0",
+    "qualification_match": 20,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 20,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.558972+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "875fc3d46c20b872": {
     "blockers": [],
     "canonical_id": "875fc3d46c20b872",
@@ -5858,6 +8546,28 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "87dbbbdc1e70948e": {
+    "blockers": [],
+    "canonical_id": "87dbbbdc1e70948e",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.568590+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "87e48c277da023fd": {
     "blockers": [],
     "canonical_id": "87e48c277da023fd",
@@ -5903,6 +8613,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "88782fddc8852dca": {
+    "blockers": [],
+    "canonical_id": "88782fddc8852dca",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.578571+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "889b91be2c185ef0": {
     "blockers": [],
     "canonical_id": "889b91be2c185ef0",
@@ -5920,6 +8650,26 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:29.354545+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "898cb0c7298c3b45": {
+    "blockers": [],
+    "canonical_id": "898cb0c7298c3b45",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.589938+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -6146,6 +8896,54 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "8c3f9c255d26b475": {
+    "blockers": [],
+    "canonical_id": "8c3f9c255d26b475",
+    "concerns": [
+      "Salesforce-product-specific migration (Tableau/Data 360) narrows how far the evidence transfers"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "25M+ customer migration off a legacy stack, zero service interruption",
+      "~3M customer migration in a full brand/product sunset, installation-verified cutover"
+    ],
+    "flags": [],
+    "overall": 75,
+    "profile_version": "1.1.0",
+    "qualification_match": 76,
+    "reasons": [
+      "Migration delivery leadership is Ali's single strongest evidence area: a 25M+ customer migration and 12 data centres retired"
+    ],
+    "recommendation": "apply",
+    "recruiter_interest": 74,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T13:00:02.598706+00:00",
+    "surfaced": true,
+    "tier": "strong"
+  },
+  "8ceaaefcbe0b1658": {
+    "blockers": [
+      "location 'USA.VA.Reston' is outside Ali's IE/UK right to work"
+    ],
+    "canonical_id": "8ceaaefcbe0b1658",
+    "concerns": [
+      "Suppressed by a hard blocker before scoring"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 20,
+    "profile_version": "1.1.0",
+    "qualification_match": 20,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 20,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.607567+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "8ced6bcac08c8c2f": {
     "blockers": [],
     "canonical_id": "8ced6bcac08c8c2f",
@@ -6163,6 +8961,28 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:29.406710+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "8d0c3ddeb3a07c20": {
+    "blockers": [],
+    "canonical_id": "8d0c3ddeb3a07c20",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.616592+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -6212,6 +9032,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "8e46b5d6cf25a910": {
+    "blockers": [],
+    "canonical_id": "8e46b5d6cf25a910",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.624749+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "8e8b23b3f53889ec": {
     "blockers": [],
     "canonical_id": "8e8b23b3f53889ec",
@@ -6236,6 +9076,28 @@
     "recruiter_interest": 43,
     "role_family": "delivery_management",
     "scored_at": "2026-08-30T08:01:06.628039+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "8f884fb9bcfef629": {
+    "blockers": [
+      "title signals a level well above target band ('vice president')"
+    ],
+    "canonical_id": "8f884fb9bcfef629",
+    "concerns": [
+      "Suppressed by a hard blocker before scoring"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 20,
+    "profile_version": "1.1.0",
+    "qualification_match": 20,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 20,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.634054+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -6280,6 +9142,48 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:29.421657+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "90ee448b123a53fe": {
+    "blockers": [],
+    "canonical_id": "90ee448b123a53fe",
+    "concerns": [
+      "Enterprise Account Executive - Manufacturing is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.642068+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "91022ed442f680c3": {
+    "blockers": [],
+    "canonical_id": "91022ed442f680c3",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.651205+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -6350,6 +9254,26 @@
     "recruiter_interest": 60,
     "role_family": "delivery_management",
     "scored_at": "2026-08-30T08:01:06.598198+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "91d5d2ca64f4ae09": {
+    "blockers": [],
+    "canonical_id": "91d5d2ca64f4ae09",
+    "concerns": [
+      "Clinical Project Manager (Europe) - Talent Pipeline Opportunity is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.661646+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -6458,6 +9382,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "92ed587ad371ce0b": {
+    "blockers": [],
+    "canonical_id": "92ed587ad371ce0b",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.671157+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "92f6d2e460370dca": {
     "blockers": [],
     "canonical_id": "92f6d2e460370dca",
@@ -6502,6 +9446,26 @@
     "scored_at": "2026-08-30T08:17:29.459452+00:00",
     "surfaced": true,
     "tier": "worth reviewing"
+  },
+  "939285498fb33f6f": {
+    "blockers": [],
+    "canonical_id": "939285498fb33f6f",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.681272+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
   },
   "93a48f006f7219d0": {
     "blockers": [],
@@ -6592,6 +9556,26 @@
     "surfaced": true,
     "tier": "strong"
   },
+  "94fc7613cf57fd5c": {
+    "blockers": [],
+    "canonical_id": "94fc7613cf57fd5c",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.690313+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "95218d17e9dd2040": {
     "blockers": [],
     "canonical_id": "95218d17e9dd2040",
@@ -6656,6 +9640,26 @@
     "recruiter_interest": 12,
     "role_family": null,
     "scored_at": "2026-08-30T08:01:06.901883+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "95d0a27d97b94782": {
+    "blockers": [],
+    "canonical_id": "95d0a27d97b94782",
+    "concerns": [
+      "Commercial, sales or presales role, unrelated to programme, product-operations or delivery leadership"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 25,
+    "profile_version": "1.1.0",
+    "qualification_match": 25,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 24,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.701991+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -6768,6 +9772,26 @@
     "surfaced": true,
     "tier": "worth reviewing"
   },
+  "9850e7ef66005f5a": {
+    "blockers": [],
+    "canonical_id": "9850e7ef66005f5a",
+    "concerns": [
+      "Platform Engineer II is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.711119+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "988fc827e4f95f6e": {
     "blockers": [],
     "canonical_id": "988fc827e4f95f6e",
@@ -6812,6 +9836,28 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "98e570bcb82331c2": {
+    "blockers": [
+      "title signals a level well above target band ('vice president')"
+    ],
+    "canonical_id": "98e570bcb82331c2",
+    "concerns": [
+      "Suppressed by a hard blocker before scoring"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 20,
+    "profile_version": "1.1.0",
+    "qualification_match": 20,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 20,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.721349+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "9911cb55412455a8": {
     "blockers": [],
     "canonical_id": "9911cb55412455a8",
@@ -6836,6 +9882,28 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "99b2eaa44ca8f5eb": {
+    "blockers": [],
+    "canonical_id": "99b2eaa44ca8f5eb",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.730316+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "99cb38b48c36020d": {
     "blockers": [],
     "canonical_id": "99cb38b48c36020d",
@@ -6853,6 +9921,26 @@
     "recruiter_interest": 12,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:29.522872+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "9a0b89a5d0b76c79": {
+    "blockers": [],
+    "canonical_id": "9a0b89a5d0b76c79",
+    "concerns": [
+      "Slack - Enterprise Cloud Account Executive is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.739615+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -6963,6 +10051,50 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "9c401b7f64037448": {
+    "blockers": [],
+    "canonical_id": "9c401b7f64037448",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.748576+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "9ce257fbd52161fb": {
+    "blockers": [],
+    "canonical_id": "9ce257fbd52161fb",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "location '3 Locations' not recognised \u2014 confirm it is within IE/UK before discounting or pursuing"
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.756671+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "9dbd90faf1902fc7": {
     "blockers": [],
     "canonical_id": "9dbd90faf1902fc7",
@@ -7005,6 +10137,46 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:29.561256+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "9ef5569fda7e20ea": {
+    "blockers": [],
+    "canonical_id": "9ef5569fda7e20ea",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.765166+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "9f23e68b235f6b03": {
+    "blockers": [],
+    "canonical_id": "9f23e68b235f6b03",
+    "concerns": [
+      "Finance function role, outside the target remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 22,
+    "profile_version": "1.1.0",
+    "qualification_match": 22,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 21,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.773278+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -7055,6 +10227,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "a0b93ea125b14160": {
+    "blockers": [],
+    "canonical_id": "a0b93ea125b14160",
+    "concerns": [
+      "Commercial, sales or presales role, unrelated to programme, product-operations or delivery leadership"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 25,
+    "profile_version": "1.1.0",
+    "qualification_match": 25,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 24,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.783732+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "a0ef13c8c0451240": {
     "blockers": [],
     "canonical_id": "a0ef13c8c0451240",
@@ -7097,6 +10289,28 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:29.569217+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "a1541f00eba163ff": {
+    "blockers": [
+      "title signals a level well above target band ('vice president')"
+    ],
+    "canonical_id": "a1541f00eba163ff",
+    "concerns": [
+      "Suppressed by a hard blocker before scoring"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 20,
+    "profile_version": "1.1.0",
+    "qualification_match": 20,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 20,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.794194+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -7146,6 +10360,28 @@
     "recruiter_interest": 59,
     "role_family": "product_operations",
     "scored_at": "2026-08-30T08:01:06.539459+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "a1f0f484686b7db7": {
+    "blockers": [],
+    "canonical_id": "a1f0f484686b7db7",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.804411+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -7376,6 +10612,54 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "a65e6c5a4d8d8f76": {
+    "blockers": [],
+    "canonical_id": "a65e6c5a4d8d8f76",
+    "concerns": [
+      "Agency posting with no named end client, and implementation delivery is client-project shaped"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "25M+ customer migration off a legacy stack, zero service interruption",
+      "~3M customer migration in a full brand/product sunset, installation-verified cutover"
+    ],
+    "flags": [],
+    "overall": 66,
+    "profile_version": "1.1.0",
+    "qualification_match": 67,
+    "reasons": [
+      "Programme lead for global client implementation, Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 65,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T13:00:02.813718+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "a6636a1e7acf12c4": {
+    "blockers": [],
+    "canonical_id": "a6636a1e7acf12c4",
+    "concerns": [
+      "Commercial, sales or presales role, unrelated to programme, product-operations or delivery leadership"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [
+      "location '4 Locations' not recognised \u2014 confirm it is within IE/UK before discounting or pursuing"
+    ],
+    "overall": 25,
+    "profile_version": "1.1.0",
+    "qualification_match": 25,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 24,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.822594+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "a6707d9f3af95c55": {
     "blockers": [],
     "canonical_id": "a6707d9f3af95c55",
@@ -7440,6 +10724,34 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:29.649975+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "a77bf5277da396a2": {
+    "blockers": [],
+    "canonical_id": "a77bf5277da396a2",
+    "concerns": [
+      "'Senior Specialist' sits below the target band, and the site is Swords rather than Dublin city"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "post-merger delivery rebuild across a 5,600+ employee product organisation",
+      "led six Senior Programme Managers across five global sites, four countries"
+    ],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role.",
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 62,
+    "profile_version": "1.1.0",
+    "qualification_match": 62,
+    "reasons": [
+      "PMO project management at a major pharma employer in north County Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 61,
+    "role_family": "transformation",
+    "scored_at": "2026-08-30T13:00:02.831886+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -7530,6 +10842,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "a8bd11f8c08b9bba": {
+    "blockers": [],
+    "canonical_id": "a8bd11f8c08b9bba",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.841040+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "a8e615168ae156ab": {
     "blockers": [],
     "canonical_id": "a8e615168ae156ab",
@@ -7602,6 +10934,49 @@
     "recruiter_interest": 32,
     "role_family": null,
     "scored_at": "2026-08-30T08:01:06.447574+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "aa414c93b0b7cc0e": {
+    "blockers": [],
+    "canonical_id": "aa414c93b0b7cc0e",
+    "concerns": [
+      "Success Architect Sales Cloud/ Platform - French or Italian Speaking is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.849350+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "aa64b92027f9659e": {
+    "blockers": [],
+    "canonical_id": "aa64b92027f9659e",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "location '3 Locations' not recognised \u2014 confirm it is within IE/UK before discounting or pursuing",
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.858341+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -7815,6 +11190,28 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "ac3372066cde9bab": {
+    "blockers": [],
+    "canonical_id": "ac3372066cde9bab",
+    "concerns": [
+      "Payroll Implementation Manager | Ireland is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.868554+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "ac4757964edd6287": {
     "blockers": [],
     "canonical_id": "ac4757964edd6287",
@@ -7910,6 +11307,28 @@
     "recruiter_interest": 62,
     "role_family": "delivery_management",
     "scored_at": "2026-08-30T08:01:06.551225+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "ad5ddc156e96fccb": {
+    "blockers": [],
+    "canonical_id": "ad5ddc156e96fccb",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.878007+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -8091,6 +11510,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "b020df94d6d83dcb": {
+    "blockers": [],
+    "canonical_id": "b020df94d6d83dcb",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.886873+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "b02259ad8e13fbc1": {
     "blockers": [],
     "canonical_id": "b02259ad8e13fbc1",
@@ -8108,6 +11547,26 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:29.809896+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "b026dae38a05f9b3": {
+    "blockers": [],
+    "canonical_id": "b026dae38a05f9b3",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.896786+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -8200,6 +11659,26 @@
     "recruiter_interest": 3,
     "role_family": null,
     "scored_at": "2026-08-30T08:01:06.370243+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "b2340c9436a9182b": {
+    "blockers": [],
+    "canonical_id": "b2340c9436a9182b",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.908566+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -8305,6 +11784,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "b35c33c37ceaea43": {
+    "blockers": [],
+    "canonical_id": "b35c33c37ceaea43",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.918039+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "b3695d2193bec5f2": {
     "blockers": [],
     "canonical_id": "b3695d2193bec5f2",
@@ -8342,6 +11841,26 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:29.842674+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "b3ff7496efad1d01": {
+    "blockers": [],
+    "canonical_id": "b3ff7496efad1d01",
+    "concerns": [
+      "Identity & Access Management (IAM) Engineer is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.929041+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -8390,6 +11909,26 @@
     "recruiter_interest": 61,
     "role_family": "delivery_management",
     "scored_at": "2026-08-30T08:17:29.850561+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "b4c6d541ad08f9de": {
+    "blockers": [],
+    "canonical_id": "b4c6d541ad08f9de",
+    "concerns": [
+      "Lead Software Engineer is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.939560+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -8691,6 +12230,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "b9d28e4ad56ee720": {
+    "blockers": [],
+    "canonical_id": "b9d28e4ad56ee720",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.950685+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "ba260f8cc5a32c9f": {
     "blockers": [],
     "canonical_id": "ba260f8cc5a32c9f",
@@ -8714,6 +12273,48 @@
     "recruiter_interest": 51,
     "role_family": "product_operations",
     "scored_at": "2026-08-30T08:01:06.281160+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "ba63e2671b5c8653": {
+    "blockers": [],
+    "canonical_id": "ba63e2671b5c8653",
+    "concerns": [
+      "Manager, ServiceNow ITOM Engineer is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [
+      "location '2 Locations' not recognised \u2014 confirm it is within IE/UK before discounting or pursuing"
+    ],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.965140+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "ba715b76a50054dd": {
+    "blockers": [],
+    "canonical_id": "ba715b76a50054dd",
+    "concerns": [
+      "Finance function role, outside the target remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 22,
+    "profile_version": "1.1.0",
+    "qualification_match": 22,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 21,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.976717+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -8803,6 +12404,28 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "bb285cbef06c9842": {
+    "blockers": [],
+    "canonical_id": "bb285cbef06c9842",
+    "concerns": [
+      "Commercial, sales or presales role, unrelated to programme, product-operations or delivery leadership"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 25,
+    "profile_version": "1.1.0",
+    "qualification_match": 25,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 24,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.987933+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "bb36fd1bada2c2cf": {
     "blockers": [],
     "canonical_id": "bb36fd1bada2c2cf",
@@ -8840,6 +12463,26 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:29.946634+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "bb96866d3e6cc545": {
+    "blockers": [],
+    "canonical_id": "bb96866d3e6cc545",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:02.997770+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -8896,6 +12539,46 @@
     "scored_at": "2026-08-30T08:17:29.956398+00:00",
     "surfaced": true,
     "tier": "strong"
+  },
+  "bcdf2af5fee13f2f": {
+    "blockers": [],
+    "canonical_id": "bcdf2af5fee13f2f",
+    "concerns": [
+      "Data Platform Engineer - Cybersecurity is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.009112+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "bd888eda7be81b30": {
+    "blockers": [],
+    "canonical_id": "bd888eda7be81b30",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.021105+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
   },
   "bdca202a1ae346db": {
     "blockers": [],
@@ -9007,6 +12690,31 @@
     "scored_at": "2026-08-30T08:17:29.976167+00:00",
     "surfaced": false,
     "tier": "below threshold"
+  },
+  "beb7e6fd5218a20c": {
+    "blockers": [],
+    "canonical_id": "beb7e6fd5218a20c",
+    "concerns": [
+      "Data-centre construction delivery is further from product-platform work"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "led six Senior Programme Managers across five global sites, four countries",
+      "25M+ customer migration off a legacy stack, zero service interruption"
+    ],
+    "flags": [],
+    "overall": 71,
+    "profile_version": "1.1.0",
+    "qualification_match": 71,
+    "reasons": [
+      "Global TPM scope with data-centre delivery, matching the data-centre retirement evidence"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 70,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T13:00:03.031848+00:00",
+    "surfaced": true,
+    "tier": "worth reviewing"
   },
   "bfc699591d7d973c": {
     "blockers": [],
@@ -9147,6 +12855,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "c187d2a57c07f696": {
+    "blockers": [],
+    "canonical_id": "c187d2a57c07f696",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.043181+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "c1bcd6e14981f041": {
     "blockers": [],
     "canonical_id": "c1bcd6e14981f041",
@@ -9194,6 +12922,26 @@
     "surfaced": true,
     "tier": "strong"
   },
+  "c23ac9b231f50d82": {
+    "blockers": [],
+    "canonical_id": "c23ac9b231f50d82",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.054773+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "c2712a4a497b5c7c": {
     "blockers": [],
     "canonical_id": "c2712a4a497b5c7c",
@@ -9240,6 +12988,35 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "c29b5a1009aabb65": {
+    "blockers": [],
+    "canonical_id": "c29b5a1009aabb65",
+    "concerns": [
+      "Engagement delivery is client-project work rather than product or platform delivery"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "25M+ customer migration off a legacy stack, zero service interruption",
+      "~3M customer migration in a full brand/product sunset, installation-verified cutover"
+    ],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role.",
+      "JD emphasises 'scrum master', a known weak-fit signal for Delivery Management"
+    ],
+    "overall": 68,
+    "profile_version": "1.1.0",
+    "qualification_match": 68,
+    "reasons": [
+      "Delivery management within Salesforce's London professional-services organisation"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 67,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T13:00:03.066210+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "c2d854a503f0fd6c": {
     "blockers": [],
     "canonical_id": "c2d854a503f0fd6c",
@@ -9264,6 +13041,46 @@
     "scored_at": "2026-08-30T08:17:30.052932+00:00",
     "surfaced": true,
     "tier": "strong"
+  },
+  "c301610d16583a9d": {
+    "blockers": [],
+    "canonical_id": "c301610d16583a9d",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.076465+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "c40ad47e6220b903": {
+    "blockers": [],
+    "canonical_id": "c40ad47e6220b903",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.088051+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
   },
   "c42b04267e758143": {
     "blockers": [],
@@ -9477,6 +13294,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "c7584d032fe454a6": {
+    "blockers": [],
+    "canonical_id": "c7584d032fe454a6",
+    "concerns": [
+      "Commercial, sales or presales role, unrelated to programme, product-operations or delivery leadership"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 25,
+    "profile_version": "1.1.0",
+    "qualification_match": 25,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 24,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.098459+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "c7707e20909feed2": {
     "blockers": [],
     "canonical_id": "c7707e20909feed2",
@@ -9522,6 +13359,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "c8355fecd66fd53c": {
+    "blockers": [],
+    "canonical_id": "c8355fecd66fd53c",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.108569+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "c87e833d3ec6ae8d": {
     "blockers": [],
     "canonical_id": "c87e833d3ec6ae8d",
@@ -9559,6 +13416,26 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:01:06.797339+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "c9df32ab89907a9a": {
+    "blockers": [],
+    "canonical_id": "c9df32ab89907a9a",
+    "concerns": [
+      "Software Engineer - Agentic AI & API Platform is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.119794+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -9602,6 +13479,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "cb3b9c1e5ccfe101": {
+    "blockers": [],
+    "canonical_id": "cb3b9c1e5ccfe101",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.130933+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "cb4b896d9601fa82": {
     "blockers": [],
     "canonical_id": "cb4b896d9601fa82",
@@ -9625,6 +13522,26 @@
     "recruiter_interest": 54,
     "role_family": "transformation",
     "scored_at": "2026-08-30T08:01:06.608040+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "cb777eb8cd80f282": {
+    "blockers": [],
+    "canonical_id": "cb777eb8cd80f282",
+    "concerns": [
+      "Senior Network Engineer is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.140979+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -9665,6 +13582,28 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:30.155439+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "cc16b58618917a10": {
+    "blockers": [
+      "title signals a level well above target band ('vice president')"
+    ],
+    "canonical_id": "cc16b58618917a10",
+    "concerns": [
+      "Suppressed by a hard blocker before scoring"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 20,
+    "profile_version": "1.1.0",
+    "qualification_match": 20,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 20,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.151879+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -9715,6 +13654,26 @@
     "surfaced": true,
     "tier": "worth reviewing"
   },
+  "cd40cf00c41dace0": {
+    "blockers": [],
+    "canonical_id": "cd40cf00c41dace0",
+    "concerns": [
+      "Commercial, sales or presales role, unrelated to programme, product-operations or delivery leadership"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 25,
+    "profile_version": "1.1.0",
+    "qualification_match": 25,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 24,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.161421+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "cd920a16e8953b5a": {
     "blockers": [],
     "canonical_id": "cd920a16e8953b5a",
@@ -9763,6 +13722,26 @@
     "recruiter_interest": 65,
     "role_family": "product_operations",
     "scored_at": "2026-08-30T08:01:06.522014+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "cdfae289dac919f2": {
+    "blockers": [],
+    "canonical_id": "cdfae289dac919f2",
+    "concerns": [
+      "Named Account Executive - Water & Utilities is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.172912+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -9827,6 +13806,28 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:30.208088+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "cf4adbf8f563ff41": {
+    "blockers": [],
+    "canonical_id": "cf4adbf8f563ff41",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.183247+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -9926,6 +13927,46 @@
     "surfaced": true,
     "tier": "strong"
   },
+  "d08cd41813cbeb11": {
+    "blockers": [],
+    "canonical_id": "d08cd41813cbeb11",
+    "concerns": [
+      "Customer Success Architect, Sales Cloud/ Platform - Additional European Languages is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.194446+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "d0c67e255a2d927d": {
+    "blockers": [],
+    "canonical_id": "d0c67e255a2d927d",
+    "concerns": [
+      "Senior Success Architect- Health and life Sciences Industry is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.206877+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "d0cf5198eb3f3b19": {
     "blockers": [],
     "canonical_id": "d0cf5198eb3f3b19",
@@ -9973,6 +14014,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "d1601b9da6690531": {
+    "blockers": [],
+    "canonical_id": "d1601b9da6690531",
+    "concerns": [
+      "Commercial, sales or presales role, unrelated to programme, product-operations or delivery leadership"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 25,
+    "profile_version": "1.1.0",
+    "qualification_match": 25,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 24,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.218382+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "d17500d0473be347": {
     "blockers": [],
     "canonical_id": "d17500d0473be347",
@@ -9995,6 +14056,28 @@
     "recruiter_interest": 63,
     "role_family": "delivery_management",
     "scored_at": "2026-08-30T08:01:06.548182+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "d2aed68439091089": {
+    "blockers": [],
+    "canonical_id": "d2aed68439091089",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "location 'Taguig  Philippines' not recognised \u2014 confirm it is within IE/UK before discounting or pursuing"
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.228072+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -10244,6 +14327,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "d57a97a5d0138631": {
+    "blockers": [],
+    "canonical_id": "d57a97a5d0138631",
+    "concerns": [
+      "Senior Cybersecurity Engineer is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.239393+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "d57b05a6b110e4cf": {
     "blockers": [],
     "canonical_id": "d57b05a6b110e4cf",
@@ -10268,6 +14371,66 @@
     "scored_at": "2026-08-30T08:17:30.292077+00:00",
     "surfaced": true,
     "tier": "strong"
+  },
+  "d5ad66c9faba1caa": {
+    "blockers": [],
+    "canonical_id": "d5ad66c9faba1caa",
+    "concerns": [
+      "Global Clinical Project Manager - Vendor Management Expert (home-based in Europe) is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.253075+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "d5b2b2bd0ec07b47": {
+    "blockers": [],
+    "canonical_id": "d5b2b2bd0ec07b47",
+    "concerns": [
+      "Commercial, sales or presales role, unrelated to programme, product-operations or delivery leadership"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 25,
+    "profile_version": "1.1.0",
+    "qualification_match": 25,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 24,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.263229+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "d7595324d6c679c6": {
+    "blockers": [],
+    "canonical_id": "d7595324d6c679c6",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.275565+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
   },
   "d7908496e3c79fad": {
     "blockers": [],
@@ -10731,6 +14894,48 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "dedcb05f1f87ab06": {
+    "blockers": [],
+    "canonical_id": "dedcb05f1f87ab06",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.284506+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "dee140fe5d667838": {
+    "blockers": [
+      "location 'New York New York United States' is outside Ali's IE/UK right to work"
+    ],
+    "canonical_id": "dee140fe5d667838",
+    "concerns": [
+      "Suppressed by a hard blocker before scoring"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 20,
+    "profile_version": "1.1.0",
+    "qualification_match": 20,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 20,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.296562+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "df834a88969240df": {
     "blockers": [],
     "canonical_id": "df834a88969240df",
@@ -10776,6 +14981,26 @@
     "recruiter_interest": 61,
     "role_family": "ai_adoption",
     "scored_at": "2026-08-30T08:01:06.594535+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "e13300c2b40b2735": {
+    "blockers": [],
+    "canonical_id": "e13300c2b40b2735",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.306469+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -10981,6 +15206,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "e4d3f39a348b553f": {
+    "blockers": [],
+    "canonical_id": "e4d3f39a348b553f",
+    "concerns": [
+      "Commercial, sales or presales role, unrelated to programme, product-operations or delivery leadership"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 25,
+    "profile_version": "1.1.0",
+    "qualification_match": 25,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 24,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.316909+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "e545ddbf56a6084a": {
     "blockers": [],
     "canonical_id": "e545ddbf56a6084a",
@@ -11003,6 +15248,50 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "e5ec103a0db69c98": {
+    "blockers": [],
+    "canonical_id": "e5ec103a0db69c98",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "location '2 Locations' not recognised \u2014 confirm it is within IE/UK before discounting or pursuing"
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.327243+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "e5f826db08364ebe": {
+    "blockers": [],
+    "canonical_id": "e5f826db08364ebe",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "location '2 Locations' not recognised \u2014 confirm it is within IE/UK before discounting or pursuing"
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.337292+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "e6b267f83b763cef": {
     "blockers": [],
     "canonical_id": "e6b267f83b763cef",
@@ -11020,6 +15309,26 @@
     "recruiter_interest": 12,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:30.502735+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "e6b29cb9d021a410": {
+    "blockers": [],
+    "canonical_id": "e6b29cb9d021a410",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.348685+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -11133,6 +15442,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "e9780f9796858a78": {
+    "blockers": [],
+    "canonical_id": "e9780f9796858a78",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.358524+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "e9b71b0fbf9c7ecf": {
     "blockers": [],
     "canonical_id": "e9b71b0fbf9c7ecf",
@@ -11150,6 +15479,121 @@
     "recruiter_interest": 24,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:30.531402+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "e9dbfd2726b48ac2": {
+    "blockers": [],
+    "canonical_id": "e9dbfd2726b48ac2",
+    "concerns": [
+      "Consultancy delivery model; level and end client unclear"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "25M+ customer migration off a legacy stack, zero service interruption",
+      "~3M customer migration in a full brand/product sunset, installation-verified cutover"
+    ],
+    "flags": [
+      "JD emphasises 'scrum master', a known weak-fit signal for Delivery Management"
+    ],
+    "overall": 65,
+    "profile_version": "1.1.0",
+    "qualification_match": 66,
+    "reasons": [
+      "Senior delivery management in the London area"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 64,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T13:00:03.367903+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "ea6074fd8e61873a": {
+    "blockers": [],
+    "canonical_id": "ea6074fd8e61873a",
+    "concerns": [
+      "Specialist Account Executive - Sales Performance Management (SPM) is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.379419+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "ed12e6a6d22e27fb": {
+    "blockers": [],
+    "canonical_id": "ed12e6a6d22e27fb",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.389109+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "edac5838df41b797": {
+    "blockers": [],
+    "canonical_id": "edac5838df41b797",
+    "concerns": [
+      "Medical-device quality and regulatory work requires domain expertise Ali does not have; outside the co-primary markets"
+    ],
+    "confidence": "high",
+    "evidence_used": [
+      "led six Senior Programme Managers across five global sites, four countries",
+      "25M+ customer migration off a legacy stack, zero service interruption"
+    ],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 52,
+    "profile_version": "1.1.0",
+    "qualification_match": 52,
+    "reasons": [
+      "Programme management title in County Meath"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 51,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T13:00:03.398053+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "edd2213b0b2c1bc5": {
+    "blockers": [],
+    "canonical_id": "edd2213b0b2c1bc5",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.409342+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -11199,6 +15643,28 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "f04b9d058b95e543": {
+    "blockers": [
+      "title signals a level well above target band ('vice president')"
+    ],
+    "canonical_id": "f04b9d058b95e543",
+    "concerns": [
+      "Suppressed by a hard blocker before scoring"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 20,
+    "profile_version": "1.1.0",
+    "qualification_match": 20,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 20,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.420056+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "f0b2a1de3f53a9d7": {
     "blockers": [],
     "canonical_id": "f0b2a1de3f53a9d7",
@@ -11216,6 +15682,26 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:17:30.551222+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "f11228e877ebb23d": {
+    "blockers": [],
+    "canonical_id": "f11228e877ebb23d",
+    "concerns": [
+      "Account Executive - SMB Benelux Market (Dutch Speaking) is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.430625+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -11261,6 +15747,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "f2102077be526a82": {
+    "blockers": [],
+    "canonical_id": "f2102077be526a82",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.439602+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "f237e0a91f79d97d": {
     "blockers": [],
     "canonical_id": "f237e0a91f79d97d",
@@ -11283,6 +15789,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "f2a64f913b27d266": {
+    "blockers": [],
+    "canonical_id": "f2a64f913b27d266",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.448708+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "f2e504d3ede34d92": {
     "blockers": [
       "title signals a level well above target band ('vice president')"
@@ -11302,6 +15828,26 @@
     "recruiter_interest": 20,
     "role_family": null,
     "scored_at": "2026-08-30T08:01:06.658415+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "f3d8baf6a3f43df9": {
+    "blockers": [],
+    "canonical_id": "f3d8baf6a3f43df9",
+    "concerns": [
+      "Commercial, sales or presales role, unrelated to programme, product-operations or delivery leadership"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 25,
+    "profile_version": "1.1.0",
+    "qualification_match": 25,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 24,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.460164+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -11370,6 +15916,28 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "f602d6aa56487576": {
+    "blockers": [],
+    "canonical_id": "f602d6aa56487576",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.469818+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "f65b0212994e1aca": {
     "blockers": [],
     "canonical_id": "f65b0212994e1aca",
@@ -11389,6 +15957,34 @@
     "scored_at": "2026-08-30T08:17:30.600191+00:00",
     "surfaced": false,
     "tier": "below threshold"
+  },
+  "f69466be5420fb76": {
+    "blockers": [],
+    "canonical_id": "f69466be5420fb76",
+    "concerns": [
+      "Corporate Solutions is a commercial rather than technical programme remit"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "led six Senior Programme Managers across five global sites, four countries",
+      "25M+ customer migration off a legacy stack, zero service interruption"
+    ],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role.",
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 71,
+    "profile_version": "1.1.0",
+    "qualification_match": 71,
+    "reasons": [
+      "Programme management at Mastercard London, where a Director-level role already leads the shortlist"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 70,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T13:00:03.484239+00:00",
+    "surfaced": true,
+    "tier": "worth reviewing"
   },
   "f6c5a70c4fbbfcf5": {
     "blockers": [],
@@ -11461,6 +16057,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "f879cb30ca9c55ca": {
+    "blockers": [],
+    "canonical_id": "f879cb30ca9c55ca",
+    "concerns": [
+      "Principal Cybersecurity Data Engineer is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.496716+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "f88b85e3f8a4cefb": {
     "blockers": [],
     "canonical_id": "f88b85e3f8a4cefb",
@@ -11518,6 +16134,51 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:01:06.919886+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "f9d4e39ea7804c4d": {
+    "blockers": [],
+    "canonical_id": "f9d4e39ea7804c4d",
+    "concerns": [
+      "Hardware robotics is well outside the evidence base; early-stage company"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "led six Senior Programme Managers across five global sites, four countries",
+      "25M+ customer migration off a legacy stack, zero service interruption"
+    ],
+    "flags": [],
+    "overall": 69,
+    "profile_version": "1.1.0",
+    "qualification_match": 70,
+    "reasons": [
+      "TPM at a robotics company in London"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 68,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T13:00:03.507795+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "fa1c74b955ed1927": {
+    "blockers": [],
+    "canonical_id": "fa1c74b955ed1927",
+    "concerns": [
+      "Title does not map to a target role family; scope is not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.517251+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -11611,6 +16272,26 @@
     "surfaced": false,
     "tier": "below threshold"
   },
+  "fc82d98ec7e54338": {
+    "blockers": [],
+    "canonical_id": "fc82d98ec7e54338",
+    "concerns": [
+      "Cloud Account Executive - Digital, Northern Europe is outside the programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.526525+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
   "fd1176206df71458": {
     "blockers": [],
     "canonical_id": "fd1176206df71458",
@@ -11650,6 +16331,50 @@
     "recruiter_interest": 44,
     "role_family": null,
     "scored_at": "2026-08-30T08:01:06.988305+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "fdcb3736c3fdbd46": {
+    "blockers": [],
+    "canonical_id": "fdcb3736c3fdbd46",
+    "concerns": [
+      "Commercial, sales or presales role, unrelated to programme, product-operations or delivery leadership"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 25,
+    "profile_version": "1.1.0",
+    "qualification_match": 25,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 24,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.535078+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "fe342a69195aa320": {
+    "blockers": [
+      "title signals a level well above target band ('president')"
+    ],
+    "canonical_id": "fe342a69195aa320",
+    "concerns": [
+      "Suppressed by a hard blocker before scoring"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 20,
+    "profile_version": "1.1.0",
+    "qualification_match": 20,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 20,
+    "role_family": null,
+    "scored_at": "2026-08-30T13:00:03.545772+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
