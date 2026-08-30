@@ -1,0 +1,285 @@
+<title>Career Scout Phase 1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=IBM+Plex+Mono:wght@400;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+<style>
+:root{
+  --paper:#F2F4F6; --surface:#FFFFFF; --surface-2:#F7F9FA;
+  --ink:#151C25; --ink-2:#41505F; --ink-3:#6E7E8D;
+  --rule:#D5DCE3; --rule-2:#E7ECF0;
+  --accent:#1E4370; --accent-soft:#E1EAF4;
+  --good:#256B48; --good-soft:#DFEDE5;
+  --warn:#8A5712; --warn-soft:#F4E9D6;
+  --stop:#8C3030; --stop-soft:#F4E1E1;
+  --shadow:0 1px 2px rgba(21,28,37,.05),0 4px 16px rgba(21,28,37,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --paper:#0B1016; --surface:#141C25; --surface-2:#1A242E;
+    --ink:#E9EFF4; --ink-2:#AAB9C6; --ink-3:#7B8B99;
+    --rule:#26323D; --rule-2:#1E2831;
+    --accent:#79ABDE; --accent-soft:#152B42;
+    --good:#63BC8E; --good-soft:#14291F;
+    --warn:#D9A551; --warn-soft:#2B2413;
+    --stop:#DE8B8B; --stop-soft:#2C1717;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 4px 18px rgba(0,0,0,.32);
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0B1016; --surface:#141C25; --surface-2:#1A242E;
+  --ink:#E9EFF4; --ink-2:#AAB9C6; --ink-3:#7B8B99;
+  --rule:#26323D; --rule-2:#1E2831;
+  --accent:#79ABDE; --accent-soft:#152B42;
+  --good:#63BC8E; --good-soft:#14291F;
+  --warn:#D9A551; --warn-soft:#2B2413;
+  --stop:#DE8B8B; --stop-soft:#2C1717;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 4px 18px rgba(0,0,0,.32);
+}
+*{box-sizing:border-box}
+body{
+  background:var(--paper); color:var(--ink); margin:0;
+  font-family:"Source Serif 4",Georgia,"Times New Roman",serif;
+  font-size:17px; line-height:1.62; -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:780px;margin:0 auto;padding:0 22px 80px}
+h1,h2,h3,.sans{font-family:Archivo,system-ui,-apple-system,"Segoe UI",sans-serif}
+.mono{font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace;font-variant-numeric:tabular-nums}
+p{margin:0 0 15px}
+a{color:var(--accent)}
+
+header{padding:48px 0 28px;border-bottom:2px solid var(--ink)}
+.kicker{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:600}
+h1{font-size:clamp(31px,6vw,44px);line-height:1.06;letter-spacing:-.025em;font-weight:700;margin:13px 0 0;text-wrap:balance}
+.sub{color:var(--ink-2);font-size:18px;margin-top:13px;max-width:60ch}
+.status{display:inline-flex;align-items:center;gap:8px;margin-top:20px;background:var(--good-soft);color:var(--good);
+  border-radius:100px;padding:6px 14px;font-family:Archivo,sans-serif;font-size:13px;font-weight:600}
+.status .dot{width:7px;height:7px;border-radius:50%;background:currentColor}
+
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:1px;background:var(--rule);
+  border:1px solid var(--rule);margin:30px 0 0;border-radius:10px;overflow:hidden}
+.kpi{background:var(--surface);padding:15px 16px}
+.kpi .n{font-family:"IBM Plex Mono",monospace;font-size:25px;font-weight:600;letter-spacing:-.03em;line-height:1}
+.kpi .l{font-family:Archivo,sans-serif;font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--ink-3);margin-top:6px}
+
+h2{font-size:24px;font-weight:700;letter-spacing:-.018em;margin:44px 0 4px;text-wrap:balance}
+h2+.dek{color:var(--ink-3);font-family:Archivo,sans-serif;font-size:13.5px;margin:0 0 16px}
+h3{font-size:17px;font-weight:600;letter-spacing:-.01em;margin:26px 0 6px}
+
+figure{margin:26px 0;background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:22px 20px 16px;box-shadow:var(--shadow);overflow-x:auto}
+figure svg{display:block;max-width:100%;height:auto;margin:0 auto;color:var(--ink-2)}
+figcaption{font-family:Archivo,sans-serif;font-size:12.5px;color:var(--ink-3);margin-top:14px;text-align:center;line-height:1.5}
+
+table{width:100%;border-collapse:collapse;margin:18px 0;font-size:15px}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--rule-2)}
+th{font-family:Archivo,sans-serif;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--ink-3);border-bottom:1px solid var(--rule)}
+td.n{font-family:"IBM Plex Mono",monospace;text-align:right;white-space:nowrap}
+.tbl{overflow-x:auto}
+
+.card{background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:19px 21px;margin:16px 0;box-shadow:var(--shadow)}
+.card h3{margin-top:0}
+.card p:last-child{margin-bottom:0}
+.card.flag{border-left:3px solid var(--warn)}
+.card.gap{border-left:3px solid var(--stop)}
+
+ul{margin:0 0 15px;padding-left:22px}
+li{margin-bottom:7px}
+li:last-child{margin-bottom:0}
+.tick{list-style:none;padding-left:0}
+.tick li{display:grid;grid-template-columns:20px 1fr;gap:9px;align-items:start}
+.tick .m{font-family:"IBM Plex Mono",monospace;font-weight:600;font-size:14px;line-height:1.6}
+.tick .yes .m{color:var(--good)} .tick .no .m{color:var(--stop)}
+
+.pill{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:10.5px;font-weight:600;letter-spacing:.05em;
+  text-transform:uppercase;padding:2px 7px;border-radius:5px;background:var(--accent-soft);color:var(--accent);vertical-align:2px}
+code{font-family:"IBM Plex Mono",monospace;font-size:13.5px;background:var(--surface-2);border:1px solid var(--rule-2);border-radius:4px;padding:1px 5px}
+footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--rule);color:var(--ink-3);font-family:Archivo,sans-serif;font-size:12.5px}
+</style>
+
+<div class="wrap">
+<header>
+  <div class="kicker">Internal build summary · 30 August 2026</div>
+  <h1>Career Scout: an autonomous job discovery and scoring agent</h1>
+  <p class="sub">Phase 1 is complete and the system now runs unattended each morning. This is what was built, what it produces, and what deliberately has not been built yet.</p>
+  <div class="status"><span class="dot"></span> Live — daily run scheduled 06:00 Europe/Dublin</div>
+</header>
+
+<div class="kpis">
+  <div class="kpi"><div class="n">746</div><div class="l">roles tracked</div></div>
+  <div class="kpi"><div class="n">80</div><div class="l">above threshold</div></div>
+  <div class="kpi"><div class="n">62</div><div class="l">sources polled</div></div>
+  <div class="kpi"><div class="n">77</div><div class="l">tests passing</div></div>
+</div>
+
+<h2>What it does</h2>
+<p class="dek">One sentence, then the mechanism.</p>
+<p>The agent polls 62 job sources every morning, collapses the same opening found in several places into one record, discards roles the candidate cannot actually take, scores everything that survives against a verified evidence bank, and reports only what crossed the threshold since yesterday.</p>
+
+<figure>
+  <svg viewBox="0 0 940 250" role="img" aria-label="Pipeline: 62 sources yield 762 raw postings, deduplicated to 746 unique records, 718 pass Stage 1 blockers, scoring surfaces 80 at or above 70, which reach the daily digest. Only the scoring stage uses model reasoning; every other stage is deterministic code.">
+    <defs>
+      <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+        <polygon points="0,1 9,5 0,9" fill="currentColor"/>
+      </marker>
+    </defs>
+
+    <!-- boxes -->
+    <g fill="none" stroke="currentColor" stroke-width="1.5">
+      <rect x="15"  y="52" width="150" height="62" rx="8"/>
+      <rect x="200" y="52" width="150" height="62" rx="8"/>
+      <rect x="385" y="52" width="150" height="62" rx="8"/>
+      <rect x="755" y="52" width="150" height="62" rx="8"/>
+    </g>
+    <rect x="570" y="52" width="150" height="62" rx="8" fill="none" stroke="var(--accent)" stroke-width="2.5"/>
+
+    <g font-family="Archivo, sans-serif" text-anchor="middle" fill="currentColor">
+      <text x="90"  y="79" font-size="14" font-weight="600">Sources</text>
+      <text x="90"  y="98" font-size="11.5" opacity=".72">62 boards</text>
+      <text x="275" y="79" font-size="14" font-weight="600">Deduplicate</text>
+      <text x="275" y="98" font-size="11.5" opacity=".72">canonical identity</text>
+      <text x="460" y="79" font-size="14" font-weight="600">Stage 1</text>
+      <text x="460" y="98" font-size="11.5" opacity=".72">block · flag</text>
+      <text x="830" y="79" font-size="14" font-weight="600">Digest</text>
+      <text x="830" y="98" font-size="11.5" opacity=".72">daily delta</text>
+    </g>
+    <g font-family="Archivo, sans-serif" text-anchor="middle" fill="var(--accent)">
+      <text x="645" y="79" font-size="14" font-weight="600">Score</text>
+      <text x="645" y="98" font-size="11.5">match + interest</text>
+    </g>
+
+    <!-- flow -->
+    <g stroke="currentColor" stroke-width="1.5" marker-end="url(#ar)">
+      <line x1="165" y1="83" x2="196" y2="83"/>
+      <line x1="350" y1="83" x2="381" y2="83"/>
+      <line x1="535" y1="83" x2="566" y2="83"/>
+      <line x1="720" y1="83" x2="751" y2="83"/>
+    </g>
+    <g font-family="IBM Plex Mono, monospace" font-size="11" text-anchor="middle" fill="currentColor" opacity=".8">
+      <text x="180" y="72">762</text>
+      <text x="365" y="72">746</text>
+      <text x="550" y="72">718</text>
+      <text x="735" y="72">80</text>
+    </g>
+
+    <!-- deterministic / reasoning bands -->
+    <g stroke="currentColor" stroke-width="1" opacity=".38" stroke-dasharray="4 4">
+      <line x1="552" y1="34" x2="552" y2="182"/>
+      <line x1="738" y1="34" x2="738" y2="182"/>
+    </g>
+    <g font-family="Archivo, sans-serif" font-size="11.5" fill="currentColor" opacity=".72">
+      <text x="15" y="27">Deterministic code</text>
+      <text x="755" y="27">Deterministic code</text>
+    </g>
+    <text x="570" y="27" font-family="Archivo, sans-serif" font-size="11.5" font-weight="600" fill="var(--accent)">Model reasoning</text>
+
+    <!-- annotation -->
+    <line x1="645" y1="122" x2="645" y2="150" stroke="var(--accent)" stroke-width="1.5"/>
+    <text x="645" y="168" font-family="Archivo, sans-serif" font-size="12" text-anchor="middle" fill="var(--accent)">reads the job description</text>
+    <text x="645" y="184" font-family="Archivo, sans-serif" font-size="12" text-anchor="middle" fill="var(--accent)">against the evidence bank</text>
+
+    <text x="460" y="168" font-family="Archivo, sans-serif" font-size="12" text-anchor="middle" fill="currentColor" opacity=".72">28 blocked</text>
+    <text x="460" y="184" font-family="Archivo, sans-serif" font-size="12" text-anchor="middle" fill="currentColor" opacity=".72">rest flagged for review</text>
+  </svg>
+  <figcaption>Exactly one stage uses model reasoning. Everything before and after it is deterministic code — so thresholds, deduplication and surfacing are reviewable in a diff and identical run to run.</figcaption>
+</figure>
+
+<h2>Coverage</h2>
+<p class="dek">Two source types doing different jobs.</p>
+<p>Aggregators (LinkedIn, Indeed) do broad discovery — they find employers nobody thought to name. ATS boards do the opposite: complete, authoritative coverage of one named employer with no ranking algorithm in between. Both are needed. One Mastercard role appeared on LinkedIn <em>and</em> on their Workday board, but only the board can guarantee nothing at that employer was missed.</p>
+
+<div class="tbl">
+<table>
+  <tr><th>Source</th><th>Type</th><th class="n">Boards</th><th class="n">Roles found</th></tr>
+  <tr><td>LinkedIn + Indeed <span class="pill">via Apify</span></td><td>Aggregator</td><td class="n">24</td><td class="n">542</td></tr>
+  <tr><td>Workday</td><td>ATS</td><td class="n">36</td><td class="n">174</td></tr>
+  <tr><td>Ashby</td><td>ATS</td><td class="n">1</td><td class="n">28</td></tr>
+  <tr><td>SmartRecruiters</td><td>ATS</td><td class="n">1</td><td class="n">2</td></tr>
+</table>
+</div>
+
+<p>Greenhouse and Lever adapters are also built and tested but currently unseeded — no target employer on them has been named yet. Searches span three role families (technical programme, product operations, delivery management) across Greater Dublin, Greater London, and remote sweeps for both Ireland and the UK.</p>
+
+<h2>What it produces</h2>
+<p class="dek">80 roles above threshold, across five role families.</p>
+<p>Every surfaced role carries its score, the reasons behind it, the concerns against it, and the specific career evidence that supports the match — so a shortlist entry can be acted on without re-reading the job description.</p>
+
+<div class="tbl">
+<table>
+  <tr><th>Score</th><th>Role</th><th>Employer</th></tr>
+  <tr><td class="n">87</td><td>Director, Technical Program Management</td><td>Mastercard</td></tr>
+  <tr><td class="n">85</td><td>Director, Technical Program Management</td><td>LEGO Group</td></tr>
+  <tr><td class="n">85</td><td>Head of Product Operations</td><td>Ford Credit</td></tr>
+  <tr><td class="n">84</td><td>Lead Technical Program Manager</td><td>JPMorganChase</td></tr>
+  <tr><td class="n">83</td><td>Senior TPM, Digital Operating Model</td><td>LEGO Group</td></tr>
+</table>
+</div>
+
+<h2>Three decisions worth knowing</h2>
+
+<div class="card">
+  <h3>Code decides what code can decide</h3>
+  <p>Scoring a job description against fifteen years of career evidence is judgement, and no weighted keyword count does it honestly. But the weighted total, the tier bands and the surfacing rule are arithmetic. Splitting them means the thresholds are recalibrated by editing a config file rather than re-prompting a model, and two runs on the same input produce the same shortlist.</p>
+</div>
+
+<div class="card">
+  <h3>Blockers suppress; flags do not</h3>
+  <p>The candidate holds no PMP and was never awarded a bachelor's degree, so a posting mentioning either matters. But <em>"PMP preferred"</em> and <em>"PMP required"</em> are one word apart, and degree lines are frequently boilerplate an employer waives for fifteen years of evidence. Regex cannot tell those apart. So code raises a flag and the reasoning stage decides with the description in front of it. The asymmetry is deliberate: a false blocker is an opportunity that is never seen and never known about.</p>
+</div>
+
+<div class="card">
+  <h3>Evidence carries its own constraints</h3>
+  <p>A high score licenses building a real application, so anything the score cites has to survive the interview it leads to. Constraints travel with the evidence in config — one flagship programme was approved for rollout but has not run, so its measures are targets and may never be presented as achieved outcomes.</p>
+</div>
+
+<h2>How quality was established</h2>
+<p class="dek">Every significant bug was found by running against real data, not by writing more tests first.</p>
+<ul>
+  <li><strong>Three deduplication failures.</strong> The same opening reached the system with a different requisition ID per source, a different location granularity per source, and a Workday office name in parentheses. Each was fixed narrowly after measuring: of eighteen same-employer-and-title groups, only one was a true duplicate — a blunt fix would have merged genuinely separate roles in Dublin and Cork.</li>
+  <li><strong>Two false suppressions.</strong> Senior "Associate Director" roles were being discarded on the word <em>associate</em>, and an "Assistant Vice President" — mid-senior in banking — as too senior. Blocked count fell from six to one, and the survivor was a genuine mismatch.</li>
+  <li><strong>Two title traps caught by reading descriptions.</strong> One role titled "Director, Platforms Operating Model" is a fund-accounting product owner in the body. Another with an ideal programme-management title requires a ten-year software development background the candidate does not have. Both score below threshold. Title similarity is not qualification.</li>
+</ul>
+<p>77 unit tests, including a regression for every bug above.</p>
+
+<h2>Not built yet</h2>
+<p class="dek">Stated plainly, because a summary that implies more than exists is worse than no summary.</p>
+<ul class="tick">
+  <li class="yes"><span class="m">✓</span><span>Discovery, deduplication, filtering, scoring, persistence, daily digest, autonomous scheduling</span></li>
+  <li class="no"><span class="m">×</span><span><strong>Calibration against the candidate's own judgement.</strong> Scores are one considered pass, not validated against roles he would actually pursue. This is the main open quality question.</span></li>
+  <li class="no"><span class="m">×</span><span><strong>Application generation.</strong> Tailored CV and cover letter from the requirement-to-evidence map.</span></li>
+  <li class="no"><span class="m">×</span><span><strong>Inbox tracking.</strong> Recruiter replies, interview invitations and rejections are not yet detected.</span></li>
+  <li class="no"><span class="m">×</span><span><strong>Interview intelligence and post-interview review.</strong></span></li>
+</ul>
+
+<h2>Risks and dependencies</h2>
+
+<div class="card flag">
+  <h3>Scoring is uncalibrated</h3>
+  <p>The ranking is defensible but unvalidated. A review page exists for marking roles as pursue / not-for-me, and the daily digest is designed to gather the same signal continuously rather than as a single sitting. Until then, treat the ordering as a strong starting point rather than a verdict.</p>
+</div>
+
+<div class="card flag">
+  <h3>One credential is a single point of failure</h3>
+  <p>The aggregator searches need an Apify API token in the environment. Without it the run degrades to ATS boards only — roughly a quarter of current volume. The pipeline isolates per-board failures so this cannot break a run, and the runbook requires the degradation to be reported rather than presented as a full result.</p>
+</div>
+
+<div class="card flag">
+  <h3>Enterprise search is imprecise</h3>
+  <p>Workday's full-text search matches sales and finance postings that merely contain the search words, so a third of that source's volume is discarded before scoring. It is working as designed — boards enumerate, filters discriminate — but the yield per fetch is lower than the aggregators'.</p>
+</div>
+
+<h2>What comes next</h2>
+<div class="tbl">
+<table>
+  <tr><th>Phase</th><th>Scope</th><th>Blocked on</th></tr>
+  <tr><td>2</td><td>Application generation from the evidence map</td><td>Calibration</td></tr>
+  <tr><td>3</td><td>Inbox tracking and document filing</td><td>Read-only mailbox access</td></tr>
+  <tr><td>4</td><td>Interview intelligence</td><td>Phase 3 signals</td></tr>
+  <tr><td>5</td><td>Post-interview capture and review</td><td>Consent model</td></tr>
+  <tr><td>6</td><td>Score calibration from real outcomes</td><td>Application volume</td></tr>
+</table>
+</div>
+<p>Phases 2 and 3 are the ones that convert a good shortlist into applications and tracked outcomes. Everything after depends on having enough of both to learn from.</p>
+
+<footer>
+  Career Scout · Phase 1 complete · 2,524 lines of Python, 77 tests · Scored under candidate profile 1.1.0 against evidence bank 2.11 · Running cost is a few tens of cents per day in aggregator credits.
+</footer>
+</div>
