@@ -42,21 +42,66 @@ def _token() -> str:
 
 
 def _first(item: Dict, *keys: str) -> Optional[str]:
+    """First truthy *string* value among keys -- skips dicts/lists, since
+    those need their own extraction logic, not a flat string swap-in.
+    """
     for key in keys:
         val = item.get(key)
-        if val:
+        if isinstance(val, str) and val:
             return val
     return None
 
 
+def _company_string(item: Dict) -> str:
+    flat = _first(item, "companyName", "company", "organization")
+    if flat:
+        return flat
+    # Some actors (e.g. Indeed-style) nest company details under an
+    # "employer" object rather than a flat companyName field.
+    employer = item.get("employer")
+    if isinstance(employer, dict):
+        return employer.get("name") or ""
+    if isinstance(employer, str):
+        return employer
+    return ""
+
+
+def _location_string(item: Dict) -> str:
+    flat = _first(item, "location", "jobLocation", "place")
+    if flat:
+        return flat
+    # Some actors (e.g. Indeed-style) return location as a geo object
+    # (city/country/lat/long) rather than one formatted string.
+    loc = item.get("location")
+    if isinstance(loc, dict):
+        formatted = loc.get("formattedAddressShort") or loc.get("formattedAddressLong")
+        if formatted:
+            return formatted
+        city = loc.get("city") or loc.get("admin2Code")
+        country = loc.get("country") or loc.get("countryName") or loc.get("countryCode")
+        return ", ".join(p for p in (city, country) if p)
+    return ""
+
+
+def _description_string(item: Dict) -> str:
+    flat = _first(item, "description", "descriptionText", "jobDescription", "content")
+    if flat:
+        return flat
+    # Some actors nest description as {html, text} rather than one string.
+    desc = item.get("description")
+    if isinstance(desc, dict):
+        return desc.get("text") or desc.get("html") or ""
+    return ""
+
+
 def _normalize(item: Dict, actor_id: str) -> JobRecord:
     title = _first(item, "title", "jobTitle", "position", "name") or ""
-    company = _first(item, "companyName", "company", "employer", "organization") or ""
-    location = _first(item, "location", "jobLocation", "place") or ""
+    company = _company_string(item)
+    location = _location_string(item)
     url = _first(item, "url", "jobUrl", "link", "applyUrl") or ""
-    description = _first(item, "description", "descriptionText", "jobDescription", "content") or ""
-    req_id = _first(item, "id", "jobId", "referenceId")
-    posted_at = _first(item, "postedAt", "datePosted", "publishedAt")
+    description = _description_string(item)
+    req_id = _first(item, "id", "jobId", "referenceId", "jobKey", "key")
+    posted_at = _first(item, "postedAt", "datePosted", "publishedAt", "datePublished")
 
     return JobRecord(
         company=company,
@@ -78,7 +123,11 @@ def fetch(actor_id: str, run_input: Optional[Dict] = None, timeout: int = 120) -
     configured, never as a default/fallback.
     """
     token = _token()
-    url = RUN_SYNC_URL.format(actor_id=actor_id)
+    # Apify's REST API takes actor IDs as "owner~actor-name" in URL paths,
+    # not the "owner/actor-name" format used everywhere else (Store URLs,
+    # config/target_roles.yaml, `apify` CLI) -- convert here so config can
+    # keep using the format everyone recognizes.
+    url = RUN_SYNC_URL.format(actor_id=actor_id.replace("/", "~"))
     payload = json.dumps(run_input or {}).encode("utf-8")
     req = urllib.request.Request(
         url,

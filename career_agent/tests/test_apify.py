@@ -34,21 +34,59 @@ class NormalizeTests(unittest.TestCase):
         self.assertEqual(rec.source_url, "https://linkedin.com/jobs/view/12345")
         self.assertEqual(rec.req_id, "12345")
 
-    def test_maps_alternate_indeed_style_fields(self):
+    def test_maps_borderline_indeed_scraper_shape(self):
+        # borderline/indeed-scraper's real output schema (verified via
+        # fetch-actor-details): flat companyName/descriptionText, but
+        # location is a nested geo object, not a plain string.
         item = {
-            "jobTitle": "Head of PMO",
-            "company": "Beta Ltd",
-            "jobLocation": "London, England",
+            "title": "Head of PMO",
+            "companyName": "Beta Ltd",
+            "location": {
+                "city": "London",
+                "country": "United Kingdom",
+                "countryCode": "GB",
+                "formattedAddressShort": "London, UK",
+                "latitude": 51.5,
+                "longitude": -0.1,
+            },
             "jobUrl": "https://indeed.com/viewjob?jk=abcdef",
-            "jobDescription": "Full JD text",
+            "descriptionText": "Full JD text",
+            "jobKey": "abcdef",
+            "datePublished": "2026-08-20",
         }
 
-        rec = _normalize(item, actor_id="misceres/indeed-scraper")
+        rec = _normalize(item, actor_id="borderline/indeed-scraper")
 
         self.assertEqual(rec.title, "Head of PMO")
         self.assertEqual(rec.company, "Beta Ltd")
-        self.assertEqual(rec.location, "London, England")
+        self.assertEqual(rec.location, "London, UK")
         self.assertEqual(rec.source_url, "https://indeed.com/viewjob?jk=abcdef")
+        self.assertEqual(rec.description, "Full JD text")
+        self.assertEqual(rec.req_id, "abcdef")
+        self.assertEqual(rec.posted_at, "2026-08-20")
+
+    def test_maps_valig_indeed_scraper_fully_nested_shape(self):
+        # valig/indeed-jobs-scraper's real output schema (verified via
+        # fetch-actor-details): company nested under employer.name,
+        # location a geo object with no formatted-address field, and
+        # description nested as {html, text}.
+        item = {
+            "title": "Senior Program Manager",
+            "employer": {"name": "Gamma Inc", "ratingsValue": 4.1},
+            "location": {"city": "Dublin", "countryName": "Ireland", "latitude": 53.3, "longitude": -6.2},
+            "url": "https://indeed.com/viewjob?jk=xyz123",
+            "description": {"html": "<p>Full JD</p>", "text": "Full JD"},
+            "key": "xyz123",
+        }
+
+        rec = _normalize(item, actor_id="valig/indeed-jobs-scraper")
+
+        self.assertEqual(rec.title, "Senior Program Manager")
+        self.assertEqual(rec.company, "Gamma Inc")
+        self.assertEqual(rec.location, "Dublin, Ireland")
+        self.assertEqual(rec.source_url, "https://indeed.com/viewjob?jk=xyz123")
+        self.assertEqual(rec.description, "Full JD")
+        self.assertEqual(rec.req_id, "xyz123")
 
     def test_missing_fields_default_to_empty_string_not_crash(self):
         rec = _normalize({}, actor_id="some/actor")

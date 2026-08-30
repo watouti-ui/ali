@@ -45,20 +45,32 @@ role_families:
 boards:
   - source: ashby
     token: trainline  # real target -- Lead Technical Programme Manager application already in flight
-# add more as you confirm target companies. Board tokens are usually
-# visible in the company's careers page URL, e.g.:
+  # Apify LinkedIn/Indeed searches. Chosen for cost-vs-proven-reliability,
+  # not lowest sticker price alone -- see the comparison in career_agent/README.md.
+  # Each run spends real Apify credits: limitPerSource/limit caps that cost.
+  - source: apify
+    actor: curious_coder/linkedin-jobs-scraper  # 142k+ users, 4.59★ (140 ratings), $0.002/result
+    input:
+      keywords: Technical Program Manager
+      location: Dublin, Ireland
+      limitPerSource: 25
+      scrapeCompany: false
+  - source: apify
+    actor: valig/indeed-jobs-scraper  # 26k+ users, 5.0★ (17 ratings), $0.0001/result
+    input:
+      country: ie
+      title: Program Manager
+      location: Dublin
+      limit: 25
+# add more as you confirm target companies/searches. ATS board tokens are
+# usually visible in the company's careers page URL, e.g.:
 #   boards.greenhouse.io/<token>  -> source: greenhouse, token: <token>
 #   jobs.lever.co/<token>         -> source: lever, token: <token>
 #   jobs.ashbyhq.com/<token>      -> source: ashby, token: <token>
-#
-# Apify (for LinkedIn/Indeed and other sources without a public API) --
-# needs APIFY_API_TOKEN set in the environment when the pipeline runs, and
-# a deliberately chosen actor (running one spends Apify credits):
-# boards:
-#   - source: apify
-#     actor: <owner>/<actor-name>
-#     input:
-#       # actor-specific fields, e.g. search query, location, max results
+# More Apify searches (e.g. London, other role families) follow the same
+# source: apify / actor / input shape as above -- copy an entry and change
+# keywords/location. Running the pipeline needs APIFY_API_TOKEN set in the
+# environment (see career_agent/README.md).
 
 # Stage 1 hard filters (spec section 4). Keep these conservative — false
 # suppression is worse than a bit of noise in the shortlist.
