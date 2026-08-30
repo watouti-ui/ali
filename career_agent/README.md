@@ -57,12 +57,19 @@ handles that generically rather than picking an actor to dodge it.
   keyword matching on title/location, configurable, conservative by design.
 - `scout/pipeline.py` — orchestrates fetch → filter → dedup → persist,
   isolating per-board failures so one bad token doesn't kill a run.
-- `config/target_roles.yaml` — target role taxonomy, markets, and boards
-  to poll (Trainline on Ashby, plus a LinkedIn and an Indeed search via
-  Apify, both scoped to Dublin for now), and hard-filter keywords. **Edit
-  this** — add more target companies/searches (e.g. London) as you
-  confirm them; copy an existing `source: apify` entry and change
-  keywords/location.
+- `config/target_roles.yaml` — the boards to poll and the hard-filter
+  keywords. The search matrix is three role families (technical
+  programme, product operations, delivery management) across four
+  locations, on both LinkedIn and Indeed, plus Trainline's Ashby board.
+  Locations are the co-primary markets at their widest usable form:
+  *Greater Dublin Area* and *Greater London* supersede the bare city
+  searches — Greater London genuinely reaches Reading and Bracknell — and
+  each market gets a remote sweep, since bank Part 7 gives full IE/UK/EU
+  work rights with no sponsorship needed. On LinkedIn remote is expressed
+  in the keywords rather than a filter, because the actor's input has no
+  workplace field: LinkedIn removed it when it moved to AI search.
+  **Edit this** to add target companies or searches; every entry is one
+  actor run and spends credits, which `limitPerSource`/`limit` cap.
 - `state/jobs.json` — persisted job records (git-versioned for an audit
   trail). Currently 80 real jobs from a live run across all three sources.
 - `tests/` — unit tests for dedup determinism and filter correctness
@@ -96,12 +103,37 @@ didn't see, so the module is biased hard against suppressing.
 
 `config/candidate_profile.yaml` holds the profile every score is computed
 against — seniority band, markets and work rights, real credential
-constraints, and per-role-family evidence leads *and negative signals*
-(bank §8.2). The negative signals matter as much as the positive ones:
-they are where a role with a perfectly matching title should still score
-low. Bump `profile_version` on any scoring-relevant change; scores carry
-the version that produced them, and `pending` re-queues anything scored
-under an older one.
+constraints, and per-role-family evidence leads *and negative signals*.
+The negative signals matter as much as the positive ones: they are where
+a role with a perfectly matching title should still score low. Bump
+`profile_version` on any scoring-relevant change; scores carry the
+version that produced them, and `pending` re-queues anything scored under
+an older one.
+
+Five families are scored. Four come from bank §8.2 (technical programme,
+product operations, transformation, AI adoption); **delivery management
+is derived** from Part 5's end-to-end release lifecycle and Part 4.2's
+operating model, and is labelled as derived in the config so its
+provenance stays honest. Delivery Manager spans a very wide band, so its
+negative signals pull down the single-team, scrum-master, agile-coaching
+and client-account variants rather than filtering them at search time,
+where a title alone cannot tell them apart.
+
+`evidence_guardrails` in the same file carries constraints that travel
+with specific evidence. The product operating model (Part 4.2) was
+approved for rollout in April 2026, so its measures are *targets, never
+achieved outcomes*; its go-to-market claim has an approved wording with
+no sprint or week count; and the Utilities release recovery must stay
+separate from it. A high score licenses building an application, so
+anything the scoring pass cites has to survive the interview it leads to.
+
+`scoring/batch.py` holds the scaffolding each round repeats — carrying
+forward scores a profile change doesn't affect, disposing in bulk of the
+engineering and clinical posts broad keyword searches always sweep in,
+and asserting every pending job got scored before recording. A job that
+drops out silently never reaches the shortlist, which is indistinguishable
+from the Scout never having found it. Only the judgement is written fresh
+each round.
 
 ### Running a scoring pass
 

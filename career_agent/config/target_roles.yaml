@@ -45,81 +45,194 @@ role_families:
 boards:
   - source: ashby
     token: trainline  # real target -- Lead Technical Programme Manager application already in flight
-  # Apify LinkedIn/Indeed searches. Chosen for cost-vs-proven-reliability,
-  # not lowest sticker price alone -- see the comparison in career_agent/README.md.
-  # Each run spends real Apify credits: limitPerSource/limit caps that cost.
+
+  # Apify LinkedIn/Indeed searches. Actors chosen for cost-vs-proven
+  # reliability -- see the comparison in career_agent/README.md.
+  #
+  # Locations are the co-primary markets at their widest usable form:
+  # "Greater Dublin Area" and "Greater London" supersede the bare city
+  # searches (Greater London genuinely reaches Reading and Bracknell),
+  # and each market also gets a remote sweep, since bank Part 7 gives
+  # full IE/UK/EU work rights with no sponsorship needed. On LinkedIn
+  # remote is expressed in the keywords, because the actor's input has no
+  # workplace filter -- LinkedIn removed it when it moved to AI search.
+  #
+  # Every entry is one actor run and spends real credits: limitPerSource
+  # and limit cap that.
+
   # --- Technical programme management ---
-  - source: apify
-    actor: curious_coder/linkedin-jobs-scraper  # 142k+ users, 4.59★ (140 ratings), $0.002/result
+  - source: apify   # Technical programme management, Greater Dublin
+    actor: curious_coder/linkedin-jobs-scraper
     input:
       keywords: Technical Program Manager
-      location: Dublin, Ireland
-      limitPerSource: 25
+      location: Greater Dublin Area, Ireland
+      limitPerSource: 20
       scrapeCompany: false
-  - source: apify
-    actor: valig/indeed-jobs-scraper  # 26k+ users, 5.0★ (17 ratings), $0.0001/result
+  - source: apify   # Technical programme management, Greater Dublin
+    actor: valig/indeed-jobs-scraper
     input:
       country: ie
       title: Program Manager
       location: Dublin
-      limit: 25
+      limit: 20
+  - source: apify   # Technical programme management, Greater London
+    actor: curious_coder/linkedin-jobs-scraper
+    input:
+      keywords: Technical Program Manager
+      location: Greater London, United Kingdom
+      limitPerSource: 20
+      scrapeCompany: false
+  - source: apify   # Technical programme management, Greater London
+    actor: valig/indeed-jobs-scraper
+    input:
+      country: uk
+      title: Program Manager
+      location: London
+      limit: 20
+  - source: apify   # Technical programme management, Ireland, remote
+    actor: curious_coder/linkedin-jobs-scraper
+    input:
+      keywords: Technical Program Manager remote
+      location: Ireland
+      limitPerSource: 20
+      scrapeCompany: false
+  - source: apify   # Technical programme management, Ireland, remote
+    actor: valig/indeed-jobs-scraper
+    input:
+      country: ie
+      title: Program Manager
+      location: Remote
+      limit: 20
+  - source: apify   # Technical programme management, UK, remote
+    actor: curious_coder/linkedin-jobs-scraper
+    input:
+      keywords: Technical Program Manager remote
+      location: United Kingdom
+      limitPerSource: 20
+      scrapeCompany: false
+  - source: apify   # Technical programme management, UK, remote
+    actor: valig/indeed-jobs-scraper
+    input:
+      country: uk
+      title: Program Manager
+      location: Remote
+      limit: 20
+
   # --- Product operations ---
-  - source: apify
+  - source: apify   # Product operations, Greater Dublin
     actor: curious_coder/linkedin-jobs-scraper
     input:
       keywords: Product Operations
-      location: Dublin, Ireland
-      limitPerSource: 25
+      location: Greater Dublin Area, Ireland
+      limitPerSource: 20
       scrapeCompany: false
-  - source: apify
+  - source: apify   # Product operations, Greater Dublin
     actor: valig/indeed-jobs-scraper
     input:
       country: ie
       title: Product Operations
       location: Dublin
-      limit: 25
-  - source: apify
+      limit: 20
+  - source: apify   # Product operations, Greater London
     actor: curious_coder/linkedin-jobs-scraper
     input:
       keywords: Product Operations
-      location: London, United Kingdom
-      limitPerSource: 25
+      location: Greater London, United Kingdom
+      limitPerSource: 20
       scrapeCompany: false
+  - source: apify   # Product operations, Greater London
+    actor: valig/indeed-jobs-scraper
+    input:
+      country: uk
+      title: Product Operations
+      location: London
+      limit: 20
+  - source: apify   # Product operations, Ireland, remote
+    actor: curious_coder/linkedin-jobs-scraper
+    input:
+      keywords: Product Operations remote
+      location: Ireland
+      limitPerSource: 20
+      scrapeCompany: false
+  - source: apify   # Product operations, Ireland, remote
+    actor: valig/indeed-jobs-scraper
+    input:
+      country: ie
+      title: Product Operations
+      location: Remote
+      limit: 20
+  - source: apify   # Product operations, UK, remote
+    actor: curious_coder/linkedin-jobs-scraper
+    input:
+      keywords: Product Operations remote
+      location: United Kingdom
+      limitPerSource: 20
+      scrapeCompany: false
+  - source: apify   # Product operations, UK, remote
+    actor: valig/indeed-jobs-scraper
+    input:
+      country: uk
+      title: Product Operations
+      location: Remote
+      limit: 20
+
   # --- Delivery management ---
-  # "Delivery Manager" spans a wide band, from single-team agile delivery
-  # up to Head of Delivery. The negative signals in candidate_profile.yaml
-  # pull the under-levelled ones down rather than filtering them here,
-  # since a title alone cannot tell them apart.
-  - source: apify
+  - source: apify   # Delivery management, Greater Dublin
     actor: curious_coder/linkedin-jobs-scraper
     input:
       keywords: Delivery Manager
-      location: Dublin, Ireland
-      limitPerSource: 25
+      location: Greater Dublin Area, Ireland
+      limitPerSource: 20
       scrapeCompany: false
-  - source: apify
+  - source: apify   # Delivery management, Greater Dublin
     actor: valig/indeed-jobs-scraper
     input:
       country: ie
       title: Delivery Manager
       location: Dublin
-      limit: 25
-  - source: apify
+      limit: 20
+  - source: apify   # Delivery management, Greater London
     actor: curious_coder/linkedin-jobs-scraper
     input:
       keywords: Delivery Manager
-      location: London, United Kingdom
-      limitPerSource: 25
+      location: Greater London, United Kingdom
+      limitPerSource: 20
       scrapeCompany: false
-# add more as you confirm target companies/searches. ATS board tokens are
-# usually visible in the company's careers page URL, e.g.:
-#   boards.greenhouse.io/<token>  -> source: greenhouse, token: <token>
-#   jobs.lever.co/<token>         -> source: lever, token: <token>
-#   jobs.ashbyhq.com/<token>      -> source: ashby, token: <token>
-# More Apify searches (e.g. London, other role families) follow the same
-# source: apify / actor / input shape as above -- copy an entry and change
-# keywords/location. Running the pipeline needs APIFY_API_TOKEN set in the
-# environment (see career_agent/README.md).
+  - source: apify   # Delivery management, Greater London
+    actor: valig/indeed-jobs-scraper
+    input:
+      country: uk
+      title: Delivery Manager
+      location: London
+      limit: 20
+  - source: apify   # Delivery management, Ireland, remote
+    actor: curious_coder/linkedin-jobs-scraper
+    input:
+      keywords: Delivery Manager remote
+      location: Ireland
+      limitPerSource: 20
+      scrapeCompany: false
+  - source: apify   # Delivery management, Ireland, remote
+    actor: valig/indeed-jobs-scraper
+    input:
+      country: ie
+      title: Delivery Manager
+      location: Remote
+      limit: 20
+  - source: apify   # Delivery management, UK, remote
+    actor: curious_coder/linkedin-jobs-scraper
+    input:
+      keywords: Delivery Manager remote
+      location: United Kingdom
+      limitPerSource: 20
+      scrapeCompany: false
+  - source: apify   # Delivery management, UK, remote
+    actor: valig/indeed-jobs-scraper
+    input:
+      country: uk
+      title: Delivery Manager
+      location: Remote
+      limit: 20
 
 # Stage 1 hard filters (spec section 4). Keep these conservative — false
 # suppression is worse than a bit of noise in the shortlist.
