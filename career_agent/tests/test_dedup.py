@@ -26,9 +26,27 @@ class CanonicalIdTests(unittest.TestCase):
         id2 = canonical_job_id("Acme Corp", "Director of PMO", "Dublin, Ireland")
         self.assertNotEqual(id1, id2)
 
-    def test_req_id_distinguishes_same_title_different_req(self):
-        id1 = canonical_job_id("Acme Corp", "Senior Program Manager", "Dublin, Ireland", req_id="111")
-        id2 = canonical_job_id("Acme Corp", "Senior Program Manager", "Dublin, Ireland", req_id="222")
+    def test_req_id_is_not_part_of_identity(self):
+        # Regression: including the source's requisition ID guaranteed
+        # cross-source duplicates could never collapse, because Indeed's
+        # jobKey and LinkedIn's posting ID are different namespaces for
+        # the same opening. One Google TPM role surfaced twice because of
+        # this on the first scored run.
+        id1 = canonical_job_id("Google", "TPM III, Data Center Deployments", "Dublin, Ireland", req_id="jk=abc")
+        id2 = canonical_job_id("Google", "TPM III, Data Center Deployments", "Dublin, Ireland", req_id="4457105635")
+        self.assertEqual(id1, id2)
+
+    def test_location_formatting_variants_collapse(self):
+        # The three ways the live sources wrote the same city.
+        ids = {
+            canonical_job_id("Google", "Program Manager", loc)
+            for loc in ["Dublin, Ireland", "Dublin, County Dublin, Ireland", "DUBLIN 2, Ireland"]
+        }
+        self.assertEqual(len(ids), 1)
+
+    def test_genuinely_different_cities_stay_distinct(self):
+        id1 = canonical_job_id("Tesco", "Senior Programme Manager", "Dublin, Ireland")
+        id2 = canonical_job_id("Tesco", "Senior Programme Manager", "Dún Laoghaire, Ireland")
         self.assertNotEqual(id1, id2)
 
 
