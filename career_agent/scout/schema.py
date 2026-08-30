@@ -20,26 +20,60 @@ def _normalize_title(title: str) -> str:
     return " ".join(t.split())
 
 
+# Region and country names that qualify a place rather than identify it.
+# An ATS board writes "London" where a job aggregator writes "London,
+# England, United Kingdom" for the same opening, so these are dropped --
+# but only ever as a suffix to a real place, never as the whole location.
+_ADMIN_TOKENS = frozenset(
+    {
+        "england", "scotland", "wales", "northern ireland",
+        "united kingdom", "uk", "great britain", "britain", "gb",
+        "ireland", "republic of ireland", "eire",
+    }
+)
+
+
 def _normalize_location(location: str) -> str:
     """Reduce a location to comparable place tokens.
 
-    Sources describe the same place very differently -- Indeed returns
-    "Dublin, Ireland", LinkedIn "Dublin, County Dublin, Ireland", and
-    Indeed postal variants "DUBLIN 2, Ireland". Administrative
-    subdivisions and postal digits are dropped and repeated tokens
-    collapsed so all three land on "dublin ireland" and dedupe against
-    each other.
+    Sources describe the same place very differently: Indeed returns
+    "Dublin, Ireland", LinkedIn "Dublin, County Dublin, Ireland", postal
+    variants read "DUBLIN 2, Ireland", and an ATS board writes a bare
+    "London" where LinkedIn writes "London, England, United Kingdom".
+    Administrative subdivisions, postal digits and region/country
+    qualifiers are dropped so those forms collapse together.
+
+    The country is dropped only when a real place name survives it.
+    Dropping it unconditionally would merge genuinely distinct postings
+    -- a role in Ireland and the same title in the United Kingdom are two
+    openings, not one -- and stripping the city as well would merge
+    MongoDB's Dublin and Cork roles, which are separate jobs.
     """
     if not location:
         return ""
-    parts = []
-    for chunk in location.lower().split(","):
-        chunk = re.sub(r"\b(county|co\.?|city of|greater)\b", " ", chunk)
-        chunk = re.sub(r"[^a-z]+", " ", chunk)  # also drops postal digits
-        chunk = " ".join(chunk.split())
-        if chunk and chunk not in parts:
-            parts.append(chunk)
-    return " ".join(parts)
+    text = location.lower()
+    text = re.sub(r"\b(county|co\.?|city of|greater|area|metropolitan)\b", " ", text)
+    text = re.sub(r"[^a-z]+", " ", text)  # also drops postal digits
+    text = " ".join(text.split())
+    if not text:
+        return ""
+
+    # Strip qualifiers from the whole string rather than per comma-chunk,
+    # so "Dublin, Ireland" and "dublin ireland" reduce alike. Longest
+    # phrases go first, or removing "ireland" would strand "northern".
+    stripped = text
+    for token in sorted(_ADMIN_TOKENS, key=len, reverse=True):
+        stripped = re.sub(rf"\b{re.escape(token)}\b", " ", stripped)
+    stripped = " ".join(stripped.split())
+
+    # Deduplicate repeated place words ("dublin dublin" from
+    # "Dublin, County Dublin"), preserving order.
+    seen, words = set(), []
+    for w in (stripped or text).split():
+        if w not in seen:
+            seen.add(w)
+            words.append(w)
+    return " ".join(words)
 
 
 def canonical_job_id(company: str, title: str, location: str, req_id: Optional[str] = None) -> str:

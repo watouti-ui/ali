@@ -30,10 +30,14 @@ TEMPLATE_PATH = Path(__file__).resolve().parent / "template.html"
 DEFAULT_OUT = Path(__file__).resolve().parents[2] / "scout_calibration.html"
 
 # Near misses earn a reviewer's attention only when they sit close enough
-# to the line that disagreeing about one implicates the threshold itself.
-# A role scored in the 50s is not a borderline call, and padding the page
-# with them buries the genuinely marginal ones.
-NEAR_MISS_FLOOR = 60
+# to the line that disagreeing about one implicates the threshold itself:
+# within five points of it. Wider than that and the page fills with roles
+# nobody would argue about, burying the genuinely marginal ones -- at a
+# floor of 60 this section ran to 106 cards against 71 surfaced.
+#
+# Lower it temporarily when hunting for a specific missed role; it is
+# only the review page's cutoff and has no effect on scoring or state.
+NEAR_MISS_FLOOR = 65
 
 
 def collect(jobs: Dict[str, Dict], scores: Dict[str, Dict]) -> Dict[str, List[Dict]]:

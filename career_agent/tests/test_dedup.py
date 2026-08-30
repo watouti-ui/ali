@@ -44,6 +44,38 @@ class CanonicalIdTests(unittest.TestCase):
         }
         self.assertEqual(len(ids), 1)
 
+    def test_country_suffix_is_dropped_when_a_city_survives_it(self):
+        # Regression: Trainline's Core Tech role arrived from an ATS board
+        # as bare "London" and from LinkedIn as "London, England, United
+        # Kingdom", and did not collapse.
+        ids = {
+            canonical_job_id("Trainline", "Technical Programme Manager, Core Tech", loc)
+            for loc in ["London", "London, England, United Kingdom", "Greater London, United Kingdom", "London Area, United Kingdom"]
+        }
+        self.assertEqual(len(ids), 1)
+
+    def test_country_only_locations_stay_distinct(self):
+        # A role in Ireland and the same title in the UK are two openings.
+        # Dropping the country unconditionally would merge them.
+        id1 = canonical_job_id("Shopify", "Professional Services Delivery Manager", "Ireland")
+        id2 = canonical_job_id("Shopify", "Professional Services Delivery Manager", "United Kingdom")
+        self.assertNotEqual(id1, id2)
+
+    def test_different_cities_in_one_country_stay_distinct(self):
+        # MongoDB posts the same title in Dublin and in Cork; stripping the
+        # city along with the country would wrongly merge them.
+        pairs = [
+            ("Dublin, County Dublin, Ireland", "Cork, County Cork, Ireland"),
+            ("London, England, United Kingdom", "Deeside, Wales, United Kingdom"),
+            ("London, United Kingdom", "Thames Valley, United Kingdom"),
+        ]
+        for a, b in pairs:
+            self.assertNotEqual(
+                canonical_job_id("Acme", "Staff Technical Program Manager", a),
+                canonical_job_id("Acme", "Staff Technical Program Manager", b),
+                f"{a!r} and {b!r} must not merge",
+            )
+
     def test_genuinely_different_cities_stay_distinct(self):
         id1 = canonical_job_id("Tesco", "Senior Programme Manager", "Dublin, Ireland")
         id2 = canonical_job_id("Tesco", "Senior Programme Manager", "Dún Laoghaire, Ireland")

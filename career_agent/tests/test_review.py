@@ -35,8 +35,10 @@ def _score(cid, overall, surfaced):
 
 class CollectTests(unittest.TestCase):
     def test_partitions_surfaced_from_near_misses(self):
+        # Scored relative to the floor rather than a literal, so the test
+        # tracks the constant instead of breaking when it is retuned.
         jobs = {c: _job(c) for c in ("a", "b")}
-        scores = {"a": _score("a", 82, True), "b": _score("b", 64, False)}
+        scores = {"a": _score("a", 82, True), "b": _score("b", NEAR_MISS_FLOOR + 1, False)}
 
         out = collect(jobs, scores)
 
