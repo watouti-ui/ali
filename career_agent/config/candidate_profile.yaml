@@ -1,0 +1,170 @@
+# Candidate profile used to score jobs.
+#
+# Every fact here traces to the Master Resume & Career Evidence Bank v2.11
+# (22 Aug 2026), the canonical source. Nothing here is invented: if a claim
+# isn't in the bank, it doesn't belong in this file, because scores drive
+# which roles get a tailored application built from verified evidence.
+#
+# This file is job-search *strategy* (how to judge fit), deliberately kept
+# outside the evidence bank -- bank §8.7 says ranked roles, target
+# companies and "stop applying" decisions must not be frozen into the bank
+# because they change with the market. Revise this file freely; revise the
+# bank only with new evidence.
+#
+# Bump profile_version on any change that would alter scores, so past
+# scores stay attributable to the profile that produced them (spec §15,
+# ScoringModelVersion).
+
+profile_version: "1.0.0"
+evidence_bank_version: "2.11"
+
+seniority:
+  # Bank Part 7: HR-verified title, locked fact.
+  current_title: Senior Manager, Program Management, Global PMO
+  tenure_years: 15.25  # Apr 2011 - Jul 2026, bank Part 6 LOCKED
+  # Team scope, bank §8.4. Never claim managing people managers.
+  team: six Senior Programme Managers across five global sites, four countries
+  target_band: [senior manager, director, head of, principal, lead]
+  # Materially below or above realistic fit -- spec §4 Stage 1.
+  # "associate" is deliberately absent: "Associate Director" is a senior
+  # title, and listing it here suppressed real Grant Thornton
+  # Associate-Director roles during the first live run.
+  too_junior: [intern, internship, graduate, entry level, junior, trainee, apprentice]
+  # "vice president" stays, but hard_filters demotes it when qualified by
+  # assistant/associate/deputy -- an "Assistant Vice President" in banking
+  # is mid-senior, not an executive.
+  too_senior: [chief, c-level, svp, evp, vice president, president]
+
+geography:
+  # Bank §8.6: co-primary. Ireland is NOT a fallback market.
+  primary_markets:
+    - Dublin, Ireland
+    - London, England
+    - England (wider hybrid/remote)
+  # Bank Part 7: Irish citizen, full right to work IE/UK (CTA)/EU.
+  # No sponsorship required -- state this on UK applications.
+  work_rights: [Ireland, United Kingdom, European Union]
+  requires_sponsorship: false
+  relocation_confirmed: [London, Riyadh]
+
+credentials:
+  # Bank Part 7. These are the real constraints -- roles that make either
+  # of the absent items a hard requirement are a genuine blocker, not a
+  # stretch. Handled as flags, not regex suppression: see hard_filters.py.
+  held:
+    - Diploma in Project Management (Level 8), IT Tallaght Dublin
+    - CSM
+    - CSPO
+    - IPMA Level D
+    - PROSCI Change Management Practitioner
+    - Six Sigma Green Belt
+    - Google AI Professional Certificate
+  # Bank Part 7: "completed through fourth year; degree not awarded."
+  # Do not claim a completed bachelor's degree.
+  bachelors_degree_awarded: false
+  # Bank Part 7: PMP removed from the record entirely, 18 Aug 2026.
+  pmp: false
+
+languages:
+  # Bank Part 7. Hungarian was removed in v2.11 as unsupported.
+  native: [Arabic]
+  fluent: [English]
+  advanced: [German, French]
+  note: German is a differentiator for roles with DACH expansion plans.
+
+# Bank §8.2 -- what evidence leads for each role family, and what makes a
+# role a poor fit even when the title matches. The negative signals matter
+# as much as the positive ones: they are where a high title-similarity
+# score should still produce a low qualification score.
+role_families:
+  technical_programme:
+    label: Technical Programme / Programme Leadership
+    evidence_leads:
+      - platform migrations
+      - product/engineering delivery
+      - release trains
+      - dependency management
+      - team leadership
+      - portfolio capacity
+      - technical risk
+      - cross-functional execution
+    negative_signals:
+      - hands-on software engineering ownership
+      - requires PMP as a hard gate
+
+  product_operations:
+    label: Product Operations
+    evidence_leads:
+      - operating-model design
+      - planning and prioritisation
+      - OKRs
+      - roadmap governance
+      - launch/GTM readiness
+      - cross-functional decision-making
+      - workflow and tooling improvement
+      - Product/Engineering partnership
+    negative_signals:
+      # Bank §8.2 flags these explicitly as needing separate fit assessment.
+      - experimentation infrastructure
+      - PLG analytics
+      - SQL-heavy product analytics
+
+  transformation:
+    label: Transformation / Programme Director
+    evidence_leads:
+      - post-merger transformation
+      - platform consolidation
+      - operating-model redesign
+      - cost removal
+      - customer migration
+      - commercial outcomes
+      - executive governance
+      - change adoption
+    negative_signals: []
+
+  ai_adoption:
+    label: AI Transformation / Adoption
+    evidence_leads:
+      - Claude/Cursor/MCP workflow implementation
+      - Jira/Confluence integration
+      - reusable agent skills
+      - adoption measurement
+      - human-review controls
+      - AI-risk governance
+    negative_signals:
+      # Bank §8.2: do not claim these without evidence.
+      - ML engineering
+      - model development
+      - AI architecture
+      - production AI engineering
+
+# Headline evidence available to argue fit, with the figures locked in
+# bank Part 6. Used by the reasoning pass to populate evidence_used, so
+# every surfaced job cites real, defensible proof (spec §4).
+headline_evidence:
+  - 25M+ customers migrated off a legacy stack, zero service interruption, five engineering sites
+  - ~3M customers migrated in a full brand/product sunset
+  - 12 data centres retired and $1M data-centre cost removed in cross-brand VPN consolidation
+  - ~30% faster launch cycles across 20+ launches, scaled to company standard
+  - 4 to 21 market expansion for Norton Small Business
+  - ~150 countries and 37 languages in five months (VPN relaunch, 2024)
+  - VPN review score 2.5 to 4 stars, internal NPS 27.8 to 40.6
+  - 80% AI adoption across 40+ programme managers, 60%+ administration reduction
+  - 5,600+ employee product organisation, post-merger delivery rebuild
+  - design system ~80% adoption across ~3,000 engineers in three months
+
+# Spec §4 Stage 4. Configurable so calibration against real outcomes can
+# move them without a code change.
+weights:
+  qualification_match: 0.6
+  recruiter_interest: 0.4
+
+surfacing:
+  min_qualification_match: 70
+  min_overall: 70
+
+tiers:
+  - {min: 90, label: exceptional fit}
+  - {min: 85, label: very strong}
+  - {min: 75, label: strong}
+  - {min: 70, label: worth reviewing}

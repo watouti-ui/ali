@@ -21,25 +21,49 @@ def _normalize_title(title: str) -> str:
 
 
 def _normalize_location(location: str) -> str:
+    """Reduce a location to comparable place tokens.
+
+    Sources describe the same place very differently -- Indeed returns
+    "Dublin, Ireland", LinkedIn "Dublin, County Dublin, Ireland", and
+    Indeed postal variants "DUBLIN 2, Ireland". Administrative
+    subdivisions and postal digits are dropped and repeated tokens
+    collapsed so all three land on "dublin ireland" and dedupe against
+    each other.
+    """
     if not location:
         return ""
-    loc = location.lower()
-    loc = re.sub(r"[^a-z0-9]+", " ", loc)
-    return " ".join(loc.split())
+    parts = []
+    for chunk in location.lower().split(","):
+        chunk = re.sub(r"\b(county|co\.?|city of|greater)\b", " ", chunk)
+        chunk = re.sub(r"[^a-z]+", " ", chunk)  # also drops postal digits
+        chunk = " ".join(chunk.split())
+        if chunk and chunk not in parts:
+            parts.append(chunk)
+    return " ".join(parts)
 
 
 def canonical_job_id(company: str, title: str, location: str, req_id: Optional[str] = None) -> str:
     """Stable identity for a job, independent of which source found it.
 
-    Two postings of the same role at the same company/location collapse to
-    the same ID even when discovered via different sources or URLs. A
-    requisition ID is folded in when the source provides one, because some
-    employers reuse identical titles for genuinely different openings
-    (e.g. several concurrent "Senior Program Manager" reqs).
+    Deliberately built from company, title and location only. An earlier
+    version folded in the source's requisition ID to separate concurrent
+    reqs with identical titles, but that defeats the field's whole
+    purpose: Indeed's jobKey and LinkedIn's posting ID are different
+    namespaces for the same opening, so including either guarantees a
+    cross-source duplicate can never collapse. That is exactly what
+    happened on the first scored run, where one Google TPM role surfaced
+    twice.
+
+    The tradeoff is accepted knowingly: two genuinely distinct reqs with
+    the same title in the same city will merge. Showing one of a
+    near-identical pair costs far less than filling the shortlist with
+    the same job repeated once per source.
+
+    req_id is kept in the signature (and on JobRecord) because it is
+    worth persisting for applications and correspondence matching; it is
+    simply not part of identity.
     """
     parts = [company.strip().lower(), _normalize_title(title), _normalize_location(location)]
-    if req_id:
-        parts.append(str(req_id).strip().lower())
     key = "|".join(parts)
     return hashlib.sha256(key.encode("utf-8")).hexdigest()[:16]
 

@@ -1,0 +1,1806 @@
+{
+  "071c7fccb0549fe6": {
+    "blockers": [],
+    "canonical_id": "071c7fccb0549fe6",
+    "concerns": [
+      "Project rather than programme scope is a step down",
+      "JD mentions PMP"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 57,
+    "profile_version": "1.0.0",
+    "qualification_match": 58,
+    "reasons": [
+      "Project management role in Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 56,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.623747+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "08e0735519dd6771": {
+    "blockers": [],
+    "canonical_id": "08e0735519dd6771",
+    "concerns": [
+      "Consulting delivery model differs from in-house portfolio ownership",
+      "JD mentions PMP"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "post-merger delivery rebuild across a 5,600+ employee product organisation",
+      "led six Senior Programme Managers across five global sites, four countries"
+    ],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 71,
+    "profile_version": "1.0.0",
+    "qualification_match": 72,
+    "reasons": [
+      "Associate Director / Director level in a Big Four transformation practice, Dublin",
+      "Sector transformation programmes match the operating-model redesign narrative"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 70,
+    "role_family": "transformation",
+    "scored_at": "2026-08-30T06:44:57.589987+00:00",
+    "surfaced": true,
+    "tier": "worth reviewing"
+  },
+  "0b5a4fbd83f17147": {
+    "blockers": [],
+    "canonical_id": "0b5a4fbd83f17147",
+    "concerns": [
+      "Clinical nursing role requiring nursing registration"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 3,
+    "profile_version": "1.0.0",
+    "qualification_match": 3,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 3,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.700675+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "0ce66422b1a6b648": {
+    "blockers": [],
+    "canonical_id": "0ce66422b1a6b648",
+    "concerns": [
+      "Construction/capacity delivery emphasis is further from product-platform delivery",
+      "Google TPM hiring bar leans heavily technical"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "12 data centres retired, $1M data-centre cost removed in cross-brand consolidation",
+      "25M+ customer migration off a legacy stack, zero service interruption"
+    ],
+    "flags": [],
+    "overall": 74,
+    "profile_version": "1.0.0",
+    "qualification_match": 74,
+    "reasons": [
+      "Data-centre deployment/expansion programmes align with the 12-data-centre retirement and migration evidence",
+      "TPM III at Google Dublin sits in the target band"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 74,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.583383+00:00",
+    "surfaced": true,
+    "tier": "worth reviewing"
+  },
+  "0ff53d733f17955d": {
+    "blockers": [],
+    "canonical_id": "0ff53d733f17955d",
+    "concerns": [
+      "Automotive fleet engineering domain unsupported",
+      "JD appears to state a degree requirement"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 47,
+    "profile_version": "1.0.0",
+    "qualification_match": 48,
+    "reasons": [
+      "Programme manager title in Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 46,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.635427+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "12181186df1c1970": {
+    "blockers": [],
+    "canonical_id": "12181186df1c1970",
+    "concerns": [
+      "JD asks for a 10-year software development background with cloud storage and compute products, which Ali does not have and must not claim",
+      "Service-oriented architecture and cloud infrastructure depth is similarly unevidenced"
+    ],
+    "confidence": "high",
+    "evidence_used": [
+      "led six Senior Programme Managers across five global sites, four countries",
+      "25M+ customer migration off a legacy stack, zero service interruption"
+    ],
+    "flags": [],
+    "overall": 60,
+    "profile_version": "1.0.0",
+    "qualification_match": 58,
+    "reasons": [
+      "15+ years leading complex cross-functional technical programmes in an engineering organisation is met exactly",
+      "Executive-level programme communication and Dublin hybrid/remote-in-Ireland both match"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 62,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.581653+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "149b0e07702e546d": {
+    "blockers": [],
+    "canonical_id": "149b0e07702e546d",
+    "concerns": [
+      "Same Windows-internals depth gap as the Principal variant",
+      "JD appears to state a degree requirement"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "80% AI adoption across 40+ programme managers, 60%+ administration reduction",
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 73,
+    "profile_version": "1.0.0",
+    "qualification_match": 74,
+    "reasons": [
+      "Senior TPM at Microsoft Dublin with platform-quality programme ownership"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 72,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.580744+00:00",
+    "surfaced": true,
+    "tier": "worth reviewing"
+  },
+  "15333f0a45ceae85": {
+    "blockers": [],
+    "canonical_id": "15333f0a45ceae85",
+    "concerns": [
+      "Site reliability engineering, hands-on infrastructure role"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 8,
+    "profile_version": "1.0.0",
+    "qualification_match": 8,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 8,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.661751+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "1da88fdafc36c21b": {
+    "blockers": [],
+    "canonical_id": "1da88fdafc36c21b",
+    "concerns": [
+      "Commercial-operations focus is closer to business ops than technical programme delivery"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "Norton Small Business expansion from 4 to 21 markets",
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [],
+    "overall": 70,
+    "profile_version": "1.0.0",
+    "qualification_match": 70,
+    "reasons": [
+      "Business programme management at Microsoft Dublin, cross-functional commercial operations"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 70,
+    "role_family": "product_operations",
+    "scored_at": "2026-08-30T06:44:57.600979+00:00",
+    "surfaced": true,
+    "tier": "worth reviewing"
+  },
+  "1e00043e82e091c5": {
+    "blockers": [],
+    "canonical_id": "1e00043e82e091c5",
+    "concerns": [
+      "IT services delivery model",
+      "JD mentions PMP"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 65,
+    "profile_version": "1.0.0",
+    "qualification_match": 66,
+    "reasons": [
+      "Programme Manager role in Dublin within the target band"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 64,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.609881+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "1ef64fc9b00d45cd": {
+    "blockers": [],
+    "canonical_id": "1ef64fc9b00d45cd",
+    "concerns": [
+      "Windows compatibility demands deep OS-internals familiarity Ali has not evidenced",
+      "JD appears to state a degree requirement"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "80% AI adoption across 40+ programme managers, 60%+ administration reduction",
+      "led six Senior Programme Managers across five global sites, four countries",
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 75,
+    "profile_version": "1.0.0",
+    "qualification_match": 76,
+    "reasons": [
+      "Principal-level TPM with strategic leadership across an organisation, matching seniority and scope",
+      "JD explicitly calls out deploying AI to meet team goals, which is Ali's differentiator"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 74,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.579918+00:00",
+    "surfaced": true,
+    "tier": "strong"
+  },
+  "235089d6daa6ee12": {
+    "blockers": [],
+    "canonical_id": "235089d6daa6ee12",
+    "concerns": [
+      "Medical-device development domain unsupported by evidence"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [],
+    "overall": 55,
+    "profile_version": "1.0.0",
+    "qualification_match": 56,
+    "reasons": [
+      "Senior Manager level programme leadership in Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 54,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.626706+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "2579f9dab00825ce": {
+    "blockers": [],
+    "canonical_id": "2579f9dab00825ce",
+    "concerns": [
+      "Hands-on .NET backend engineering role"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 8,
+    "profile_version": "1.0.0",
+    "qualification_match": 8,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 8,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.647194+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "27c14e18bbd94c04": {
+    "blockers": [],
+    "canonical_id": "27c14e18bbd94c04",
+    "concerns": [
+      "Hands-on backend engineering role"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 8,
+    "profile_version": "1.0.0",
+    "qualification_match": 8,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 8,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.681569+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "2d9da69f7c30df22": {
+    "blockers": [],
+    "canonical_id": "2d9da69f7c30df22",
+    "concerns": [
+      "Fibre capacity delivery is a telecoms-infrastructure domain with no direct evidence",
+      "JD mentions PMP"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "12 data centres retired, $1M data-centre cost removed in cross-brand consolidation"
+    ],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 73,
+    "profile_version": "1.0.0",
+    "qualification_match": 72,
+    "reasons": [
+      "Technical programme ownership with cross-functional delivery at Google Dublin"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 74,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.585998+00:00",
+    "surfaced": true,
+    "tier": "worth reviewing"
+  },
+  "335d3ac72cc71ec7": {
+    "blockers": [],
+    "canonical_id": "335d3ac72cc71ec7",
+    "concerns": [
+      "Consulting utilisation model",
+      "JD mentions PMP"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "post-merger delivery rebuild across a 5,600+ employee product organisation",
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)",
+      "led six Senior Programme Managers across five global sites, four countries"
+    ],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 73,
+    "profile_version": "1.0.0",
+    "qualification_match": 74,
+    "reasons": [
+      "Technology delivery TPM within EY's UKI consulting practice, Dublin",
+      "Technical delivery leadership across client programmes"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 72,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.593051+00:00",
+    "surfaced": true,
+    "tier": "worth reviewing"
+  },
+  "36434e99d12e3194": {
+    "blockers": [],
+    "canonical_id": "36434e99d12e3194",
+    "concerns": [
+      "Group financial reporting leadership"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 10,
+    "profile_version": "1.0.0",
+    "qualification_match": 10,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 10,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.679510+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "37c819256e14e2ae": {
+    "blockers": [],
+    "canonical_id": "37c819256e14e2ae",
+    "concerns": [
+      "Retail domain is new",
+      "Need to confirm the role is adoption/enablement, not model development, which Ali must not claim"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "80% AI adoption across 40+ programme managers, 60%+ administration reduction",
+      "post-merger delivery rebuild across a 5,600+ employee product organisation",
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [],
+    "overall": 77,
+    "profile_version": "1.0.0",
+    "qualification_match": 78,
+    "reasons": [
+      "An AI Program Manager role is the clearest match for the AI-adoption differentiator: 80% adoption across 40+ programme managers with 60%+ administration reduction",
+      "Dublin-based, in the target band",
+      "Programme-led AI enablement rather than ML engineering, which is exactly how the evidence bank says to position it"
+    ],
+    "recommendation": "apply",
+    "recruiter_interest": 76,
+    "role_family": "ai_adoption",
+    "scored_at": "2026-08-30T06:44:57.587817+00:00",
+    "surfaced": true,
+    "tier": "strong"
+  },
+  "3adb904da16e6f35": {
+    "blockers": [],
+    "canonical_id": "3adb904da16e6f35",
+    "concerns": [
+      "Systems/automation ownership is closer to RevOps tooling than programme leadership"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)",
+      "Norton Small Business expansion from 4 to 21 markets"
+    ],
+    "flags": [],
+    "overall": 65,
+    "profile_version": "1.0.0",
+    "qualification_match": 66,
+    "reasons": [
+      "GTM systems and automation leadership touches launch readiness and tooling improvement"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 64,
+    "role_family": "product_operations",
+    "scored_at": "2026-08-30T06:44:57.608317+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "3d147ec4e4c986c3": {
+    "blockers": [],
+    "canonical_id": "3d147ec4e4c986c3",
+    "concerns": [
+      "Sales strategy and operations for an ad business, not programme or product operations"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "Norton Small Business expansion from 4 to 21 markets"
+    ],
+    "flags": [],
+    "overall": 51,
+    "profile_version": "1.0.0",
+    "qualification_match": 52,
+    "reasons": [
+      "Commercial operating-partner scope with pipeline and performance governance"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 50,
+    "role_family": "product_operations",
+    "scored_at": "2026-08-30T06:44:57.634269+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "3d6c048635181ab9": {
+    "blockers": [],
+    "canonical_id": "3d6c048635181ab9",
+    "concerns": [
+      "Strategy/new-verticals commercial focus rather than programme or product operations"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "Norton Small Business expansion from 4 to 21 markets"
+    ],
+    "flags": [],
+    "overall": 57,
+    "profile_version": "1.0.0",
+    "qualification_match": 58,
+    "reasons": [
+      "Senior strategy and operations leadership at a platform business"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 56,
+    "role_family": "product_operations",
+    "scored_at": "2026-08-30T06:44:57.621075+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "47ad4381595704f2": {
+    "blockers": [],
+    "canonical_id": "47ad4381595704f2",
+    "concerns": [
+      "Telecommunications infrastructure domain has no supporting evidence"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "12 data centres retired, $1M data-centre cost removed in cross-brand consolidation"
+    ],
+    "flags": [],
+    "overall": 65,
+    "profile_version": "1.0.0",
+    "qualification_match": 66,
+    "reasons": [
+      "Amazon programme management in Dublin with network delivery scope"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 64,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.613116+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "48b382c8be19e3ab": {
+    "blockers": [],
+    "canonical_id": "48b382c8be19e3ab",
+    "concerns": [
+      "Operations-centric rather than product/platform delivery"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "12 data centres retired, $1M data-centre cost removed in cross-brand consolidation",
+      "post-merger delivery rebuild across a 5,600+ employee product organisation"
+    ],
+    "flags": [],
+    "overall": 70,
+    "profile_version": "1.0.0",
+    "qualification_match": 70,
+    "reasons": [
+      "Server operations programme management at Google Dublin, within the target band"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 70,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.586882+00:00",
+    "surfaced": true,
+    "tier": "worth reviewing"
+  },
+  "4a2b535b74e498d7": {
+    "blockers": [],
+    "canonical_id": "4a2b535b74e498d7",
+    "concerns": [
+      "Consulting utilisation model",
+      "JD mentions PMP"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "post-merger delivery rebuild across a 5,600+ employee product organisation",
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)",
+      "led six Senior Programme Managers across five global sites, four countries"
+    ],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 73,
+    "profile_version": "1.0.0",
+    "qualification_match": 74,
+    "reasons": [
+      "Technology delivery TPM within EY's UKI consulting practice, Dublin",
+      "Technical delivery leadership across client programmes"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 72,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.595362+00:00",
+    "surfaced": true,
+    "tier": "worth reviewing"
+  },
+  "552773e0463e5785": {
+    "blockers": [],
+    "canonical_id": "552773e0463e5785",
+    "concerns": [
+      "Clinical trial management domain requires life-sciences background Ali does not have"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 39,
+    "profile_version": "1.0.0",
+    "qualification_match": 40,
+    "reasons": [
+      "Director-level programme title in Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 38,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.640145+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "5666cde82dcef0c8": {
+    "blockers": [],
+    "canonical_id": "5666cde82dcef0c8",
+    "concerns": [
+      "Clinical nursing role requiring nursing registration"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 3,
+    "profile_version": "1.0.0",
+    "qualification_match": 3,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 3,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.698891+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "57b35296f190e67f": {
+    "blockers": [],
+    "canonical_id": "57b35296f190e67f",
+    "concerns": [
+      "HR business partnering role"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 8,
+    "profile_version": "1.0.0",
+    "qualification_match": 8,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 8,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.687850+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "590c568a6d09f54c": {
+    "blockers": [],
+    "canonical_id": "590c568a6d09f54c",
+    "concerns": [
+      "Technical support analysis, well below target band"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.0.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.675112+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "5f6408baeb381ff7": {
+    "blockers": [],
+    "canonical_id": "5f6408baeb381ff7",
+    "concerns": [
+      "Project rather than programme scope may be a step down",
+      "JD mentions PMP"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 69,
+    "profile_version": "1.0.0",
+    "qualification_match": 70,
+    "reasons": [
+      "Technical project management at AVP level, which is mid-senior in banking rather than executive",
+      "Dublin-based"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 68,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.602695+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "6213ca46eb97f0d8": {
+    "blockers": [],
+    "canonical_id": "6213ca46eb97f0d8",
+    "concerns": [
+      "Market research specialism, six-month fixed term, unrelated to programme leadership"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 29,
+    "profile_version": "1.0.0",
+    "qualification_match": 30,
+    "reasons": [
+      "London-based lead role"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 28,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.643667+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "638d46a9e718946c": {
+    "blockers": [],
+    "canonical_id": "638d46a9e718946c",
+    "concerns": [
+      "Construction/capacity delivery emphasis is further from product-platform delivery",
+      "Google TPM hiring bar leans heavily technical"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "12 data centres retired, $1M data-centre cost removed in cross-brand consolidation",
+      "25M+ customer migration off a legacy stack, zero service interruption"
+    ],
+    "flags": [],
+    "overall": 74,
+    "profile_version": "1.0.0",
+    "qualification_match": 74,
+    "reasons": [
+      "Data-centre deployment/expansion programmes align with the 12-data-centre retirement and migration evidence",
+      "TPM III at Google Dublin sits in the target band"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 74,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.584296+00:00",
+    "surfaced": true,
+    "tier": "worth reviewing"
+  },
+  "6451ce44a6735ce1": {
+    "blockers": [],
+    "canonical_id": "6451ce44a6735ce1",
+    "concerns": [
+      "Director is one rung above the HR-verified Senior Manager title, so the step up needs framing",
+      "Payments/critical national infrastructure is a new domain"
+    ],
+    "confidence": "high",
+    "evidence_used": [
+      "led six Senior Programme Managers across five global sites, four countries",
+      "25M+ customer migration off a legacy stack, zero service interruption",
+      "post-merger delivery rebuild across a 5,600+ employee product organisation"
+    ],
+    "flags": [],
+    "overall": 87,
+    "profile_version": "1.0.0",
+    "qualification_match": 88,
+    "reasons": [
+      "Explicitly asks for a leader of a global TPM team, which is Ali's current remit rather than a stretch",
+      "End-to-end delivery ownership from inception to completion across simultaneous engineering programmes",
+      "Director level in Dublin, a co-primary market with established credibility"
+    ],
+    "recommendation": "apply",
+    "recruiter_interest": 86,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.575027+00:00",
+    "surfaced": true,
+    "tier": "very strong"
+  },
+  "6a635e38e4178dce": {
+    "blockers": [],
+    "canonical_id": "6a635e38e4178dce",
+    "concerns": [
+      "Medical device domain, project-level scope",
+      "JD mentions PMP"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 53,
+    "profile_version": "1.0.0",
+    "qualification_match": 54,
+    "reasons": [
+      "Technical project management in Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 52,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.629948+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "6affa0450979d980": {
+    "blockers": [],
+    "canonical_id": "6affa0450979d980",
+    "concerns": [
+      "Charity service-delivery programmes, not technology delivery",
+      "JD mentions PMP and a degree requirement"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role.",
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 47,
+    "profile_version": "1.0.0",
+    "qualification_match": 48,
+    "reasons": [
+      "Programme manager title in Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 46,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.638122+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "750466765b70c99b": {
+    "blockers": [],
+    "canonical_id": "750466765b70c99b",
+    "concerns": [
+      "Hands-on backend engineering role"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 8,
+    "profile_version": "1.0.0",
+    "qualification_match": 8,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 8,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.655517+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "7ac45e45e1a20984": {
+    "blockers": [],
+    "canonical_id": "7ac45e45e1a20984",
+    "concerns": [
+      "Clinical nursing role requiring nursing registration"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 3,
+    "profile_version": "1.0.0",
+    "qualification_match": 3,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 3,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.702472+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "80280cbda5d8c76b": {
+    "blockers": [],
+    "canonical_id": "80280cbda5d8c76b",
+    "concerns": [
+      "Public-sector pace and process",
+      "JD mentions PMP"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "led six Senior Programme Managers across five global sites, four countries",
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 71,
+    "profile_version": "1.0.0",
+    "qualification_match": 72,
+    "reasons": [
+      "PMO programme management maps directly to the Global PMO title and portfolio governance evidence"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 70,
+    "role_family": "transformation",
+    "scored_at": "2026-08-30T06:44:57.599704+00:00",
+    "surfaced": true,
+    "tier": "worth reviewing"
+  },
+  "8335a2b7b3a09dfe": {
+    "blockers": [],
+    "canonical_id": "8335a2b7b3a09dfe",
+    "concerns": [
+      "UX design leadership, a different discipline"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.0.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.665991+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "83739853b83e80eb": {
+    "blockers": [],
+    "canonical_id": "83739853b83e80eb",
+    "concerns": [
+      "Clinical nursing role requiring nursing registration"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 3,
+    "profile_version": "1.0.0",
+    "qualification_match": 3,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 3,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.704197+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "83fed18a871500ba": {
+    "blockers": [],
+    "canonical_id": "83fed18a871500ba",
+    "concerns": [
+      "Energy/R&D hardware domain far from product-platform software delivery"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [],
+    "overall": 61,
+    "profile_version": "1.0.0",
+    "qualification_match": 62,
+    "reasons": [
+      "Senior R&D programme management in Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 60,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.615836+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "87e48c277da023fd": {
+    "blockers": [],
+    "canonical_id": "87e48c277da023fd",
+    "concerns": [
+      "Engineering management role owning hands-on technical teams"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 22,
+    "profile_version": "1.0.0",
+    "qualification_match": 22,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 22,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.645469+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "8b047fec9b3496ae": {
+    "blockers": [],
+    "canonical_id": "8b047fec9b3496ae",
+    "concerns": [
+      "Operational finance management, six-month fixed term"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 10,
+    "profile_version": "1.0.0",
+    "qualification_match": 10,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 10,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.692432+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "922a3cc85978d495": {
+    "blockers": [],
+    "canonical_id": "922a3cc85978d495",
+    "concerns": [
+      "ML engineering role; the evidence bank forbids claiming ML engineering expertise"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 10,
+    "profile_version": "1.0.0",
+    "qualification_match": 10,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 10,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.697139+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "944018c0a8739693": {
+    "blockers": [],
+    "canonical_id": "944018c0a8739693",
+    "concerns": [
+      "Consultancy intermediary, end client unknown",
+      "JD appears to state a degree requirement"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "led six Senior Programme Managers across five global sites, four countries",
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 66,
+    "profile_version": "1.0.0",
+    "qualification_match": 68,
+    "reasons": [
+      "Technical Programme Lead in Dublin, in band"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 64,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.606474+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "96f69150b8167b24": {
+    "blockers": [],
+    "canonical_id": "96f69150b8167b24",
+    "concerns": [
+      "Hardware/electrical engineering domain unsupported"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "12 data centres retired, $1M data-centre cost removed in cross-brand consolidation"
+    ],
+    "flags": [],
+    "overall": 61,
+    "profile_version": "1.0.0",
+    "qualification_match": 62,
+    "reasons": [
+      "EMEA programme scope for data-centre power systems"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 60,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.617297+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "97f7a547eea9a840": {
+    "blockers": [],
+    "canonical_id": "97f7a547eea9a840",
+    "concerns": [
+      "Interim engineering management, hands-on technical leadership"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 22,
+    "profile_version": "1.0.0",
+    "qualification_match": 22,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 22,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.651444+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "9911cb55412455a8": {
+    "blockers": [],
+    "canonical_id": "9911cb55412455a8",
+    "concerns": [
+      "Primarily market research, and a six-month fixed-term contract"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "80% AI adoption across 40+ programme managers, 60%+ administration reduction"
+    ],
+    "flags": [],
+    "overall": 61,
+    "profile_version": "1.0.0",
+    "qualification_match": 62,
+    "reasons": [
+      "AI transformation lead framing touches the AI-adoption differentiator"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 60,
+    "role_family": "ai_adoption",
+    "scored_at": "2026-08-30T06:44:57.619162+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "992b7678b52f638d": {
+    "blockers": [],
+    "canonical_id": "992b7678b52f638d",
+    "concerns": [
+      "Senior Consultant / Assistant Manager is materially below the target band"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 51,
+    "profile_version": "1.0.0",
+    "qualification_match": 52,
+    "reasons": [
+      "Public-sector project management at Grant Thornton Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 50,
+    "role_family": "transformation",
+    "scored_at": "2026-08-30T06:44:57.632458+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "9a3c7b836dd64bae": {
+    "blockers": [],
+    "canonical_id": "9a3c7b836dd64bae",
+    "concerns": [
+      "Consulting delivery model differs from in-house portfolio ownership",
+      "JD mentions PMP"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "post-merger delivery rebuild across a 5,600+ employee product organisation",
+      "led six Senior Programme Managers across five global sites, four countries"
+    ],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 71,
+    "profile_version": "1.0.0",
+    "qualification_match": 72,
+    "reasons": [
+      "Associate Director / Director level in a Big Four transformation practice, Dublin",
+      "Sector transformation programmes match the operating-model redesign narrative"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 70,
+    "role_family": "transformation",
+    "scored_at": "2026-08-30T06:44:57.591172+00:00",
+    "surfaced": true,
+    "tier": "worth reviewing"
+  },
+  "a07f24ecf19eb1ce": {
+    "blockers": [],
+    "canonical_id": "a07f24ecf19eb1ce",
+    "concerns": [
+      "ML engineering leadership; the evidence bank forbids claiming ML engineering expertise"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 15,
+    "profile_version": "1.0.0",
+    "qualification_match": 15,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 15,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.670145+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "a30590e235fefc1d": {
+    "blockers": [],
+    "canonical_id": "a30590e235fefc1d",
+    "concerns": [
+      "More network-infrastructure specific than Ali's product-platform background"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "12 data centres retired, $1M data-centre cost removed in cross-brand consolidation",
+      "led six Senior Programme Managers across five global sites, four countries"
+    ],
+    "flags": [],
+    "overall": 77,
+    "profile_version": "1.0.0",
+    "qualification_match": 78,
+    "reasons": [
+      "Senior TPM scope at AWS in Dublin with large-scale programme ownership",
+      "Network monitoring and remediation programmes involve the cross-team dependency work Ali runs"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 76,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.579040+00:00",
+    "surfaced": true,
+    "tier": "strong"
+  },
+  "a3937b555fd02fae": {
+    "blockers": [],
+    "canonical_id": "a3937b555fd02fae",
+    "concerns": [
+      "Engineering management role owning hands-on technical teams"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 22,
+    "profile_version": "1.0.0",
+    "qualification_match": 22,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 22,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.672077+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "ab954989a2d5d88e": {
+    "blockers": [],
+    "canonical_id": "ab954989a2d5d88e",
+    "concerns": [
+      "Principal iOS engineering role"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 8,
+    "profile_version": "1.0.0",
+    "qualification_match": 8,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 8,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.663867+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "ad520fc801f8ba71": {
+    "blockers": [],
+    "canonical_id": "ad520fc801f8ba71",
+    "concerns": [
+      "Delivery-services framing may be customer-project rather than product-platform"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)",
+      "led six Senior Programme Managers across five global sites, four countries"
+    ],
+    "flags": [],
+    "overall": 69,
+    "profile_version": "1.0.0",
+    "qualification_match": 70,
+    "reasons": [
+      "Delivery programme management at a software vendor in Dublin"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 68,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.604120+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "b84e7051fe39da9a": {
+    "blockers": [],
+    "canonical_id": "b84e7051fe39da9a",
+    "concerns": [
+      "ML engineering role; the evidence bank forbids claiming ML engineering expertise"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 10,
+    "profile_version": "1.0.0",
+    "qualification_match": 10,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 10,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.694808+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "b87aef6e632f6f4d": {
+    "blockers": [],
+    "canonical_id": "b87aef6e632f6f4d",
+    "concerns": [
+      "Hands-on platform engineering role"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 8,
+    "profile_version": "1.0.0",
+    "qualification_match": 8,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 8,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.659582+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "bde7f81ab2d2eed3": {
+    "blockers": [],
+    "canonical_id": "bde7f81ab2d2eed3",
+    "concerns": [
+      "Data science role, a different discipline"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 8,
+    "profile_version": "1.0.0",
+    "qualification_match": 8,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 8,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.677334+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "c178e395168f01fd": {
+    "blockers": [],
+    "canonical_id": "c178e395168f01fd",
+    "concerns": [
+      "Medical-device development domain unsupported by evidence"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [],
+    "overall": 55,
+    "profile_version": "1.0.0",
+    "qualification_match": 56,
+    "reasons": [
+      "Senior Manager level programme leadership in Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 54,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.628497+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "c3952139c74188ee": {
+    "blockers": [],
+    "canonical_id": "c3952139c74188ee",
+    "concerns": [
+      "Oracle ERP delivery specificity is unsupported by Ali's evidence"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "post-merger delivery rebuild across a 5,600+ employee product organisation"
+    ],
+    "flags": [],
+    "overall": 65,
+    "profile_version": "1.0.0",
+    "qualification_match": 64,
+    "reasons": [
+      "Programme delivery leadership at Deloitte Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 66,
+    "role_family": "transformation",
+    "scored_at": "2026-08-30T06:44:57.614571+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "c5d18f36fae768af": {
+    "blockers": [],
+    "canonical_id": "c5d18f36fae768af",
+    "concerns": [
+      "Heavier data-centre operations depth than Ali's platform/product background",
+      "Amazon TPM loops are notoriously technical"
+    ],
+    "confidence": "high",
+    "evidence_used": [
+      "12 data centres retired, $1M data-centre cost removed in cross-brand consolidation",
+      "25M+ customer migration off a legacy stack, zero service interruption",
+      "led six Senior Programme Managers across five global sites, four countries"
+    ],
+    "flags": [],
+    "overall": 82,
+    "profile_version": "1.0.0",
+    "qualification_match": 84,
+    "reasons": [
+      "Rack migrations, retirements and capacity installation are the same programme shape as the data-centre retirement and platform consolidation work",
+      "Explicit EMEA scope and mentoring of junior TPMs matches the team-leadership remit",
+      "Large-scale migration programmes are Ali's strongest evidence area"
+    ],
+    "recommendation": "apply",
+    "recruiter_interest": 80,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.576538+00:00",
+    "surfaced": true,
+    "tier": "strong"
+  },
+  "ca56de16538b9d05": {
+    "blockers": [],
+    "canonical_id": "ca56de16538b9d05",
+    "concerns": [
+      "Engineering management role owning hands-on technical teams"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 22,
+    "profile_version": "1.0.0",
+    "qualification_match": 22,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 22,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.653478+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "cb8323a1feb5bb4b": {
+    "blockers": [],
+    "canonical_id": "cb8323a1feb5bb4b",
+    "concerns": [
+      "Retail domain new",
+      "JD mentions PMP"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "post-merger delivery rebuild across a 5,600+ employee product organisation",
+      "Norton Small Business expansion from 4 to 21 markets"
+    ],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 73,
+    "profile_version": "1.0.0",
+    "qualification_match": 74,
+    "reasons": [
+      "Senior Programme Manager at a major retailer, in band and in market"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 72,
+    "role_family": "transformation",
+    "scored_at": "2026-08-30T06:44:57.597926+00:00",
+    "surfaced": true,
+    "tier": "worth reviewing"
+  },
+  "d2d4fa2988b26aa5": {
+    "blockers": [],
+    "canonical_id": "d2d4fa2988b26aa5",
+    "concerns": [
+      "Hands-on platform engineering role"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 8,
+    "profile_version": "1.0.0",
+    "qualification_match": 8,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 8,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.649527+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "d39035689c333bfa": {
+    "blockers": [],
+    "canonical_id": "d39035689c333bfa",
+    "concerns": [
+      "An application for this role is already in flight per the Career Resume Hub tracker, so do not duplicate",
+      "JD mentions PMP"
+    ],
+    "confidence": "high",
+    "evidence_used": [
+      "25M+ customer migration off a legacy stack, zero service interruption",
+      "12 data centres retired, $1M data-centre cost removed in cross-brand consolidation",
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 82,
+    "profile_version": "1.0.0",
+    "qualification_match": 84,
+    "reasons": [
+      "Core platform TPM role at a rail platform business, close to the platform-consolidation narrative",
+      "London is a co-primary market with full right to work and no sponsorship needed"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 80,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.577757+00:00",
+    "surfaced": true,
+    "tier": "strong"
+  },
+  "d3d7a975ae33ba07": {
+    "blockers": [],
+    "canonical_id": "d3d7a975ae33ba07",
+    "concerns": [
+      "EPM tooling specialist role in finance systems"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 15,
+    "profile_version": "1.0.0",
+    "qualification_match": 15,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 15,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.690181+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "d52f5c15147c20a6": {
+    "blockers": [],
+    "canonical_id": "d52f5c15147c20a6",
+    "concerns": [
+      "Hands-on .NET engineering role"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 8,
+    "profile_version": "1.0.0",
+    "qualification_match": 8,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 8,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.685621+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "dc475e509c31ee25": {
+    "blockers": [],
+    "canonical_id": "dc475e509c31ee25",
+    "concerns": [
+      "SEO execution role"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 8,
+    "profile_version": "1.0.0",
+    "qualification_match": 8,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 8,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.667953+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "e0d6d7f98edd68b1": {
+    "blockers": [],
+    "canonical_id": "e0d6d7f98edd68b1",
+    "concerns": [
+      "Supply-chain retail contract role, domain unsupported"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [],
+    "overall": 57,
+    "profile_version": "1.0.0",
+    "qualification_match": 58,
+    "reasons": [
+      "Programme manager title in Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 56,
+    "role_family": "transformation",
+    "scored_at": "2026-08-30T06:44:57.622167+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "e28066f55727f513": {
+    "blockers": [],
+    "canonical_id": "e28066f55727f513",
+    "concerns": [
+      "Small consultancy, so scope and stability need checking",
+      "JD mentions PMP"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "post-merger delivery rebuild across a 5,600+ employee product organisation",
+      "led six Senior Programme Managers across five global sites, four countries",
+      "~3M customer migration in a full brand/product sunset"
+    ],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 74,
+    "profile_version": "1.0.0",
+    "qualification_match": 76,
+    "reasons": [
+      "Programme Director title sits at the transformation/programme-director level Ali targets",
+      "Dublin-based"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 72,
+    "role_family": "transformation",
+    "scored_at": "2026-08-30T06:44:57.588486+00:00",
+    "surfaced": true,
+    "tier": "worth reviewing"
+  },
+  "e510285d3405e0d3": {
+    "blockers": [],
+    "canonical_id": "e510285d3405e0d3",
+    "concerns": [
+      "Telecommunications infrastructure domain has no supporting evidence"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "12 data centres retired, $1M data-centre cost removed in cross-brand consolidation"
+    ],
+    "flags": [],
+    "overall": 65,
+    "profile_version": "1.0.0",
+    "qualification_match": 66,
+    "reasons": [
+      "Amazon programme management in Dublin with network delivery scope"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 64,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.611491+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "ee692f443b025d01": {
+    "blockers": [],
+    "canonical_id": "ee692f443b025d01",
+    "concerns": [
+      "Supervisor level is well below target band; social-care service delivery"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 34,
+    "profile_version": "1.0.0",
+    "qualification_match": 35,
+    "reasons": [
+      "Programme-related title"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 32,
+    "role_family": null,
+    "scored_at": "2026-08-30T06:44:57.641836+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "f597bab4a70afb01": {
+    "blockers": [],
+    "canonical_id": "f597bab4a70afb01",
+    "concerns": [
+      "Oracle Fusion ERP implementation specificity is unsupported"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "post-merger delivery rebuild across a 5,600+ employee product organisation"
+    ],
+    "flags": [],
+    "overall": 57,
+    "profile_version": "1.0.0",
+    "qualification_match": 58,
+    "reasons": [
+      "Programme manager scope in Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 56,
+    "role_family": "transformation",
+    "scored_at": "2026-08-30T06:44:57.624944+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "f82d2c5af6e1c604": {
+    "blockers": [],
+    "canonical_id": "f82d2c5af6e1c604",
+    "concerns": [
+      "Small/unknown employer, scope unclear",
+      "JD mentions PMP"
+    ],
+    "confidence": "low",
+    "evidence_used": [
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 67,
+    "profile_version": "1.0.0",
+    "qualification_match": 68,
+    "reasons": [
+      "Technical Program Manager title in Dublin"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 66,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.605621+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "fe9f65c6480437bb": {
+    "blockers": [],
+    "canonical_id": "fe9f65c6480437bb",
+    "concerns": [
+      "Same stated software-development background requirement as the Staff role",
+      "Atlas cluster internals imply infrastructure depth Ali has not evidenced"
+    ],
+    "confidence": "high",
+    "evidence_used": [
+      "led six Senior Programme Managers across five global sites, four countries",
+      "12 data centres retired, $1M data-centre cost removed in cross-brand consolidation"
+    ],
+    "flags": [],
+    "overall": 62,
+    "profile_version": "1.0.0",
+    "qualification_match": 60,
+    "reasons": [
+      "Senior TPM scope on a mission-critical cloud platform programme, Dublin",
+      "Cross-functional engineering/product/analytics partnership matches the operating-model work"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 64,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.582609+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "feb0a30a770b6524": {
+    "blockers": [],
+    "canonical_id": "feb0a30a770b6524",
+    "concerns": [
+      "Framed as Product Delivery Manager within client services, so scope may be narrower than the title suggests",
+      "Banking domain is new"
+    ],
+    "confidence": "high",
+    "evidence_used": [
+      "led six Senior Programme Managers across five global sites, four countries",
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)",
+      "post-merger delivery rebuild across a 5,600+ employee product organisation"
+    ],
+    "flags": [],
+    "overall": 84,
+    "profile_version": "1.0.0",
+    "qualification_match": 85,
+    "reasons": [
+      "Dependency management, release planning and change readiness map directly to the release-train and portfolio governance remit",
+      "Cross-product, cross-line-of-business programmes match portfolio-collision experience across five portfolios",
+      "Lead level in Dublin"
+    ],
+    "recommendation": "apply",
+    "recruiter_interest": 82,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T06:44:57.575694+00:00",
+    "surfaced": true,
+    "tier": "strong"
+  }
+}
