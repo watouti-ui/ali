@@ -1,0 +1,350 @@
+<title>Scout Calibration</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+:root{
+  --ground:#EEF2F5; --surface:#FFFFFF; --surface-2:#F5F8FA;
+  --ink:#131A21; --ink-2:#3F4E5A; --ink-3:#6B7C89;
+  --rule:#D6DEE4; --rule-2:#E7EDF1;
+  --accent:#0F6670; --accent-soft:#DCEBED;
+  --good:#286B44; --good-soft:#DCEDE2;
+  --watch:#7E5510; --watch-soft:#F2E8D5;
+  --mute:#5C6B78; --mute-soft:#E6EBEF;
+  --line:#0F6670;
+  --shadow:0 1px 2px rgba(19,26,33,.06),0 4px 14px rgba(19,26,33,.05);
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#0C1116; --surface:#141C22; --surface-2:#1A242B;
+    --ink:#E8EFF3; --ink-2:#A9BAC6; --ink-3:#7C8D9A;
+    --rule:#25323B; --rule-2:#1E2A32;
+    --accent:#4FB3BE; --accent-soft:#123034;
+    --good:#67C08C; --good-soft:#13291D;
+    --watch:#D9A650; --watch-soft:#2C2313;
+    --mute:#8496A3; --mute-soft:#1C262D;
+    --line:#4FB3BE;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 4px 16px rgba(0,0,0,.3);
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#0C1116; --surface:#141C22; --surface-2:#1A242B;
+  --ink:#E8EFF3; --ink-2:#A9BAC6; --ink-3:#7C8D9A;
+  --rule:#25323B; --rule-2:#1E2A32;
+  --accent:#4FB3BE; --accent-soft:#123034;
+  --good:#67C08C; --good-soft:#13291D;
+  --watch:#D9A650; --watch-soft:#2C2313;
+  --mute:#8496A3; --mute-soft:#1C262D;
+  --line:#4FB3BE;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 4px 16px rgba(0,0,0,.3);
+}
+*{box-sizing:border-box}
+body{
+  background:var(--ground); color:var(--ink);
+  font-family:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:15px; line-height:1.55; margin:0;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:760px;margin:0 auto;padding:0 18px 96px}
+h1,h2,h3{font-family:"Bricolage Grotesque","IBM Plex Sans",system-ui,sans-serif;text-wrap:balance;margin:0}
+.mono{font-family:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;font-variant-numeric:tabular-nums}
+
+/* ---- sticky bar ---- */
+.bar{
+  position:sticky;top:0;z-index:30;background:var(--surface);
+  border-bottom:1px solid var(--rule);
+  display:flex;align-items:center;gap:12px;
+  padding:10px 18px;margin:0 -18px 0;
+}
+.bar .count{font-size:12.5px;color:var(--ink-2);flex:1;min-width:0}
+.bar .count b{color:var(--ink);font-weight:600}
+.track{height:3px;background:var(--rule-2);border-radius:2px;overflow:hidden;margin-top:5px}
+.track i{display:block;height:100%;width:0;background:var(--accent);transition:width .25s ease}
+@media (prefers-reduced-motion:reduce){.track i{transition:none}}
+.btn{
+  font:inherit;font-size:13px;font-weight:600;cursor:pointer;
+  border:1px solid var(--accent);background:var(--accent);color:var(--surface);
+  border-radius:7px;padding:7px 13px;white-space:nowrap;
+}
+.btn:hover{filter:brightness(1.08)}
+.btn:focus-visible,.v:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* ---- header ---- */
+header{padding:38px 0 26px;border-bottom:1px solid var(--rule)}
+.eyebrow{
+  font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:12px
+}
+h1{font-size:clamp(30px,6.4vw,42px);line-height:1.08;letter-spacing:-.02em;font-weight:700}
+.lede{color:var(--ink-2);font-size:16px;margin:14px 0 0;max-width:62ch}
+.stats{display:flex;flex-wrap:wrap;gap:22px;margin-top:22px}
+.stat .n{font-family:"IBM Plex Mono",monospace;font-size:22px;font-weight:600;letter-spacing:-.02em}
+.stat .l{font-size:11.5px;color:var(--ink-3);text-transform:uppercase;letter-spacing:.07em;margin-top:1px}
+
+/* ---- asks ---- */
+.asks{background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:20px 22px;margin:26px 0 0;box-shadow:var(--shadow)}
+.asks h2{font-size:16px;font-weight:600;letter-spacing:-.01em}
+.asks ol{margin:12px 0 0;padding-left:20px;color:var(--ink-2);font-size:14.5px}
+.asks li{margin-bottom:8px}
+.asks li:last-child{margin-bottom:0}
+.asks b{color:var(--ink);font-weight:600}
+
+/* ---- section headings ---- */
+.sec{margin:44px 0 0}
+.sec-h{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.sec-h h2{font-size:21px;font-weight:700;letter-spacing:-.015em}
+.sec-h .c{font-family:"IBM Plex Mono",monospace;font-size:13px;color:var(--ink-3)}
+.sec p{color:var(--ink-2);font-size:14.5px;margin:8px 0 0;max-width:64ch}
+
+/* ---- threshold rule: the real 70 line ---- */
+.thresh{display:flex;align-items:center;gap:14px;margin:40px 0 4px}
+.thresh .l{flex:1;height:2px;background:repeating-linear-gradient(90deg,var(--line) 0 7px,transparent 7px 14px);opacity:.7}
+.thresh .t{
+  font-family:"IBM Plex Mono",monospace;font-size:11.5px;font-weight:600;letter-spacing:.1em;
+  text-transform:uppercase;color:var(--line);white-space:nowrap
+}
+
+/* ---- cards ---- */
+.card{
+  background:var(--surface);border:1px solid var(--rule);border-radius:12px;
+  padding:18px;margin-top:14px;box-shadow:var(--shadow);
+  display:grid;grid-template-columns:auto 1fr;gap:0 16px;
+}
+.card.done{border-color:var(--accent)}
+.score{
+  font-family:"IBM Plex Mono",monospace;font-size:25px;font-weight:600;line-height:1;
+  letter-spacing:-.03em;width:56px;text-align:center;padding:11px 0 9px;border-radius:9px;
+}
+.score small{display:block;font-size:9.5px;font-weight:400;letter-spacing:.09em;text-transform:uppercase;margin-top:5px;opacity:.85}
+.s-apply{background:var(--good-soft);color:var(--good)}
+.s-watch{background:var(--watch-soft);color:var(--watch)}
+.s-skip{background:var(--mute-soft);color:var(--mute)}
+.head h3{font-size:16.5px;font-weight:600;line-height:1.3;letter-spacing:-.01em}
+.org{color:var(--ink-2);font-size:13.5px;margin-top:3px}
+.org .dot{color:var(--ink-3);margin:0 6px}
+.meta{display:flex;flex-wrap:wrap;gap:6px;margin-top:9px}
+.chip{
+  font-family:"IBM Plex Mono",monospace;font-size:10.5px;font-weight:600;letter-spacing:.05em;
+  text-transform:uppercase;padding:3px 7px;border-radius:5px;background:var(--surface-2);
+  color:var(--ink-3);border:1px solid var(--rule-2)
+}
+.chip.rec-apply{background:var(--good-soft);color:var(--good);border-color:transparent}
+.chip.rec-research_more{background:var(--watch-soft);color:var(--watch);border-color:transparent}
+.chip.dup{background:var(--accent-soft);color:var(--accent);border-color:transparent}
+.body{grid-column:1/-1;margin-top:14px}
+.pts{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.pts li{display:grid;grid-template-columns:16px 1fr;gap:8px;font-size:14px;color:var(--ink-2);line-height:1.5}
+.pts .m{font-family:"IBM Plex Mono",monospace;font-weight:600;text-align:center}
+.pro .m{color:var(--good)} .con .m{color:var(--watch)} .flag .m{color:var(--accent)}
+.pts.con,.pts.flag{margin-top:6px}
+.flag li{font-size:13.5px;color:var(--ink-3)}
+.link{display:inline-block;margin-top:12px;font-size:13px;color:var(--accent);text-decoration:none;border-bottom:1px solid currentColor;padding-bottom:1px;word-break:break-word}
+.link:hover{opacity:.75}
+
+/* ---- verdict ---- */
+.verdict{grid-column:1/-1;display:flex;gap:7px;margin-top:15px;padding-top:14px;border-top:1px solid var(--rule-2);flex-wrap:wrap}
+.v{
+  font:inherit;font-size:13px;font-weight:500;cursor:pointer;flex:1;min-width:104px;
+  border:1px solid var(--rule);background:var(--surface-2);color:var(--ink-2);
+  border-radius:7px;padding:8px 10px;transition:background .12s,border-color .12s,color .12s
+}
+@media (prefers-reduced-motion:reduce){.v{transition:none}}
+.v:hover{border-color:var(--ink-3)}
+.v[aria-pressed="true"]{font-weight:600}
+.v.yes[aria-pressed="true"]{background:var(--good-soft);border-color:var(--good);color:var(--good)}
+.v.no[aria-pressed="true"]{background:var(--mute-soft);border-color:var(--mute);color:var(--mute)}
+.v.maybe[aria-pressed="true"]{background:var(--watch-soft);border-color:var(--watch);color:var(--watch)}
+
+/* ---- near-miss compact ---- */
+details.near{margin-top:14px}
+details.near>summary{
+  cursor:pointer;list-style:none;background:var(--surface);border:1px solid var(--rule);
+  border-radius:12px;padding:15px 18px;font-weight:600;font-size:15px;box-shadow:var(--shadow);
+  display:flex;align-items:center;gap:10px
+}
+details.near>summary::-webkit-details-marker{display:none}
+details.near>summary .arw{font-family:"IBM Plex Mono",monospace;color:var(--accent);transition:transform .15s}
+details.near[open]>summary .arw{transform:rotate(90deg)}
+details.near>summary .sub{font-weight:400;color:var(--ink-3);font-size:13px;margin-left:auto;text-align:right}
+
+/* ---- summary / handback ---- */
+.out{background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:20px 22px;margin-top:16px;box-shadow:var(--shadow)}
+.out h2{font-size:17px;font-weight:600}
+.out p{color:var(--ink-2);font-size:14px;margin:8px 0 0}
+textarea{
+  width:100%;margin-top:14px;min-height:160px;resize:vertical;
+  font-family:"IBM Plex Mono",monospace;font-size:12.5px;line-height:1.6;
+  background:var(--surface-2);color:var(--ink);border:1px solid var(--rule);
+  border-radius:8px;padding:12px
+}
+.out .row{display:flex;gap:9px;margin-top:12px;flex-wrap:wrap;align-items:center}
+.said{font-size:13px;color:var(--good);font-weight:600}
+footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--rule);color:var(--ink-3);font-size:12.5px}
+@media(max-width:520px){
+  .card{grid-template-columns:1fr;gap:0}
+  .score{width:auto;display:inline-flex;align-items:baseline;gap:8px;padding:7px 11px;font-size:20px;margin-bottom:11px}
+  .score small{display:inline;margin:0;font-size:9.5px}
+  .v{min-width:0;flex:1 1 30%}
+}
+</style>
+
+<div class="bar">
+  <div class="count">
+    <span><b id="n">0</b> of <b id="tot">0</b> reviewed</span>
+    <div class="track"><i id="pb"></i></div>
+  </div>
+  <button class="btn" id="jump">Summary</button>
+</div>
+
+<div class="wrap">
+<header>
+  <div class="eyebrow">Phase 1 calibration</div>
+  <h1>Does the Scout rank what you'd actually apply for?</h1>
+  <p class="lede">Seventy-six real jobs, scouted from Trainline's board plus LinkedIn and Indeed, scored against evidence bank v2.11. Twenty cleared the threshold. The scores are my judgement, not yours — which is exactly the problem. Mark each one and hand the verdicts back.</p>
+  <div class="stats">
+    <div class="stat"><div class="n" id="s1">76</div><div class="l">scored</div></div>
+    <div class="stat"><div class="n">20</div><div class="l">surfaced</div></div>
+    <div class="stat"><div class="n">23</div><div class="l">near misses</div></div>
+    <div class="stat"><div class="n">1</div><div class="l">blocked</div></div>
+  </div>
+</header>
+
+<div class="asks">
+  <h2>What I'm actually asking</h2>
+  <ol>
+    <li><b>False positives.</b> Anything above the line that's obviously not for you? I suspect the four Google data-centre roles — I may be over-crediting the "12 data centres retired" evidence.</li>
+    <li><b>False negatives.</b> Anything below the line you'd genuinely pursue? This is the one failure mode I cannot catch alone, and spec §5 makes it the primary metric.</li>
+    <li><b>One judgement call.</b> Both MongoDB roles sit below the line despite near-perfect titles, because their JDs ask for a 10-year software development background. Too cautious? If you'd apply anyway, my whole treatment of stated-but-soft requirements needs loosening.</li>
+    <li><b>Missing entirely.</b> Any role you've seen on LinkedIn this week that never appeared here at all — that's a Scout coverage gap, not a scoring one.</li>
+  </ol>
+</div>
+
+<div class="sec">
+  <div class="sec-h"><h2>Above the line</h2><span class="c" id="cnt-a"></span></div>
+  <p>Both qualification match and overall score clear 70, with no hard blocker. Ranked by overall.</p>
+</div>
+<div id="list-a"></div>
+
+<div class="thresh"><div class="l"></div><div class="t">Threshold · 70</div><div class="l"></div></div>
+
+<div class="sec" style="margin-top:18px">
+  <div class="sec-h"><h2>Below the line</h2><span class="c" id="cnt-b"></span></div>
+  <p>Scored 50–69, so not surfaced. Worth your eye anyway: a role you'd chase down here means the thresholds or the weights are wrong.</p>
+</div>
+<details class="near" id="neardet">
+  <summary><span class="arw">›</span> Show the 23 near misses <span class="sub">including both MongoDB roles</span></summary>
+  <div id="list-b"></div>
+</details>
+
+<div class="out" id="out">
+  <h2>Hand the verdicts back</h2>
+  <p>Copy this and paste it into the chat. I'll retune the weights in <span class="mono">candidate_profile.yaml</span> and re-score everything.</p>
+  <textarea id="ta" readonly aria-label="Your verdicts, ready to copy"></textarea>
+  <div class="row">
+    <button class="btn" id="copy">Copy verdicts</button>
+    <span class="said" id="said" hidden>Copied</span>
+    <button class="btn" id="reset" style="background:transparent;color:var(--ink-2);border-color:var(--rule)">Clear all</button>
+  </div>
+</div>
+
+<footer>Scored under profile 1.0.0 against Master Resume &amp; Career Evidence Bank v2.11. Scores are a first pass and uncalibrated — that is what this page is for.</footer>
+</div>
+
+<script id="data" type="application/json">{"surfaced": [{"id": "6451ce44a6735ce1", "overall": 87, "q": 88, "r": 86, "tier": "very strong", "surfaced": true, "rec": "apply", "conf": "high", "title": "Director, Technical Program Management", "company": "Mastercard", "location": "Dublin, County Dublin, Ireland", "url": "https://ie.linkedin.com/jobs/view/director-technical-program-management-at-mastercard-4450818523?position=24&pageNum=0&refId=vh9uZPPzvbwJMuB9%2FdTTpg%3D%3D&trackingId=xZIGQqLCwUwPrbQYAYADVw%3D%3D", "sources": 1, "reasons": ["Explicitly asks for a leader of a global TPM team, which is Ali's current remit rather than a stretch", "End-to-end delivery ownership from inception to completion across simultaneous engineering programmes", "Director level in Dublin, a co-primary market with established credibility"], "concerns": ["Director is one rung above the HR-verified Senior Manager title, so the step up needs framing", "Payments/critical national infrastructure is a new domain"], "flags": [], "evidence": ["led six Senior Programme Managers across five global sites, four countries", "25M+ customer migration off a legacy stack, zero service interruption", "post-merger delivery rebuild across a 5,600+ employee product organisation"], "family": "technical_programme"}, {"id": "feb0a30a770b6524", "overall": 84, "q": 85, "r": 82, "tier": "strong", "surfaced": true, "rec": "apply", "conf": "high", "title": "Lead Technical Program Manager", "company": "JPMorganChase", "location": "Dublin, County Dublin, Ireland", "url": "https://ie.linkedin.com/jobs/view/lead-technical-program-manager-at-jpmorganchase-4442433978?position=15&pageNum=0&refId=vh9uZPPzvbwJMuB9%2FdTTpg%3D%3D&trackingId=gnGJL%2FZfJUtMPGP%2BTxEk1w%3D%3D", "sources": 2, "reasons": ["Dependency management, release planning and change readiness map directly to the release-train and portfolio governance remit", "Cross-product, cross-line-of-business programmes match portfolio-collision experience across five portfolios", "Lead level in Dublin"], "concerns": ["Framed as Product Delivery Manager within client services, so scope may be narrower than the title suggests", "Banking domain is new"], "flags": [], "evidence": ["led six Senior Programme Managers across five global sites, four countries", "~30% faster launch cycles across 20+ launches (PLR, company standard)", "post-merger delivery rebuild across a 5,600+ employee product organisation"], "family": "technical_programme"}, {"id": "c5d18f36fae768af", "overall": 82, "q": 84, "r": 80, "tier": "strong", "surfaced": true, "rec": "apply", "conf": "high", "title": "Sr. Technical Program Manager, Central Ops", "company": "Amazon Web Services (AWS)", "location": "Dublin, County Dublin, Ireland", "url": "https://ie.linkedin.com/jobs/view/sr-technical-program-manager-central-ops-at-amazon-web-services-aws-4455916069?position=3&pageNum=0&refId=vh9uZPPzvbwJMuB9%2FdTTpg%3D%3D&trackingId=%2B3tleri09lugGLNh3HF9gw%3D%3D", "sources": 2, "reasons": ["Rack migrations, retirements and capacity installation are the same programme shape as the data-centre retirement and platform consolidation work", "Explicit EMEA scope and mentoring of junior TPMs matches the team-leadership remit", "Large-scale migration programmes are Ali's strongest evidence area"], "concerns": ["Heavier data-centre operations depth than Ali's platform/product background", "Amazon TPM loops are notoriously technical"], "flags": [], "evidence": ["12 data centres retired, $1M data-centre cost removed in cross-brand consolidation", "25M+ customer migration off a legacy stack, zero service interruption", "led six Senior Programme Managers across five global sites, four countries"], "family": "technical_programme"}, {"id": "d39035689c333bfa", "overall": 82, "q": 84, "r": 80, "tier": "strong", "surfaced": true, "rec": "research_more", "conf": "high", "title": "Technical Programme Manager, Core Tech", "company": "trainline", "location": "London", "url": "https://jobs.ashbyhq.com/trainline/46dd16c5-ac6c-4f82-9f2e-c6467078f38a", "sources": 1, "reasons": ["Core platform TPM role at a rail platform business, close to the platform-consolidation narrative", "London is a co-primary market with full right to work and no sponsorship needed"], "concerns": ["An application for this role is already in flight per the Career Resume Hub tracker, so do not duplicate", "JD mentions PMP"], "flags": ["JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."], "evidence": ["25M+ customer migration off a legacy stack, zero service interruption", "12 data centres retired, $1M data-centre cost removed in cross-brand consolidation", "~30% faster launch cycles across 20+ launches (PLR, company standard)"], "family": "technical_programme"}, {"id": "37c819256e14e2ae", "overall": 77, "q": 78, "r": 76, "tier": "strong", "surfaced": true, "rec": "apply", "conf": "medium", "title": "AI Program Manager", "company": "Dunnes Stores", "location": "Dublin 4, County Dublin, Ireland", "url": "https://ie.linkedin.com/jobs/view/ai-program-manager-at-dunnes-stores-4443795528?position=23&pageNum=0&refId=vh9uZPPzvbwJMuB9%2FdTTpg%3D%3D&trackingId=s3DZmYXrJ6Yv%2F%2B6zeiqS1Q%3D%3D", "sources": 1, "reasons": ["An AI Program Manager role is the clearest match for the AI-adoption differentiator: 80% adoption across 40+ programme managers with 60%+ administration reduction", "Dublin-based, in the target band", "Programme-led AI enablement rather than ML engineering, which is exactly how the evidence bank says to position it"], "concerns": ["Retail domain is new", "Need to confirm the role is adoption/enablement, not model development, which Ali must not claim"], "flags": [], "evidence": ["80% AI adoption across 40+ programme managers, 60%+ administration reduction", "post-merger delivery rebuild across a 5,600+ employee product organisation", "~30% faster launch cycles across 20+ launches (PLR, company standard)"], "family": "ai_adoption"}, {"id": "a30590e235fefc1d", "overall": 77, "q": 78, "r": 76, "tier": "strong", "surfaced": true, "rec": "research_more", "conf": "medium", "title": "Sr. Technical Program Manager, Network Monitoring and Remediation", "company": "Amazon Web Services (AWS)", "location": "Dublin, County Dublin, Ireland", "url": "https://ie.linkedin.com/jobs/view/sr-technical-program-manager-network-monitoring-and-remediation-at-amazon-web-services-aws-4455914175?position=4&pageNum=0&refId=vh9uZPPzvbwJMuB9%2FdTTpg%3D%3D&trackingId=Ow5nfzgPysKIrB%2BNEiKhlQ%3D%3D", "sources": 2, "reasons": ["Senior TPM scope at AWS in Dublin with large-scale programme ownership", "Network monitoring and remediation programmes involve the cross-team dependency work Ali runs"], "concerns": ["More network-infrastructure specific than Ali's product-platform background"], "flags": [], "evidence": ["12 data centres retired, $1M data-centre cost removed in cross-brand consolidation", "led six Senior Programme Managers across five global sites, four countries"], "family": "technical_programme"}, {"id": "1ef64fc9b00d45cd", "overall": 75, "q": 76, "r": 74, "tier": "strong", "surfaced": true, "rec": "research_more", "conf": "medium", "title": "Principal Technical Program Manager- Windows Compatibility", "company": "Microsoft", "location": "Dublin, County Dublin, Ireland", "url": "https://ie.linkedin.com/jobs/view/principal-technical-program-manager-windows-compatibility-at-microsoft-4455112070?position=5&pageNum=0&refId=vh9uZPPzvbwJMuB9%2FdTTpg%3D%3D&trackingId=8jyQFl659q0E3Wf6PfoS%2Fw%3D%3D", "sources": 2, "reasons": ["Principal-level TPM with strategic leadership across an organisation, matching seniority and scope", "JD explicitly calls out deploying AI to meet team goals, which is Ali's differentiator"], "concerns": ["Windows compatibility demands deep OS-internals familiarity Ali has not evidenced", "JD appears to state a degree requirement"], "flags": ["JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."], "evidence": ["80% AI adoption across 40+ programme managers, 60%+ administration reduction", "led six Senior Programme Managers across five global sites, four countries", "~30% faster launch cycles across 20+ launches (PLR, company standard)"], "family": "technical_programme"}, {"id": "0ce66422b1a6b648", "overall": 74, "q": 74, "r": 74, "tier": "worth reviewing", "surfaced": true, "rec": "research_more", "conf": "medium", "title": "Technical Program Manager III, Data Center Deployments", "company": "Google", "location": "Dublin, Ireland", "url": "https://ie.indeed.com/viewjob?jk=e0fa0ac24ee88fb1", "sources": 3, "reasons": ["Data-centre deployment/expansion programmes align with the 12-data-centre retirement and migration evidence", "TPM III at Google Dublin sits in the target band"], "concerns": ["Construction/capacity delivery emphasis is further from product-platform delivery", "Google TPM hiring bar leans heavily technical"], "flags": [], "evidence": ["12 data centres retired, $1M data-centre cost removed in cross-brand consolidation", "25M+ customer migration off a legacy stack, zero service interruption"], "family": "technical_programme"}, {"id": "638d46a9e718946c", "overall": 74, "q": 74, "r": 74, "tier": "worth reviewing", "surfaced": true, "rec": "research_more", "conf": "medium", "title": "Technical Program Manager III, Data Center Expansions", "company": "Google", "location": "Dublin, County Dublin, Ireland", "url": "https://ie.linkedin.com/jobs/view/technical-program-manager-iii-data-center-expansions-at-google-4449382077?position=6&pageNum=0&refId=vh9uZPPzvbwJMuB9%2FdTTpg%3D%3D&trackingId=m9za2JDCDyu7JS1fTNMarw%3D%3D", "sources": 2, "reasons": ["Data-centre deployment/expansion programmes align with the 12-data-centre retirement and migration evidence", "TPM III at Google Dublin sits in the target band"], "concerns": ["Construction/capacity delivery emphasis is further from product-platform delivery", "Google TPM hiring bar leans heavily technical"], "flags": [], "evidence": ["12 data centres retired, $1M data-centre cost removed in cross-brand consolidation", "25M+ customer migration off a legacy stack, zero service interruption"], "family": "technical_programme"}, {"id": "e28066f55727f513", "overall": 74, "q": 76, "r": 72, "tier": "worth reviewing", "surfaced": true, "rec": "research_more", "conf": "low", "title": "Programme Director", "company": "Innovate Business Technology", "location": "Dublin, Ireland", "url": "https://ie.indeed.com/viewjob?jk=dce5ddf99cd2df20", "sources": 1, "reasons": ["Programme Director title sits at the transformation/programme-director level Ali targets", "Dublin-based"], "concerns": ["Small consultancy, so scope and stability need checking", "JD mentions PMP"], "flags": ["JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."], "evidence": ["post-merger delivery rebuild across a 5,600+ employee product organisation", "led six Senior Programme Managers across five global sites, four countries", "~3M customer migration in a full brand/product sunset"], "family": "transformation"}, {"id": "149b0e07702e546d", "overall": 73, "q": 74, "r": 72, "tier": "worth reviewing", "surfaced": true, "rec": "research_more", "conf": "medium", "title": "Senior Technical Program Manager - Windows Compatibility", "company": "Microsoft", "location": "Dublin, County Dublin, Ireland", "url": "https://ie.linkedin.com/jobs/view/senior-technical-program-manager-windows-compatibility-at-microsoft-4455110412?position=7&pageNum=0&refId=vh9uZPPzvbwJMuB9%2FdTTpg%3D%3D&trackingId=wLez9BNoZBnIwoe7VBAGCw%3D%3D", "sources": 2, "reasons": ["Senior TPM at Microsoft Dublin with platform-quality programme ownership"], "concerns": ["Same Windows-internals depth gap as the Principal variant", "JD appears to state a degree requirement"], "flags": ["JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."], "evidence": ["80% AI adoption across 40+ programme managers, 60%+ administration reduction", "~30% faster launch cycles across 20+ launches (PLR, company standard)"], "family": "technical_programme"}, {"id": "2d9da69f7c30df22", "overall": 73, "q": 72, "r": 74, "tier": "worth reviewing", "surfaced": true, "rec": "research_more", "conf": "medium", "title": "Technical Program Manager, Fibre Capacity Delivery", "company": "Google", "location": "Dublin, Ireland", "url": "https://ie.indeed.com/viewjob?jk=0931cb7f42659110", "sources": 1, "reasons": ["Technical programme ownership with cross-functional delivery at Google Dublin"], "concerns": ["Fibre capacity delivery is a telecoms-infrastructure domain with no direct evidence", "JD mentions PMP"], "flags": ["JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."], "evidence": ["12 data centres retired, $1M data-centre cost removed in cross-brand consolidation"], "family": "technical_programme"}, {"id": "335d3ac72cc71ec7", "overall": 73, "q": 74, "r": 72, "tier": "worth reviewing", "surfaced": true, "rec": "research_more", "conf": "medium", "title": "UKI Technology Consulting - Technology Delivery - Senior Technical Project/Programme Manager", "company": "EY", "location": "Dublin 2, County Dublin, Ireland", "url": "https://ie.linkedin.com/jobs/view/uki-technology-consulting-technology-delivery-senior-technical-project-programme-manager-at-ey-4385046336?position=13&pageNum=0&refId=vh9uZPPzvbwJMuB9%2FdTTpg%3D%3D&trackingId=Y%2BtWHNP3HZnV1%2BrsqvWrCQ%3D%3D", "sources": 1, "reasons": ["Technology delivery TPM within EY's UKI consulting practice, Dublin", "Technical delivery leadership across client programmes"], "concerns": ["Consulting utilisation model", "JD mentions PMP"], "flags": ["JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."], "evidence": ["post-merger delivery rebuild across a 5,600+ employee product organisation", "~30% faster launch cycles across 20+ launches (PLR, company standard)", "led six Senior Programme Managers across five global sites, four countries"], "family": "technical_programme"}, {"id": "4a2b535b74e498d7", "overall": 73, "q": 74, "r": 72, "tier": "worth reviewing", "surfaced": true, "rec": "research_more", "conf": "medium", "title": "UKI Technology Consulting - Technology Delivery - Technical Project Manager", "company": "EY", "location": "Dublin 2, County Dublin, Ireland", "url": "https://ie.linkedin.com/jobs/view/uki-technology-consulting-technology-delivery-technical-project-manager-at-ey-4385034803?position=25&pageNum=0&refId=vh9uZPPzvbwJMuB9%2FdTTpg%3D%3D&trackingId=k0bucEVlFRPyRnz%2FeQXGjQ%3D%3D", "sources": 1, "reasons": ["Technology delivery TPM within EY's UKI consulting practice, Dublin", "Technical delivery leadership across client programmes"], "concerns": ["Consulting utilisation model", "JD mentions PMP"], "flags": ["JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."], "evidence": ["post-merger delivery rebuild across a 5,600+ employee product organisation", "~30% faster launch cycles across 20+ launches (PLR, company standard)", "led six Senior Programme Managers across five global sites, four countries"], "family": "technical_programme"}, {"id": "cb8323a1feb5bb4b", "overall": 73, "q": 74, "r": 72, "tier": "worth reviewing", "surfaced": true, "rec": "research_more", "conf": "medium", "title": "Senior Programme Manager", "company": "Tesco", "location": "D\u00fan Laoghaire, Ireland", "url": "https://ie.indeed.com/viewjob?jk=4d555cec43005a78", "sources": 1, "reasons": ["Senior Programme Manager at a major retailer, in band and in market"], "concerns": ["Retail domain new", "JD mentions PMP"], "flags": ["JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."], "evidence": ["post-merger delivery rebuild across a 5,600+ employee product organisation", "Norton Small Business expansion from 4 to 21 markets"], "family": "transformation"}, {"id": "08e0735519dd6771", "overall": 71, "q": 72, "r": 70, "tier": "worth reviewing", "surfaced": true, "rec": "research_more", "conf": "medium", "title": "Transport Sector Project Manager \u2013 Associate Director/ Director Level", "company": "Grant Thornton", "location": "Dublin, Ireland", "url": "https://ie.indeed.com/viewjob?jk=1f73c1fbf8322a5d", "sources": 1, "reasons": ["Associate Director / Director level in a Big Four transformation practice, Dublin", "Sector transformation programmes match the operating-model redesign narrative"], "concerns": ["Consulting delivery model differs from in-house portfolio ownership", "JD mentions PMP"], "flags": ["JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."], "evidence": ["post-merger delivery rebuild across a 5,600+ employee product organisation", "led six Senior Programme Managers across five global sites, four countries"], "family": "transformation"}, {"id": "80280cbda5d8c76b", "overall": 71, "q": 72, "r": 70, "tier": "worth reviewing", "surfaced": true, "rec": "research_more", "conf": "medium", "title": "Project Management Office (PMO) - Programme Manager", "company": "Sustainable Energy Authority of Ireland", "location": "Dublin, Ireland", "url": "https://ie.indeed.com/viewjob?jk=07a15e49753e0556", "sources": 1, "reasons": ["PMO programme management maps directly to the Global PMO title and portfolio governance evidence"], "concerns": ["Public-sector pace and process", "JD mentions PMP"], "flags": ["JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."], "evidence": ["led six Senior Programme Managers across five global sites, four countries", "~30% faster launch cycles across 20+ launches (PLR, company standard)"], "family": "transformation"}, {"id": "9a3c7b836dd64bae", "overall": 71, "q": 72, "r": 70, "tier": "worth reviewing", "surfaced": true, "rec": "research_more", "conf": "medium", "title": "Utilities Sector Project Manager \u2013 Associate Director / Director", "company": "Grant Thornton", "location": "Dublin, Ireland", "url": "https://ie.indeed.com/viewjob?jk=ab1cc882214b68bb", "sources": 1, "reasons": ["Associate Director / Director level in a Big Four transformation practice, Dublin", "Sector transformation programmes match the operating-model redesign narrative"], "concerns": ["Consulting delivery model differs from in-house portfolio ownership", "JD mentions PMP"], "flags": ["JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."], "evidence": ["post-merger delivery rebuild across a 5,600+ employee product organisation", "led six Senior Programme Managers across five global sites, four countries"], "family": "transformation"}, {"id": "1da88fdafc36c21b", "overall": 70, "q": 70, "r": 70, "tier": "worth reviewing", "surfaced": true, "rec": "research_more", "conf": "low", "title": "Commercial Operations - Business Program Manager", "company": "Microsoft", "location": "Dublin, Ireland", "url": "https://ie.indeed.com/viewjob?jk=fdeca033c6a2c39b", "sources": 1, "reasons": ["Business programme management at Microsoft Dublin, cross-functional commercial operations"], "concerns": ["Commercial-operations focus is closer to business ops than technical programme delivery"], "flags": [], "evidence": ["Norton Small Business expansion from 4 to 21 markets", "~30% faster launch cycles across 20+ launches (PLR, company standard)"], "family": "product_operations"}, {"id": "48b382c8be19e3ab", "overall": 70, "q": 70, "r": 70, "tier": "worth reviewing", "surfaced": true, "rec": "research_more", "conf": "low", "title": "Program Manager, Server Operations", "company": "Google", "location": "Dublin, Ireland", "url": "https://ie.indeed.com/viewjob?jk=a120224276a146c1", "sources": 1, "reasons": ["Server operations programme management at Google Dublin, within the target band"], "concerns": ["Operations-centric rather than product/platform delivery"], "flags": [], "evidence": ["12 data centres retired, $1M data-centre cost removed in cross-brand consolidation", "post-merger delivery rebuild across a 5,600+ employee product organisation"], "family": "technical_programme"}], "near": [{"id": "5f6408baeb381ff7", "overall": 69, "q": 70, "r": 68, "tier": "below threshold", "surfaced": false, "rec": "research_more", "conf": "low", "title": "Technical Project Manager, Assistant Vice President", "company": "State Street", "location": "Dublin, County Dublin, Ireland", "url": "https://ie.linkedin.com/jobs/view/technical-project-manager-assistant-vice-president-at-state-street-4456492866?position=14&pageNum=0&refId=vh9uZPPzvbwJMuB9%2FdTTpg%3D%3D&trackingId=wFsHOJTEF5qV7eMHYUeUSQ%3D%3D", "sources": 2, "reasons": ["Technical project management at AVP level, which is mid-senior in banking rather than executive", "Dublin-based"], "concerns": ["Project rather than programme scope may be a step down", "JD mentions PMP"], "flags": ["JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."], "evidence": ["~30% faster launch cycles across 20+ launches (PLR, company standard)"], "family": "technical_programme"}, {"id": "ad520fc801f8ba71", "overall": 69, "q": 70, "r": 68, "tier": "below threshold", "surfaced": false, "rec": "research_more", "conf": "low", "title": "Delivery Program Manager", "company": "Sitecore", "location": "Dublin, County Dublin, Ireland", "url": "https://ie.linkedin.com/jobs/view/delivery-program-manager-at-sitecore-4418256137?position=19&pageNum=0&refId=vh9uZPPzvbwJMuB9%2FdTTpg%3D%3D&trackingId=yVb65OtQZarTCyMcgm4GLQ%3D%3D", "sources": 2, "reasons": ["Delivery programme management at a software vendor in Dublin"], "concerns": ["Delivery-services framing may be customer-project rather than product-platform"], "flags": [], "evidence": ["~30% faster launch cycles across 20+ launches (PLR, company standard)", "led six Senior Programme Managers across five global sites, four countries"], "family": "technical_programme"}, {"id": "f82d2c5af6e1c604", "overall": 67, "q": 68, "r": 66, "tier": "below threshold", "surfaced": false, "rec": "research_more", "conf": "low", "title": "Technical Program Manager", "company": "Apto", "location": "Dublin, County Dublin, Ireland", "url": "https://ie.linkedin.com/jobs/view/technical-program-manager-at-apto-4422796960?position=18&pageNum=0&refId=vh9uZPPzvbwJMuB9%2FdTTpg%3D%3D&trackingId=cdPGW6Rp1W%2FY55382eLATg%3D%3D", "sources": 2, "reasons": ["Technical Program Manager title in Dublin"], "concerns": ["Small/unknown employer, scope unclear", "JD mentions PMP"], "flags": ["JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."], "evidence": ["~30% faster launch cycles across 20+ launches (PLR, company standard)"], "family": "technical_programme"}, {"id": "944018c0a8739693", "overall": 66, "q": 68, "r": 64, "tier": "below threshold", "surfaced": false, "rec": "research_more", "conf": "low", "title": "Technical Programme Lead", "company": "G MASS Consulting", "location": "Dublin, County Dublin, Ireland", "url": "https://ie.linkedin.com/jobs/view/technical-programme-lead-at-g-mass-consulting-4449753499?position=21&pageNum=0&refId=vh9uZPPzvbwJMuB9%2FdTTpg%3D%3D&trackingId=dP3Lcf7afH6yeqpA5YywaQ%3D%3D", "sources": 2, "reasons": ["Technical Programme Lead in Dublin, in band"], "concerns": ["Consultancy intermediary, end client unknown", "JD appears to state a degree requirement"], "flags": ["JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."], "evidence": ["led six Senior Programme Managers across five global sites, four countries", "~30% faster launch cycles across 20+ launches (PLR, company standard)"], "family": "technical_programme"}, {"id": "1e00043e82e091c5", "overall": 65, "q": 66, "r": 64, "tier": "below threshold", "surfaced": false, "rec": "skip", "conf": "low", "title": "Programme Manager", "company": "PFH Technology Group", "location": "Dublin, Ireland", "url": "https://ie.indeed.com/viewjob?jk=e15d3d1eeeaa1445", "sources": 1, "reasons": ["Programme Manager role in Dublin within the target band"], "concerns": ["IT services delivery model", "JD mentions PMP"], "flags": ["JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."], "evidence": ["~30% faster launch cycles across 20+ launches (PLR, company standard)"], "family": "technical_programme"}, {"id": "3adb904da16e6f35", "overall": 65, "q": 66, "r": 64, "tier": "below threshold", "surfaced": false, "rec": "skip", "conf": "low", "title": "GTM Systems & Automation Lead (Remote)", "company": "Telnyx", "location": "Dublin, County Dublin, Ireland", "url": "https://ie.linkedin.com/jobs/view/gtm-systems-automation-lead-remote-at-telnyx-4453675196?position=17&pageNum=0&refId=vh9uZPPzvbwJMuB9%2FdTTpg%3D%3D&trackingId=169S1k2KEmIdAQmRjqxmMg%3D%3D", "sources": 2, "reasons": ["GTM systems and automation leadership touches launch readiness and tooling improvement"], "concerns": ["Systems/automation ownership is closer to RevOps tooling than programme leadership"], "flags": [], "evidence": ["~30% faster launch cycles across 20+ launches (PLR, company standard)", "Norton Small Business expansion from 4 to 21 markets"], "family": "product_operations"}, {"id": "47ad4381595704f2", "overall": 65, "q": 66, "r": 64, "tier": "below threshold", "surfaced": false, "rec": "skip", "conf": "low", "title": "Telecommunication Program Manager, Network Delivery Team", "company": "Amazon", "location": "Dublin, County Dublin, Ireland", "url": "https://ie.linkedin.com/jobs/view/telecommunication-program-manager-network-delivery-team-at-amazon-4455903291?position=11&pageNum=0&refId=vh9uZPPzvbwJMuB9%2FdTTpg%3D%3D&trackingId=ykWZYT5e1sWlIPAuHQOPsw%3D%3D", "sources": 2, "reasons": ["Amazon programme management in Dublin with network delivery scope"], "concerns": ["Telecommunications infrastructure domain has no supporting evidence"], "flags": [], "evidence": ["12 data centres retired, $1M data-centre cost removed in cross-brand consolidation"], "family": "technical_programme"}, {"id": "c3952139c74188ee", "overall": 65, "q": 64, "r": 66, "tier": "below threshold", "surfaced": false, "rec": "skip", "conf": "medium", "title": "Oracle Programme Delivery Lead, Hybrid", "company": "Deloitte", "location": "Dublin, County Dublin, Ireland", "url": "https://ie.linkedin.com/jobs/view/oracle-programme-delivery-lead-hybrid-at-deloitte-4434646365?position=20&pageNum=0&refId=vh9uZPPzvbwJMuB9%2FdTTpg%3D%3D&trackingId=wy7jpNq2RLHPiSexl6NtbA%3D%3D", "sources": 1, "reasons": ["Programme delivery leadership at Deloitte Dublin"], "concerns": ["Oracle ERP delivery specificity is unsupported by Ali's evidence"], "flags": [], "evidence": ["post-merger delivery rebuild across a 5,600+ employee product organisation"], "family": "transformation"}, {"id": "e510285d3405e0d3", "overall": 65, "q": 66, "r": 64, "tier": "below threshold", "surfaced": false, "rec": "skip", "conf": "low", "title": "Telecommunication Program Manager, Network Delivery Team, Network Delivery Team", "company": "Amazon", "location": "Dublin, County Dublin, Ireland", "url": "https://ie.linkedin.com/jobs/view/telecommunication-program-manager-network-delivery-team-network-delivery-team-at-amazon-4455918233?position=10&pageNum=0&refId=vh9uZPPzvbwJMuB9%2FdTTpg%3D%3D&trackingId=Q9kC9ZqazxKs8D4fXYsyPA%3D%3D", "sources": 2, "reasons": ["Amazon programme management in Dublin with network delivery scope"], "concerns": ["Telecommunications infrastructure domain has no supporting evidence"], "flags": [], "evidence": ["12 data centres retired, $1M data-centre cost removed in cross-brand consolidation"], "family": "technical_programme"}, {"id": "fe9f65c6480437bb", "overall": 62, "q": 60, "r": 64, "tier": "below threshold", "surfaced": false, "rec": "skip", "conf": "high", "title": "Senior Technical Program Manager Atlas Clusters", "company": "MongoDB", "location": "Dublin, County Dublin, Ireland", "url": "https://ie.linkedin.com/jobs/view/senior-technical-program-manager-atlas-clusters-at-mongodb-4450238452?position=1&pageNum=0&refId=vh9uZPPzvbwJMuB9%2FdTTpg%3D%3D&trackingId=zgMIO865hfuX8X3kmcy%2F7Q%3D%3D", "sources": 2, "reasons": ["Senior TPM scope on a mission-critical cloud platform programme, Dublin", "Cross-functional engineering/product/analytics partnership matches the operating-model work"], "concerns": ["Same stated software-development background requirement as the Staff role", "Atlas cluster internals imply infrastructure depth Ali has not evidenced"], "flags": [], "evidence": ["led six Senior Programme Managers across five global sites, four countries", "12 data centres retired, $1M data-centre cost removed in cross-brand consolidation"], "family": "technical_programme"}, {"id": "83fed18a871500ba", "overall": 61, "q": 62, "r": 60, "tier": "below threshold", "surfaced": false, "rec": "skip", "conf": "low", "title": "Senior R&D Programme Manager", "company": "VIOTAS", "location": "Dublin, Ireland", "url": "https://ie.indeed.com/viewjob?jk=0fefde0c555f65db", "sources": 1, "reasons": ["Senior R&D programme management in Dublin"], "concerns": ["Energy/R&D hardware domain far from product-platform software delivery"], "flags": [], "evidence": ["~30% faster launch cycles across 20+ launches (PLR, company standard)"], "family": "technical_programme"}, {"id": "96f69150b8167b24", "overall": 61, "q": 62, "r": 60, "tier": "below threshold", "surfaced": false, "rec": "skip", "conf": "low", "title": "Program Manager Direct Current for Data Center (DC for DC) EMEA", "company": "Eaton", "location": "Dublin, County Dublin, Ireland", "url": "https://ie.linkedin.com/jobs/view/program-manager-direct-current-for-data-center-dc-for-dc-emea-at-eaton-4421579969?position=9&pageNum=0&refId=vh9uZPPzvbwJMuB9%2FdTTpg%3D%3D&trackingId=OgpoiZKWZSd3aX%2Bw2rlOMA%3D%3D", "sources": 2, "reasons": ["EMEA programme scope for data-centre power systems"], "concerns": ["Hardware/electrical engineering domain unsupported"], "flags": [], "evidence": ["12 data centres retired, $1M data-centre cost removed in cross-brand consolidation"], "family": "technical_programme"}, {"id": "9911cb55412455a8", "overall": 61, "q": 62, "r": 60, "tier": "below threshold", "surfaced": false, "rec": "skip", "conf": "medium", "title": "Market Research and AI Transformation Lead - 6 Month Fixed Term Contract", "company": "trainline", "location": "London", "url": "https://jobs.ashbyhq.com/trainline/ba596f40-ae5c-4dab-95cf-72f7b810a146", "sources": 1, "reasons": ["AI transformation lead framing touches the AI-adoption differentiator"], "concerns": ["Primarily market research, and a six-month fixed-term contract"], "flags": [], "evidence": ["80% AI adoption across 40+ programme managers, 60%+ administration reduction"], "family": "ai_adoption"}, {"id": "12181186df1c1970", "overall": 60, "q": 58, "r": 62, "tier": "below threshold", "surfaced": false, "rec": "skip", "conf": "high", "title": "Staff Technical Program Manager", "company": "MongoDB", "location": "Dublin, County Dublin, Ireland", "url": "https://ie.linkedin.com/jobs/view/staff-technical-program-manager-at-mongodb-4441294562?position=2&pageNum=0&refId=vh9uZPPzvbwJMuB9%2FdTTpg%3D%3D&trackingId=7ZrPDSWlJ49rvNa%2FxB8i6g%3D%3D", "sources": 2, "reasons": ["15+ years leading complex cross-functional technical programmes in an engineering organisation is met exactly", "Executive-level programme communication and Dublin hybrid/remote-in-Ireland both match"], "concerns": ["JD asks for a 10-year software development background with cloud storage and compute products, which Ali does not have and must not claim", "Service-oriented architecture and cloud infrastructure depth is similarly unevidenced"], "flags": [], "evidence": ["led six Senior Programme Managers across five global sites, four countries", "25M+ customer migration off a legacy stack, zero service interruption"], "family": "technical_programme"}, {"id": "071c7fccb0549fe6", "overall": 57, "q": 58, "r": 56, "tier": "below threshold", "surfaced": false, "rec": "skip", "conf": "low", "title": "Project Manager", "company": "Optum", "location": "Dublin, Ireland", "url": "https://ie.indeed.com/viewjob?jk=7a368923639c70ed", "sources": 1, "reasons": ["Project management role in Dublin"], "concerns": ["Project rather than programme scope is a step down", "JD mentions PMP"], "flags": ["JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."], "evidence": ["~30% faster launch cycles across 20+ launches (PLR, company standard)"], "family": "technical_programme"}, {"id": "3d6c048635181ab9", "overall": 57, "q": 58, "r": 56, "tier": "below threshold", "surfaced": false, "rec": "skip", "conf": "low", "title": "Senior Strategy & Ops Manager - New Verticals", "company": "trainline", "location": "London", "url": "https://jobs.ashbyhq.com/trainline/c6c3bad6-05ad-4a6b-90ad-561d29a1b444", "sources": 1, "reasons": ["Senior strategy and operations leadership at a platform business"], "concerns": ["Strategy/new-verticals commercial focus rather than programme or product operations"], "flags": [], "evidence": ["Norton Small Business expansion from 4 to 21 markets"], "family": "product_operations"}, {"id": "e0d6d7f98edd68b1", "overall": 57, "q": 58, "r": 56, "tier": "below threshold", "surfaced": false, "rec": "skip", "conf": "low", "title": "Programme Manager (Supply Chain) (Retail) - Contract role", "company": "Project Blackbook", "location": "Dublin, Ireland", "url": "https://ie.indeed.com/viewjob?jk=96fca62ace8a313f", "sources": 1, "reasons": ["Programme manager title in Dublin"], "concerns": ["Supply-chain retail contract role, domain unsupported"], "flags": [], "evidence": ["~30% faster launch cycles across 20+ launches (PLR, company standard)"], "family": "transformation"}, {"id": "f597bab4a70afb01", "overall": 57, "q": 58, "r": 56, "tier": "below threshold", "surfaced": false, "rec": "skip", "conf": "medium", "title": "Oracle Fusion Programme Manager", "company": "Ergo", "location": "Dublin, Ireland", "url": "https://ie.indeed.com/viewjob?jk=73664ab9ef2c5990", "sources": 1, "reasons": ["Programme manager scope in Dublin"], "concerns": ["Oracle Fusion ERP implementation specificity is unsupported"], "flags": [], "evidence": ["post-merger delivery rebuild across a 5,600+ employee product organisation"], "family": "transformation"}, {"id": "235089d6daa6ee12", "overall": 55, "q": 56, "r": 54, "tier": "below threshold", "surfaced": false, "rec": "skip", "conf": "low", "title": "Senior Manager, Device Program Lead", "company": "Viatris", "location": "Dublin, County Dublin, Ireland", "url": "https://ie.linkedin.com/jobs/view/senior-manager-device-program-lead-at-viatris-4458231914?position=12&pageNum=0&refId=vh9uZPPzvbwJMuB9%2FdTTpg%3D%3D&trackingId=lYzEiiyS%2BashuhCKuuxXWA%3D%3D", "sources": 1, "reasons": ["Senior Manager level programme leadership in Dublin"], "concerns": ["Medical-device development domain unsupported by evidence"], "flags": [], "evidence": ["~30% faster launch cycles across 20+ launches (PLR, company standard)"], "family": "technical_programme"}, {"id": "c178e395168f01fd", "overall": 55, "q": 56, "r": 54, "tier": "below threshold", "surfaced": false, "rec": "skip", "conf": "low", "title": "Senior Manager, Device Program Lead", "company": "Viatris", "location": "Northern Cross, Ireland", "url": "https://ie.indeed.com/viewjob?jk=823b129a497df932", "sources": 1, "reasons": ["Senior Manager level programme leadership in Dublin"], "concerns": ["Medical-device development domain unsupported by evidence"], "flags": [], "evidence": ["~30% faster launch cycles across 20+ launches (PLR, company standard)"], "family": "technical_programme"}, {"id": "6a635e38e4178dce", "overall": 53, "q": 54, "r": 52, "tier": "below threshold", "surfaced": false, "rec": "skip", "conf": "low", "title": "Technical Project Manager", "company": "Capri-Medical", "location": "Dublin, County Dublin, Ireland", "url": "https://ie.linkedin.com/jobs/view/technical-project-manager-at-capri-medical-4459667666?position=16&pageNum=0&refId=vh9uZPPzvbwJMuB9%2FdTTpg%3D%3D&trackingId=6%2FezaDcMANsz2LChHAulyQ%3D%3D", "sources": 2, "reasons": ["Technical project management in Dublin"], "concerns": ["Medical device domain, project-level scope", "JD mentions PMP"], "flags": ["JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."], "evidence": ["~30% faster launch cycles across 20+ launches (PLR, company standard)"], "family": "technical_programme"}, {"id": "3d147ec4e4c986c3", "overall": 51, "q": 52, "r": 50, "tier": "below threshold", "surfaced": false, "rec": "skip", "conf": "medium", "title": "Sales Strategy & Operations Manager - Advertising", "company": "trainline", "location": "London", "url": "https://jobs.ashbyhq.com/trainline/0c38bb1c-b583-46df-bbfe-1e15d8b66d05", "sources": 1, "reasons": ["Commercial operating-partner scope with pipeline and performance governance"], "concerns": ["Sales strategy and operations for an ad business, not programme or product operations"], "flags": [], "evidence": ["Norton Small Business expansion from 4 to 21 markets"], "family": "product_operations"}, {"id": "992b7678b52f638d", "overall": 51, "q": 52, "r": 50, "tier": "below threshold", "surfaced": false, "rec": "skip", "conf": "medium", "title": "Public Sector Project Manager Senior Consultant / Assistant Manager", "company": "Grant Thornton", "location": "Dublin, Ireland", "url": "https://ie.indeed.com/viewjob?jk=1c2c2c93806f6690", "sources": 1, "reasons": ["Public-sector project management at Grant Thornton Dublin"], "concerns": ["Senior Consultant / Assistant Manager is materially below the target band"], "flags": ["JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."], "evidence": ["~30% faster launch cycles across 20+ launches (PLR, company standard)"], "family": "transformation"}], "total": 75}</script>
+<script>
+(function(){
+  var D=JSON.parse(document.getElementById('data').textContent);
+  var ALL=D.surfaced.concat(D.near), KEY='scout-cal-v1', V={};
+  try{V=JSON.parse(localStorage.getItem(KEY)||'{}')}catch(e){V={}}
+
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+  function cls(r){return r.rec==='apply'?'s-apply':r.rec==='research_more'?'s-watch':'s-skip'}
+
+  function card(r,compact){
+    var el=document.createElement('article'); el.className='card'; el.dataset.id=r.id;
+    var pros=(r.reasons||[]).slice(0,compact?1:3), cons=(r.concerns||[]).slice(0,compact?1:2), flags=compact?[]:(r.flags||[]).slice(0,2);
+    var h='';
+    h+='<div class="score '+cls(r)+'">'+r.overall+'<small>'+esc(r.tier.split(' ')[0])+'</small></div>';
+    h+='<div class="head"><h3>'+esc(r.title)+'</h3>';
+    h+='<div class="org">'+esc(r.company)+'<span class="dot">·</span>'+esc(r.location)+'</div>';
+    h+='<div class="meta"><span class="chip rec-'+r.rec+'">'+esc(r.rec.replace('_',' '))+'</span>';
+    h+='<span class="chip">Q '+r.q+' · R '+r.r+'</span>';
+    h+='<span class="chip">'+esc(r.conf)+' confidence</span>';
+    if(r.sources>1) h+='<span class="chip dup">'+r.sources+' sources merged</span>';
+    h+='</div></div>';
+    h+='<div class="body">';
+    if(pros.length){h+='<ul class="pts pro">'+pros.map(function(p){return '<li><span class="m">+</span><span>'+esc(p)+'</span></li>'}).join('')+'</ul>'}
+    if(cons.length){h+='<ul class="pts con">'+cons.map(function(p){return '<li><span class="m">−</span><span>'+esc(p)+'</span></li>'}).join('')+'</ul>'}
+    if(flags.length){h+='<ul class="pts flag">'+flags.map(function(p){return '<li><span class="m">!</span><span>'+esc(p)+'</span></li>'}).join('')+'</ul>'}
+    h+='<a class="link" href="'+esc(r.url)+'" target="_blank" rel="noopener">Open posting</a>';
+    h+='</div>';
+    h+='<div class="verdict">'
+      +'<button class="v yes" data-v="apply" aria-pressed="false">I\'d apply</button>'
+      +'<button class="v maybe" data-v="maybe" aria-pressed="false">Maybe</button>'
+      +'<button class="v no" data-v="no" aria-pressed="false">Not for me</button>'
+      +'</div>';
+    el.innerHTML=h;
+    el.querySelectorAll('.v').forEach(function(b){
+      b.addEventListener('click',function(){
+        V[r.id] = (V[r.id]===b.dataset.v) ? undefined : b.dataset.v;
+        if(!V[r.id]) delete V[r.id];
+        save(); paint(el,r.id); tally();
+      });
+    });
+    paint(el,r.id);
+    return el;
+  }
+  function paint(el,id){
+    el.querySelectorAll('.v').forEach(function(b){b.setAttribute('aria-pressed', String(V[id]===b.dataset.v))});
+    el.classList.toggle('done', !!V[id]);
+  }
+  function save(){try{localStorage.setItem(KEY,JSON.stringify(V))}catch(e){}}
+
+  var A=document.getElementById('list-a'), B=document.getElementById('list-b');
+  D.surfaced.forEach(function(r){A.appendChild(card(r,false))});
+  D.near.forEach(function(r){B.appendChild(card(r,true))});
+  document.getElementById('cnt-a').textContent=D.surfaced.length+' roles';
+  document.getElementById('cnt-b').textContent=D.near.length+' roles';
+  document.getElementById('tot').textContent=ALL.length;
+  document.getElementById('s1').textContent=D.total;
+
+  function tally(){
+    var n=Object.keys(V).length;
+    document.getElementById('n').textContent=n;
+    document.getElementById('pb').style.width=(n/ALL.length*100)+'%';
+    var yes=[],no=[],maybe=[];
+    ALL.forEach(function(r){
+      var v=V[r.id]; if(!v) return;
+      var line='  '+String(r.overall).padStart(3,' ')+'  '+r.title+' — '+r.company;
+      if(v==='apply') yes.push(line); else if(v==='no') no.push(line); else maybe.push(line);
+    });
+    var t='Scout calibration — '+n+' of '+ALL.length+' reviewed\n';
+    t+='(score shown is what the agent gave it)\n';
+    if(yes.length){t+='\nWOULD APPLY ('+yes.length+')\n'+yes.join('\n')+'\n'}
+    if(maybe.length){t+='\nMAYBE ('+maybe.length+')\n'+maybe.join('\n')+'\n'}
+    if(no.length){t+='\nNOT FOR ME ('+no.length+')\n'+no.join('\n')+'\n'}
+    if(!n) t+='\n(nothing marked yet)\n';
+    t+='\nMissing entirely / seen on LinkedIn but not here:\n  - \n';
+    document.getElementById('ta').value=t;
+  }
+  tally();
+
+  document.getElementById('copy').addEventListener('click',function(){
+    var ta=document.getElementById('ta'); ta.select(); ta.setSelectionRange(0,99999);
+    var ok=false;
+    try{ok=document.execCommand('copy')}catch(e){}
+    if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(ta.value).catch(function(){});ok=true}
+    var s=document.getElementById('said');
+    s.textContent= ok ? 'Copied' : 'Selected — press Cmd/Ctrl+C';
+    s.hidden=false; setTimeout(function(){s.hidden=true},2600);
+  });
+  document.getElementById('reset').addEventListener('click',function(){
+    V={}; save();
+    document.querySelectorAll('.card').forEach(function(el){paint(el,el.dataset.id)});
+    tally();
+  });
+  document.getElementById('jump').addEventListener('click',function(){
+    document.getElementById('out').scrollIntoView({behavior:'smooth',block:'start'});
+  });
+})();
+</script>
