@@ -69,19 +69,30 @@ python3 -m career_agent.scoring.cli record /tmp/scored.json
 python3 -m career_agent.scoring.cli pending   # must report 0
 ```
 
-## 4. Refresh the review page
+## 4. Refresh the review page — best effort
 
 ```bash
 python3 -m career_agent.review.render
 ```
 
-Publish it with the Artifact tool, passing the existing URL so it updates
-in place rather than creating a second page:
+This regenerates `scout_calibration.html` from the current scores, and
+committing it in step 6 is what actually preserves it. Republishing is a
+bonus on top, not the deliverable.
+
+If the Artifact tool is available, publish it with the existing URL so it
+updates in place rather than creating a second page:
 
     url: https://claude.ai/code/artifact/a389a850-4d8f-49a1-a43d-0b2bfc0db290
 
 Read the artifact first (`action: "read"` with that url) — a publish to
 an artifact the session has not read is refused.
+
+**Scheduled runs fire with a restricted tool set that may not include the
+Artifact tool.** If it is unavailable, do not treat that as a failed run
+and do not work around it by publishing to a new URL — that would
+fragment the page across a different link every morning. Render and
+commit the file, note in the report that the hosted page was not
+refreshed this run, and carry on. The digest text is the deliverable.
 
 ## 5. Digest
 
