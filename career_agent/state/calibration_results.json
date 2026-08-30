@@ -1,0 +1,17 @@
+{
+  "evaluated_at": "2026-08-30T17:43:15.610322+00:00",
+  "cases": {
+    "strong": 0,
+    "weak": 0
+  },
+  "recall": 0.0,
+  "recall_target": 0.9,
+  "found": [],
+  "missed_discovery": [],
+  "missed_ranking": [],
+  "false_positive_rate": 0.0,
+  "weak_cases_surfaced": [],
+  "surfaced_total": 80,
+  "passes": false,
+  "verdict": "No strong benchmark cases recorded. Phase 1 cannot be assessed, and an unassessed Scout must not be treated as a working one."
+}

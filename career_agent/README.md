@@ -1,13 +1,31 @@
 # career_agent
 
-Phase 1 (Scout) scaffold for the autonomous career agent defined in
-`.claude/skills/career-agent-builder/SKILL.md`. Deterministic pieces only —
-fetching, deduplication, hard filtering, and persistence. Scoring
-(qualification match, recruiter interest) and enrichment need reasoning
-against the evidence bank and are done by the Claude session that runs this
-pipeline, not by this code.
+An autonomous Career Orchestrator with a deterministic Scout underneath it.
 
-## What's here
+**Start with `AGENT.md`** — it is the orchestrator's operating policy and
+owns what the agent decides. `OPERATIONS.md` documents how individual
+operations are invoked; it is a reference, not a plan.
+`docs/ADR-001-orchestrator-control-layer.md` records why the control
+layer is shaped this way and what the earlier pipeline design got wrong.
+
+## Control layer
+
+- `agent/memory.py` — persistent strategy memory: what each source has
+  actually been worth, when each company was last checked, which
+  investigations are open, and a revision log so every strategy change is
+  traceable and reversible.
+- `agent/tools.py` — the granular tool surface the agent acts through:
+  run one board, triage specific jobs, read one description, list
+  borderline roles worth investigating, find coverage gaps. Wraps the
+  Scout; does not reimplement it.
+- `agent/decisions.py` — the decision log (what was decided, why, on what
+  evidence, with what confidence) and the feedback store (what Ali did,
+  and what the market did back).
+- `calibration/` — the benchmark that gates Phase 1 at 90% recall of
+  strong opportunities Ali identifies himself. Separates discovery
+  failures from ranking failures, because they need different fixes.
+
+## Scout (unchanged, and deliberately so)
 
 - `scout/schema.py` — canonical `JobRecord` and dedup key (`canonical_id`),
   stable across sources so the same real-world job collapses to one record.

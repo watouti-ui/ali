@@ -1,11 +1,19 @@
-# Daily run
+# Operations reference
 
-The procedure the scheduled Routine follows each morning. It lives here
-rather than inside the trigger so it is reviewable in a diff and can be
-changed without recreating the schedule.
+**This is not the plan.** The Career Orchestrator decides what a day is
+for; see `AGENT.md`, which owns that. This file documents *how* an
+operation is invoked once the agent has decided to invoke it — the
+commands, their arguments, and the traps each one carries.
 
-The run is expected to take a while — the Scout polls 62 boards — so do
-not treat a long fetch as a failure.
+Reading this top to bottom and executing it is the failure mode the
+control-layer redesign exists to correct (see
+`docs/ADR-001-orchestrator-control-layer.md`). A full sweep of every
+board is a legitimate choice; it is just not the only one, and it is not
+the default.
+
+The granular alternative to most of what follows is
+`career_agent/agent/tools.py`, which lets the agent run one source, read
+one description, or triage one job rather than processing everything.
 
 ## 1. Get the current state
 
