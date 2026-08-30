@@ -15,7 +15,11 @@
 # scores stay attributable to the profile that produced them (spec §15,
 # ScoringModelVersion).
 
-profile_version: "1.0.0"
+# 1.1.0 — added Product Operations depth (bank Part 4.2) and a derived
+# Delivery Management family, plus evidence_guardrails. Scoring-relevant,
+# so previously scored jobs re-queue rather than sit alongside scores
+# produced under different families.
+profile_version: "1.1.0"
 evidence_bank_version: "2.11"
 
 seniority:
@@ -94,20 +98,54 @@ role_families:
 
   product_operations:
     label: Product Operations
+    # Leads from bank §8.2; the specifics come from Part 4.2, the product
+    # operating model designed for a large consumer product
+    # transformation. That section is the strongest Product Operations
+    # evidence in the bank and carries the guardrails below.
     evidence_leads:
       - operating-model design
+      - rolling pre-PI planning that moved preparation upstream
+      - commitment-focused planning rather than a large planning event
+      - Definition of Ready and Definition of Done gates
+      - delivery, health and outcome metric classes replacing status reporting with decision support
+      - Jira and Confluence as an executable operating model, not a framework on paper
+      - AI-assisted product operations reducing administrative overhead
       - planning and prioritisation
       - OKRs
       - roadmap governance
       - launch/GTM readiness
       - cross-functional decision-making
-      - workflow and tooling improvement
       - Product/Engineering partnership
     negative_signals:
       # Bank §8.2 flags these explicitly as needing separate fit assessment.
       - experimentation infrastructure
       - PLG analytics
       - SQL-heavy product analytics
+
+  delivery_management:
+    label: Delivery Management
+    # Not a family in bank §8.2, which predates this search direction.
+    # Grounded instead in Part 5 (the end-to-end release lifecycle the
+    # function owned) and Part 4.2 (the operating model). Flagged as
+    # derived so the provenance stays honest.
+    evidence_leads:
+      - end-to-end release lifecycle ownership from definition through launch to post-launch
+      - multi-platform release trains across Windows, macOS, iOS, Android, web and backend
+      - release readiness and Go/No-Go decision gates
+      - dependency and risk governance across teams competing for the same capacity
+      - delivery predictability and commitment tracking
+      - live RAID and delivery-health signals
+      - recovery of a slipping release (Utilities, three months to five weeks, $400K quarter-end revenue protected)
+      - launch readiness playbook driving ~30% faster launch cycles across 20+ launches
+    negative_signals:
+      # "Delivery Manager" spans a wide band. Single-team agile delivery
+      # or pure coaching is materially below the target level, and in
+      # agencies the title often means client account management.
+      - single scrum team
+      - scrum master
+      - agile coach
+      - client account management
+      - service delivery manager
 
   transformation:
     label: Transformation / Programme Director
@@ -152,6 +190,23 @@ headline_evidence:
   - 80% AI adoption across 40+ programme managers, 60%+ administration reduction
   - 5,600+ employee product organisation, post-merger delivery rebuild
   - design system ~80% adoption across ~3,000 engineers in three months
+  - Utilities release recovery, three months to five weeks, $400K quarter-end revenue protected
+  # Bank Part 4.2. The defensible achievement is designing and
+  # operationalising the model, not the outcomes it targets -- see
+  # evidence_guardrails below before citing this anywhere.
+  - designed and operationalised a Lean product operating model for a large consumer product transformation, connecting product strategy, portfolio planning and engineering execution
+
+# Constraints that travel with specific evidence. A high score is a
+# licence to build an application, so anything the scoring pass cites has
+# to survive the interview it leads to. These come from the bank and are
+# not negotiable by a scoring or drafting step.
+evidence_guardrails:
+  - The product operating model (Part 4.2) was approved for rollout April 2026. Its measures are targets, never achieved outcomes. Credit the design and operationalisation.
+  - For that model, the approved go-to-market wording is "moved from a quarterly release cycle to incremental releases". No sprint count, week count or percentage.
+  - Keep the Utilities release recovery strictly separate from the operating-model work; combining them implies an unsupported enterprise-wide outcome.
+  - Never name internal or third-party programmes externally (bank Part 5). Describe the transformation as "a large user-centric consumer product transformation".
+  - Never claim managing people managers. The team were manager-equivalent senior individual contributors.
+  - The BullGuard $1M+ saving is an estimate and must be labelled as one; lead with the mechanism, a 10% vendor take rate removed.
 
 # Spec §4 Stage 4. Configurable so calibration against real outcomes can
 # move them without a code change.

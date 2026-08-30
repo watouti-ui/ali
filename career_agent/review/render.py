@@ -29,10 +29,11 @@ from ..scoring import store
 TEMPLATE_PATH = Path(__file__).resolve().parent / "template.html"
 DEFAULT_OUT = Path(__file__).resolve().parents[2] / "scout_calibration.html"
 
-# Scores below this are not worth a reviewer's attention: a clinical
-# nursing post or a hands-on engineering role tells us nothing about
-# whether the threshold is set correctly.
-NEAR_MISS_FLOOR = 50
+# Near misses earn a reviewer's attention only when they sit close enough
+# to the line that disagreeing about one implicates the threshold itself.
+# A role scored in the 50s is not a borderline call, and padding the page
+# with them buries the genuinely marginal ones.
+NEAR_MISS_FLOOR = 60
 
 
 def collect(jobs: Dict[str, Dict], scores: Dict[str, Dict]) -> Dict[str, List[Dict]]:

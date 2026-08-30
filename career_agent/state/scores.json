@@ -1,4 +1,73 @@
 {
+  "0435ad8540c85bd6": {
+    "blockers": [],
+    "canonical_id": "0435ad8540c85bd6",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.650316+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "05d11c3c72c23cd7": {
+    "blockers": [],
+    "canonical_id": "05d11c3c72c23cd7",
+    "concerns": [
+      "Lead Site Reliability Engineer (AI/ML) is outside Ali's programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.653720+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "06bc5b97076d2dc8": {
+    "blockers": [],
+    "canonical_id": "06bc5b97076d2dc8",
+    "concerns": [
+      "Hands-on player-coach with no people management, so the team-leadership evidence carries less weight",
+      "Dunton is Essex rather than London; commute or hybrid pattern needs checking"
+    ],
+    "confidence": "high",
+    "evidence_used": [
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support",
+      "AI-assisted product operations reducing administrative overhead across programme reporting, Jira and Confluence",
+      "Jira and Confluence run as an executable operating model, not a framework on paper"
+    ],
+    "flags": [],
+    "overall": 85,
+    "profile_version": "1.1.0",
+    "qualification_match": 86,
+    "reasons": [
+      "Product Operations framed exactly as Ali practised it: a strategic enablement function accelerating delivery and product maturity, not a support desk",
+      "Explicitly wants AI-augmented workflows introduced into the product lifecycle, which is his sharpest differentiator",
+      "Head-of level, and 'treat internal workflows as your product' is the operating-model design story verbatim"
+    ],
+    "recommendation": "apply",
+    "recruiter_interest": 83,
+    "role_family": "product_operations",
+    "scored_at": "2026-08-30T08:01:06.457522+00:00",
+    "surfaced": true,
+    "tier": "very strong"
+  },
   "071c7fccb0549fe6": {
     "blockers": [],
     "canonical_id": "071c7fccb0549fe6",
@@ -14,7 +83,7 @@
       "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
     ],
     "overall": 57,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 58,
     "reasons": [
       "Project management role in Dublin"
@@ -22,7 +91,29 @@
     "recommendation": "skip",
     "recruiter_interest": 56,
     "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.623747+00:00",
+    "scored_at": "2026-08-30T08:01:06.306166+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "08925bfecf30f0ff": {
+    "blockers": [
+      "title signals a level well above target band ('vice president')"
+    ],
+    "canonical_id": "08925bfecf30f0ff",
+    "concerns": [
+      "Suppressed by a hard blocker before scoring"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 20,
+    "profile_version": "1.1.0",
+    "qualification_match": 20,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 20,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.658415+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -42,7 +133,7 @@
       "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
     ],
     "overall": 71,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 72,
     "reasons": [
       "Associate Director / Director level in a Big Four transformation practice, Dublin",
@@ -51,9 +142,38 @@
     "recommendation": "research_more",
     "recruiter_interest": 70,
     "role_family": "transformation",
-    "scored_at": "2026-08-30T06:44:57.589987+00:00",
+    "scored_at": "2026-08-30T08:01:06.308963+00:00",
     "surfaced": true,
     "tier": "worth reviewing"
+  },
+  "096b0f65f25fa8ba": {
+    "blockers": [],
+    "canonical_id": "096b0f65f25fa8ba",
+    "concerns": [
+      "Twelve-month fixed-term contract, so weigh against permanent options",
+      "Comparison-marketplace domain is new"
+    ],
+    "confidence": "high",
+    "evidence_used": [
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support",
+      "Jira and Confluence run as an executable operating model, not a framework on paper",
+      "AI-assisted product operations reducing administrative overhead across programme reporting, Jira and Confluence"
+    ],
+    "flags": [],
+    "overall": 81,
+    "profile_version": "1.1.0",
+    "qualification_match": 82,
+    "reasons": [
+      "Senior Manager, Product Operations is a direct title and level match",
+      "Design-and-evolve remit for the product operating model is the Part 4.2 evidence applied",
+      "London, a co-primary market with no sponsorship needed"
+    ],
+    "recommendation": "apply",
+    "recruiter_interest": 80,
+    "role_family": "product_operations",
+    "scored_at": "2026-08-30T08:01:06.459955+00:00",
+    "surfaced": true,
+    "tier": "strong"
   },
   "0b5a4fbd83f17147": {
     "blockers": [],
@@ -65,13 +185,13 @@
     "evidence_used": [],
     "flags": [],
     "overall": 3,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 3,
     "reasons": [],
     "recommendation": "skip",
     "recruiter_interest": 3,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.700675+00:00",
+    "scored_at": "2026-08-30T08:01:06.310725+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -89,7 +209,7 @@
     ],
     "flags": [],
     "overall": 74,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 74,
     "reasons": [
       "Data-centre deployment/expansion programmes align with the 12-data-centre retirement and migration evidence",
@@ -98,9 +218,34 @@
     "recommendation": "research_more",
     "recruiter_interest": 74,
     "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.583383+00:00",
+    "scored_at": "2026-08-30T08:01:06.312703+00:00",
     "surfaced": true,
     "tier": "worth reviewing"
+  },
+  "0ff2675251074d1d": {
+    "blockers": [],
+    "canonical_id": "0ff2675251074d1d",
+    "concerns": [
+      "Manager level at a small fintech may sit below the target band"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 66,
+    "profile_version": "1.1.0",
+    "qualification_match": 66,
+    "reasons": [
+      "Product Operations Manager in London, a direct family match"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 65,
+    "role_family": "product_operations",
+    "scored_at": "2026-08-30T08:01:06.518641+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
   },
   "0ff53d733f17955d": {
     "blockers": [],
@@ -115,7 +260,7 @@
       "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
     ],
     "overall": 47,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 48,
     "reasons": [
       "Programme manager title in Dublin"
@@ -123,9 +268,34 @@
     "recommendation": "skip",
     "recruiter_interest": 46,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.635427+00:00",
+    "scored_at": "2026-08-30T08:01:06.314281+00:00",
     "surfaced": false,
     "tier": "below threshold"
+  },
+  "115fd0ff2295b5eb": {
+    "blockers": [],
+    "canonical_id": "115fd0ff2295b5eb",
+    "concerns": [
+      "Integration/partner experience may be closer to solution consulting than delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 73,
+    "profile_version": "1.1.0",
+    "qualification_match": 74,
+    "reasons": [
+      "Head of Integration Experience at a payments firm in Dublin, head-of level with cross-functional integration ownership"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 72,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.472544+00:00",
+    "surfaced": true,
+    "tier": "worth reviewing"
   },
   "12181186df1c1970": {
     "blockers": [],
@@ -141,7 +311,7 @@
     ],
     "flags": [],
     "overall": 60,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 58,
     "reasons": [
       "15+ years leading complex cross-functional technical programmes in an engineering organisation is met exactly",
@@ -150,7 +320,52 @@
     "recommendation": "skip",
     "recruiter_interest": 62,
     "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.581653+00:00",
+    "scored_at": "2026-08-30T08:01:06.316468+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "12eb893f1d0f31e7": {
+    "blockers": [],
+    "canonical_id": "12eb893f1d0f31e7",
+    "concerns": [
+      "Early-stage company; scope and stability unclear"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 64,
+    "profile_version": "1.1.0",
+    "qualification_match": 64,
+    "reasons": [
+      "Product Operations Manager in London with an AI product focus"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 63,
+    "role_family": "product_operations",
+    "scored_at": "2026-08-30T08:01:06.524894+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "142e8a3f2d34ea4e": {
+    "blockers": [],
+    "canonical_id": "142e8a3f2d34ea4e",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.661935+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -170,7 +385,7 @@
       "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
     ],
     "overall": 73,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 74,
     "reasons": [
       "Senior TPM at Microsoft Dublin with platform-quality programme ownership"
@@ -178,7 +393,7 @@
     "recommendation": "research_more",
     "recruiter_interest": 72,
     "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.580744+00:00",
+    "scored_at": "2026-08-30T08:01:06.318527+00:00",
     "surfaced": true,
     "tier": "worth reviewing"
   },
@@ -192,13 +407,188 @@
     "evidence_used": [],
     "flags": [],
     "overall": 8,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 8,
     "reasons": [],
     "recommendation": "skip",
     "recruiter_interest": 8,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.661751+00:00",
+    "scored_at": "2026-08-30T08:01:06.320949+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "177e4c036ace068f": {
+    "blockers": [],
+    "canonical_id": "177e4c036ace068f",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.665622+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "184a79cfae77f6b8": {
+    "blockers": [],
+    "canonical_id": "184a79cfae77f6b8",
+    "concerns": [
+      "Assistant Vice President level and a specific trading-platform product domain"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 62,
+    "profile_version": "1.1.0",
+    "qualification_match": 62,
+    "reasons": [
+      "Technical delivery management at State Street's Charles River division, Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 61,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.590760+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "18e0086fa69fcbb2": {
+    "blockers": [],
+    "canonical_id": "18e0086fa69fcbb2",
+    "concerns": [
+      "Quality Analyst - French is outside Ali's programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.669121+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "1a49cae4029fb1d3": {
+    "blockers": [],
+    "canonical_id": "1a49cae4029fb1d3",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.672881+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "1af784de59f5982b": {
+    "blockers": [],
+    "canonical_id": "1af784de59f5982b",
+    "concerns": [
+      "ServiceNow platform specificity is unevidenced",
+      "'Product Delivery Manager' at JPMC can sit below the target band; confirm scope"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)",
+      "post-merger delivery rebuild across a 5,600+ employee product organisation"
+    ],
+    "flags": [],
+    "overall": 78,
+    "profile_version": "1.1.0",
+    "qualification_match": 78,
+    "reasons": [
+      "End-to-end product delivery ownership with dependency management, the core of the delivery family",
+      "Dublin-based at a bank already appearing twice in the shortlist, so the market is live"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 77,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.464330+00:00",
+    "surfaced": true,
+    "tier": "strong"
+  },
+  "1c1a26ef44129d6a": {
+    "blockers": [],
+    "canonical_id": "1c1a26ef44129d6a",
+    "concerns": [
+      "Front of House/ Salon Coordinator is outside Ali's programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.676196+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "1c215023f549c222": {
+    "blockers": [],
+    "canonical_id": "1c215023f549c222",
+    "concerns": [
+      "Digital Assets Product Development lead, Assistant Vice President is outside Ali's programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.679684+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "1d5bde93a7aacde3": {
+    "blockers": [],
+    "canonical_id": "1d5bde93a7aacde3",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.683178+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -206,24 +596,26 @@
     "blockers": [],
     "canonical_id": "1da88fdafc36c21b",
     "concerns": [
-      "Commercial-operations focus is closer to business ops than technical programme delivery"
+      "Commercial-operations focus still sits away from product/engineering delivery"
     ],
-    "confidence": "low",
+    "confidence": "medium",
     "evidence_used": [
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support",
       "Norton Small Business expansion from 4 to 21 markets",
       "~30% faster launch cycles across 20+ launches (PLR, company standard)"
     ],
     "flags": [],
-    "overall": 70,
-    "profile_version": "1.0.0",
-    "qualification_match": 70,
+    "overall": 72,
+    "profile_version": "1.1.0",
+    "qualification_match": 72,
     "reasons": [
-      "Business programme management at Microsoft Dublin, cross-functional commercial operations"
+      "Business programme management at Microsoft Dublin",
+      "Cross-functional commercial operations is closer to Product Operations than first scored, given the operating-model evidence"
     ],
     "recommendation": "research_more",
-    "recruiter_interest": 70,
+    "recruiter_interest": 71,
     "role_family": "product_operations",
-    "scored_at": "2026-08-30T06:44:57.600979+00:00",
+    "scored_at": "2026-08-30T08:01:06.275086+00:00",
     "surfaced": true,
     "tier": "worth reviewing"
   },
@@ -242,7 +634,7 @@
       "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
     ],
     "overall": 65,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 66,
     "reasons": [
       "Programme Manager role in Dublin within the target band"
@@ -250,7 +642,7 @@
     "recommendation": "skip",
     "recruiter_interest": 64,
     "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.609881+00:00",
+    "scored_at": "2026-08-30T08:01:06.323411+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -271,7 +663,7 @@
       "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
     ],
     "overall": 75,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 76,
     "reasons": [
       "Principal-level TPM with strategic leadership across an organisation, matching seniority and scope",
@@ -280,9 +672,81 @@
     "recommendation": "research_more",
     "recruiter_interest": 74,
     "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.579918+00:00",
+    "scored_at": "2026-08-30T08:01:06.325632+00:00",
     "surfaced": true,
     "tier": "strong"
+  },
+  "1f69a66c2c74a9e4": {
+    "blockers": [],
+    "canonical_id": "1f69a66c2c74a9e4",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.687009+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "1fd3339e2910407e": {
+    "blockers": [],
+    "canonical_id": "1fd3339e2910407e",
+    "concerns": [
+      "Client delivery here is account management, an explicit weak-fit signal"
+    ],
+    "confidence": "high",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 46,
+    "profile_version": "1.1.0",
+    "qualification_match": 46,
+    "reasons": [
+      "Delivery management title in London"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 45,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.621408+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "223f020cda4d465d": {
+    "blockers": [],
+    "canonical_id": "223f020cda4d465d",
+    "concerns": [
+      "Posted via an agency with no named end client, so scope cannot be assessed"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 62,
+    "profile_version": "1.1.0",
+    "qualification_match": 62,
+    "reasons": [
+      "Product Operations Manager role in the London area"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 61,
+    "role_family": "product_operations",
+    "scored_at": "2026-08-30T08:01:06.533024+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
   },
   "235089d6daa6ee12": {
     "blockers": [],
@@ -296,7 +760,7 @@
     ],
     "flags": [],
     "overall": 55,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 56,
     "reasons": [
       "Senior Manager level programme leadership in Dublin"
@@ -304,7 +768,51 @@
     "recommendation": "skip",
     "recruiter_interest": 54,
     "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.626706+00:00",
+    "scored_at": "2026-08-30T08:01:06.328383+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "24da4a5b4619aa78": {
+    "blockers": [],
+    "canonical_id": "24da4a5b4619aa78",
+    "concerns": [
+      "Governance-only framing risks the very PMO perception bank Part 7 warns about"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [],
+    "overall": 69,
+    "profile_version": "1.1.0",
+    "qualification_match": 69,
+    "reasons": [
+      "PMO governance management maps to the Global PMO title and portfolio governance evidence"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 68,
+    "role_family": "transformation",
+    "scored_at": "2026-08-30T08:01:06.488753+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "24f6d41c6b804ad5": {
+    "blockers": [],
+    "canonical_id": "24f6d41c6b804ad5",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.690914+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -318,15 +826,65 @@
     "evidence_used": [],
     "flags": [],
     "overall": 8,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 8,
     "reasons": [],
     "recommendation": "skip",
     "recruiter_interest": 8,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.647194+00:00",
+    "scored_at": "2026-08-30T08:01:06.330606+00:00",
     "surfaced": false,
     "tier": "below threshold"
+  },
+  "25b51ac4dc62df26": {
+    "blockers": [],
+    "canonical_id": "25b51ac4dc62df26",
+    "concerns": [
+      "Level unclear and the employer is a marketplace with limited UK footprint"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 64,
+    "profile_version": "1.1.0",
+    "qualification_match": 64,
+    "reasons": [
+      "Technical Product Operations Manager in London"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 63,
+    "role_family": "product_operations",
+    "scored_at": "2026-08-30T08:01:06.527715+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "26347df978799612": {
+    "blockers": [],
+    "canonical_id": "26347df978799612",
+    "concerns": [
+      "Google's delivery roles lean towards infrastructure and supply chain rather than product delivery"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 73,
+    "profile_version": "1.1.0",
+    "qualification_match": 73,
+    "reasons": [
+      "Delivery programme management at Google Dublin, in band"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 73,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.476923+00:00",
+    "surfaced": true,
+    "tier": "worth reviewing"
   },
   "27c14e18bbd94c04": {
     "blockers": [],
@@ -338,13 +896,127 @@
     "evidence_used": [],
     "flags": [],
     "overall": 8,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 8,
     "reasons": [],
     "recommendation": "skip",
     "recruiter_interest": 8,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.681569+00:00",
+    "scored_at": "2026-08-30T08:01:06.332948+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "27dd1a49df7e8f4a": {
+    "blockers": [],
+    "canonical_id": "27dd1a49df7e8f4a",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.694680+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "2872d7dcaefa6069": {
+    "blockers": [],
+    "canonical_id": "2872d7dcaefa6069",
+    "concerns": [
+      "UK National Security work implies clearance requirements; practice management is consulting P&L"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 66,
+    "profile_version": "1.1.0",
+    "qualification_match": 66,
+    "reasons": [
+      "Delivery practice management at AWS Professional Services, London"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 65,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.507962+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "29dbd6e450048c20": {
+    "blockers": [],
+    "canonical_id": "29dbd6e450048c20",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.697992+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "2bf77ce485997b10": {
+    "blockers": [],
+    "canonical_id": "2bf77ce485997b10",
+    "concerns": [
+      "Coordinator level is far below the target band"
+    ],
+    "confidence": "high",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 42,
+    "profile_version": "1.1.0",
+    "qualification_match": 42,
+    "reasons": [
+      "Product operations in Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 41,
+    "role_family": "product_operations",
+    "scored_at": "2026-08-30T08:01:06.618273+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "2cc3fcefb46c2c11": {
+    "blockers": [],
+    "canonical_id": "2cc3fcefb46c2c11",
+    "concerns": [
+      "Sponsorship sales and client direction, entirely unrelated"
+    ],
+    "confidence": "high",
+    "evidence_used": [
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [],
+    "overall": 25,
+    "profile_version": "1.1.0",
+    "qualification_match": 25,
+    "reasons": [
+      "Director-level title in Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 24,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.646867+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -352,58 +1024,119 @@
     "blockers": [],
     "canonical_id": "2d9da69f7c30df22",
     "concerns": [
-      "Fibre capacity delivery is a telecoms-infrastructure domain with no direct evidence",
-      "JD mentions PMP"
+      "Sales strategy and operations for an ad business, not product or delivery operations"
     ],
     "confidence": "medium",
     "evidence_used": [
-      "12 data centres retired, $1M data-centre cost removed in cross-brand consolidation"
+      "Norton Small Business expansion from 4 to 21 markets"
     ],
     "flags": [
-      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role.",
+      "JD emphasises 'scrum master', a known weak-fit signal for Delivery Management"
     ],
-    "overall": 73,
-    "profile_version": "1.0.0",
-    "qualification_match": 72,
+    "overall": 52,
+    "profile_version": "1.1.0",
+    "qualification_match": 53,
     "reasons": [
-      "Technical programme ownership with cross-functional delivery at Google Dublin"
+      "Commercial operating-partner scope with pipeline governance"
     ],
-    "recommendation": "research_more",
-    "recruiter_interest": 74,
-    "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.585998+00:00",
-    "surfaced": true,
-    "tier": "worth reviewing"
+    "recommendation": "skip",
+    "recruiter_interest": 51,
+    "role_family": "product_operations",
+    "scored_at": "2026-08-30T08:01:06.277840+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "31a5f2f4e83dcb84": {
+    "blockers": [],
+    "canonical_id": "31a5f2f4e83dcb84",
+    "concerns": [
+      "Associate Product Operations Manager is materially below the target band"
+    ],
+    "confidence": "high",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 48,
+    "profile_version": "1.1.0",
+    "qualification_match": 48,
+    "reasons": [
+      "Product operations at a well-regarded London fintech"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 47,
+    "role_family": "product_operations",
+    "scored_at": "2026-08-30T08:01:06.615147+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "332ac49b4392d8f9": {
+    "blockers": [],
+    "canonical_id": "332ac49b4392d8f9",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.701993+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
   },
   "335d3ac72cc71ec7": {
     "blockers": [],
     "canonical_id": "335d3ac72cc71ec7",
     "concerns": [
-      "Consulting utilisation model",
-      "JD mentions PMP"
+      "Sales strategy and operations for an ad business, not product or delivery operations"
     ],
     "confidence": "medium",
     "evidence_used": [
-      "post-merger delivery rebuild across a 5,600+ employee product organisation",
-      "~30% faster launch cycles across 20+ launches (PLR, company standard)",
-      "led six Senior Programme Managers across five global sites, four countries"
+      "Norton Small Business expansion from 4 to 21 markets"
     ],
     "flags": [
       "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
     ],
-    "overall": 73,
-    "profile_version": "1.0.0",
-    "qualification_match": 74,
+    "overall": 52,
+    "profile_version": "1.1.0",
+    "qualification_match": 53,
     "reasons": [
-      "Technology delivery TPM within EY's UKI consulting practice, Dublin",
-      "Technical delivery leadership across client programmes"
+      "Commercial operating-partner scope with pipeline governance"
     ],
-    "recommendation": "research_more",
-    "recruiter_interest": 72,
-    "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.593051+00:00",
-    "surfaced": true,
-    "tier": "worth reviewing"
+    "recommendation": "skip",
+    "recruiter_interest": 51,
+    "role_family": "product_operations",
+    "scored_at": "2026-08-30T08:01:06.281160+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "3529e86fb87e9699": {
+    "blockers": [],
+    "canonical_id": "3529e86fb87e9699",
+    "concerns": [
+      "Commercial Analyst Buyer is outside Ali's programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.705604+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
   },
   "36434e99d12e3194": {
     "blockers": [],
@@ -415,13 +1148,33 @@
     "evidence_used": [],
     "flags": [],
     "overall": 10,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 10,
     "reasons": [],
     "recommendation": "skip",
     "recruiter_interest": 10,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.679510+00:00",
+    "scored_at": "2026-08-30T08:01:06.335582+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "36b7c82ef1bcfbf3": {
+    "blockers": [],
+    "canonical_id": "36b7c82ef1bcfbf3",
+    "concerns": [
+      "Rapid Response Analyst, EMEA - Trust & Safety (Specified Purpose Contract) is outside Ali's programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.709813+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -440,7 +1193,7 @@
     ],
     "flags": [],
     "overall": 77,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 78,
     "reasons": [
       "An AI Program Manager role is the clearest match for the AI-adoption differentiator: 80% adoption across 40+ programme managers with 60%+ administration reduction",
@@ -450,32 +1203,72 @@
     "recommendation": "apply",
     "recruiter_interest": 76,
     "role_family": "ai_adoption",
-    "scored_at": "2026-08-30T06:44:57.587817+00:00",
+    "scored_at": "2026-08-30T08:01:06.338723+00:00",
     "surfaced": true,
     "tier": "strong"
+  },
+  "38abd4b0e913b8f1": {
+    "blockers": [],
+    "canonical_id": "38abd4b0e913b8f1",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.713478+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
   },
   "3adb904da16e6f35": {
     "blockers": [],
     "canonical_id": "3adb904da16e6f35",
     "concerns": [
-      "Systems/automation ownership is closer to RevOps tooling than programme leadership"
+      "Systems/automation ownership is closer to RevOps tooling than product operations leadership"
     ],
     "confidence": "low",
     "evidence_used": [
-      "~30% faster launch cycles across 20+ launches (PLR, company standard)",
-      "Norton Small Business expansion from 4 to 21 markets"
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support",
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
     ],
     "flags": [],
-    "overall": 65,
-    "profile_version": "1.0.0",
-    "qualification_match": 66,
+    "overall": 67,
+    "profile_version": "1.1.0",
+    "qualification_match": 68,
     "reasons": [
-      "GTM systems and automation leadership touches launch readiness and tooling improvement"
+      "GTM systems and automation touches launch readiness, tooling improvement and workflow design"
     ],
     "recommendation": "skip",
-    "recruiter_interest": 64,
+    "recruiter_interest": 66,
     "role_family": "product_operations",
-    "scored_at": "2026-08-30T06:44:57.608317+00:00",
+    "scored_at": "2026-08-30T08:01:06.284139+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "3b5d07daaf2442b2": {
+    "blockers": [],
+    "canonical_id": "3b5d07daaf2442b2",
+    "concerns": [
+      "International Strategy & Operations Senior Manager, Commerce is outside Ali's programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.717238+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -483,23 +1276,23 @@
     "blockers": [],
     "canonical_id": "3d147ec4e4c986c3",
     "concerns": [
-      "Sales strategy and operations for an ad business, not programme or product operations"
+      "Sales strategy and operations for an ad business, not product or delivery operations"
     ],
     "confidence": "medium",
     "evidence_used": [
       "Norton Small Business expansion from 4 to 21 markets"
     ],
     "flags": [],
-    "overall": 51,
-    "profile_version": "1.0.0",
-    "qualification_match": 52,
+    "overall": 52,
+    "profile_version": "1.1.0",
+    "qualification_match": 53,
     "reasons": [
-      "Commercial operating-partner scope with pipeline and performance governance"
+      "Commercial operating-partner scope with pipeline governance"
     ],
     "recommendation": "skip",
-    "recruiter_interest": 50,
+    "recruiter_interest": 51,
     "role_family": "product_operations",
-    "scored_at": "2026-08-30T06:44:57.634269+00:00",
+    "scored_at": "2026-08-30T08:01:06.286747+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -507,23 +1300,188 @@
     "blockers": [],
     "canonical_id": "3d6c048635181ab9",
     "concerns": [
-      "Strategy/new-verticals commercial focus rather than programme or product operations"
+      "New-verticals commercial strategy rather than product or delivery operations"
     ],
     "confidence": "low",
     "evidence_used": [
       "Norton Small Business expansion from 4 to 21 markets"
     ],
     "flags": [],
-    "overall": 57,
-    "profile_version": "1.0.0",
-    "qualification_match": 58,
+    "overall": 59,
+    "profile_version": "1.1.0",
+    "qualification_match": 60,
     "reasons": [
       "Senior strategy and operations leadership at a platform business"
     ],
     "recommendation": "skip",
-    "recruiter_interest": 56,
+    "recruiter_interest": 58,
     "role_family": "product_operations",
-    "scored_at": "2026-08-30T06:44:57.621075+00:00",
+    "scored_at": "2026-08-30T08:01:06.289347+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "3e15ce9c9661f949": {
+    "blockers": [],
+    "canonical_id": "3e15ce9c9661f949",
+    "concerns": [
+      "Supply-chain specialism is unsupported"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [],
+    "overall": 64,
+    "profile_version": "1.1.0",
+    "qualification_match": 64,
+    "reasons": [
+      "Programme management at Google Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 64,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T08:01:06.513493+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "41954e94018537b3": {
+    "blockers": [],
+    "canonical_id": "41954e94018537b3",
+    "concerns": [
+      "Explicitly ServiceNow-specific, which narrows the transferability of the evidence"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 70,
+    "profile_version": "1.1.0",
+    "qualification_match": 70,
+    "reasons": [
+      "Product delivery ownership at JPMorgan Dublin"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 69,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.481369+00:00",
+    "surfaced": true,
+    "tier": "worth reviewing"
+  },
+  "41b43e0e1bbb841a": {
+    "blockers": [],
+    "canonical_id": "41b43e0e1bbb841a",
+    "concerns": [
+      "Creative-product strategy and operations is a marketing-adjacent remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 58,
+    "profile_version": "1.1.0",
+    "qualification_match": 58,
+    "reasons": [
+      "Strategy and operations management for a creative product team in London"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 57,
+    "role_family": "product_operations",
+    "scored_at": "2026-08-30T08:01:06.601451+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "41d263bb0bf8aa87": {
+    "blockers": [],
+    "canonical_id": "41d263bb0bf8aa87",
+    "concerns": [
+      "Consulting utilisation model and London base; travel expectations unclear"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [],
+    "overall": 70,
+    "profile_version": "1.1.0",
+    "qualification_match": 70,
+    "reasons": [
+      "Delivery Manager in McKinsey's Orphoz transformation-delivery arm, which is operating-model work by another name"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 70,
+    "role_family": "transformation",
+    "scored_at": "2026-08-30T08:01:06.486043+00:00",
+    "surfaced": true,
+    "tier": "worth reviewing"
+  },
+  "41deab9e295095c9": {
+    "blockers": [],
+    "canonical_id": "41deab9e295095c9",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.721138+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "42ff5530d320a10b": {
+    "blockers": [],
+    "canonical_id": "42ff5530d320a10b",
+    "concerns": [
+      "Agency posting with no named end client"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 63,
+    "profile_version": "1.1.0",
+    "qualification_match": 63,
+    "reasons": [
+      "Senior delivery management in the London area"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 62,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.558369+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "44c6eff1933002ef": {
+    "blockers": [],
+    "canonical_id": "44c6eff1933002ef",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.725173+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -531,23 +1489,23 @@
     "blockers": [],
     "canonical_id": "47ad4381595704f2",
     "concerns": [
-      "Telecommunications infrastructure domain has no supporting evidence"
+      "Sales strategy and operations for an ad business, not product or delivery operations"
     ],
-    "confidence": "low",
+    "confidence": "medium",
     "evidence_used": [
-      "12 data centres retired, $1M data-centre cost removed in cross-brand consolidation"
+      "Norton Small Business expansion from 4 to 21 markets"
     ],
     "flags": [],
-    "overall": 65,
-    "profile_version": "1.0.0",
-    "qualification_match": 66,
+    "overall": 52,
+    "profile_version": "1.1.0",
+    "qualification_match": 53,
     "reasons": [
-      "Amazon programme management in Dublin with network delivery scope"
+      "Commercial operating-partner scope with pipeline governance"
     ],
     "recommendation": "skip",
-    "recruiter_interest": 64,
-    "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.613116+00:00",
+    "recruiter_interest": 51,
+    "role_family": "product_operations",
+    "scored_at": "2026-08-30T08:01:06.291957+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -564,7 +1522,7 @@
     ],
     "flags": [],
     "overall": 70,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 70,
     "reasons": [
       "Server operations programme management at Google Dublin, within the target band"
@@ -572,37 +1530,227 @@
     "recommendation": "research_more",
     "recruiter_interest": 70,
     "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.586882+00:00",
+    "scored_at": "2026-08-30T08:01:06.341835+00:00",
     "surfaced": true,
     "tier": "worth reviewing"
+  },
+  "49f757f505066fdf": {
+    "blockers": [],
+    "canonical_id": "49f757f505066fdf",
+    "concerns": [
+      "Technical-lead component implies hands-on engineering Ali does not claim"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 62,
+    "profile_version": "1.1.0",
+    "qualification_match": 62,
+    "reasons": [
+      "Combined technical lead and delivery management scope in Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 61,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.563522+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
   },
   "4a2b535b74e498d7": {
     "blockers": [],
     "canonical_id": "4a2b535b74e498d7",
     "concerns": [
-      "Consulting utilisation model",
-      "JD mentions PMP"
+      "Sales strategy and operations for an ad business, not product or delivery operations"
     ],
     "confidence": "medium",
     "evidence_used": [
-      "post-merger delivery rebuild across a 5,600+ employee product organisation",
-      "~30% faster launch cycles across 20+ launches (PLR, company standard)",
-      "led six Senior Programme Managers across five global sites, four countries"
+      "Norton Small Business expansion from 4 to 21 markets"
     ],
     "flags": [
       "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
     ],
-    "overall": 73,
-    "profile_version": "1.0.0",
-    "qualification_match": 74,
+    "overall": 52,
+    "profile_version": "1.1.0",
+    "qualification_match": 53,
     "reasons": [
-      "Technology delivery TPM within EY's UKI consulting practice, Dublin",
-      "Technical delivery leadership across client programmes"
+      "Commercial operating-partner scope with pipeline governance"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 51,
+    "role_family": "product_operations",
+    "scored_at": "2026-08-30T08:01:06.295398+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "4b49abd41d6782df": {
+    "blockers": [],
+    "canonical_id": "4b49abd41d6782df",
+    "concerns": [
+      "Client delivery management is account management rather than product or platform delivery"
+    ],
+    "confidence": "high",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [
+      "JD emphasises 'client account management', a known weak-fit signal for Delivery Management"
+    ],
+    "overall": 46,
+    "profile_version": "1.1.0",
+    "qualification_match": 46,
+    "reasons": [
+      "Delivery management title in London"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 45,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.624530+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "4c5514331cad3596": {
+    "blockers": [],
+    "canonical_id": "4c5514331cad3596",
+    "concerns": [
+      "Consultancy delivery model; end client unknown"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 65,
+    "profile_version": "1.1.0",
+    "qualification_match": 65,
+    "reasons": [
+      "Technical delivery management in London with platform delivery ownership"
     ],
     "recommendation": "research_more",
-    "recruiter_interest": 72,
-    "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.595362+00:00",
+    "recruiter_interest": 64,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.545234+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "4cd7a3e20a442e16": {
+    "blockers": [],
+    "canonical_id": "4cd7a3e20a442e16",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.729111+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "4cf546d8fded889e": {
+    "blockers": [],
+    "canonical_id": "4cf546d8fded889e",
+    "concerns": [
+      "Agency posting, project-level scope, and the JD mentions PMP"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 62,
+    "profile_version": "1.1.0",
+    "qualification_match": 62,
+    "reasons": [
+      "Technical project/delivery management in Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 61,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.566161+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "51fa16c9adba5edd": {
+    "blockers": [],
+    "canonical_id": "51fa16c9adba5edd",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.732998+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "53597fb6154decda": {
+    "blockers": [],
+    "canonical_id": "53597fb6154decda",
+    "concerns": [
+      "The title is a false friend: the body is Product Owner for EMEA ETF Fund Accounting, which needs fund-accounting domain expertise Ali does not have",
+      "Product ownership of a specific accounting product is not operating-model design"
+    ],
+    "confidence": "high",
+    "evidence_used": [
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 61,
+    "profile_version": "1.1.0",
+    "qualification_match": 58,
+    "reasons": [
+      "Director level in Dublin, and the title reads as operating-model ownership"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 66,
+    "role_family": "product_operations",
+    "scored_at": "2026-08-30T08:01:06.469688+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "5502796ec779a3c8": {
+    "blockers": [],
+    "canonical_id": "5502796ec779a3c8",
+    "concerns": [
+      "IT-function framing may make this tooling administration rather than operating-model design"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 72,
+    "profile_version": "1.1.0",
+    "qualification_match": 73,
+    "reasons": [
+      "IT Product Operations Lead in Dublin maps to the enablement side of product operations"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 71,
+    "role_family": "product_operations",
+    "scored_at": "2026-08-30T08:01:06.474572+00:00",
     "surfaced": true,
     "tier": "worth reviewing"
   },
@@ -616,7 +1764,7 @@
     "evidence_used": [],
     "flags": [],
     "overall": 39,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 40,
     "reasons": [
       "Director-level programme title in Dublin"
@@ -624,7 +1772,27 @@
     "recommendation": "skip",
     "recruiter_interest": 38,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.640145+00:00",
+    "scored_at": "2026-08-30T08:01:06.344451+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "55d896cd778b2999": {
+    "blockers": [],
+    "canonical_id": "55d896cd778b2999",
+    "concerns": [
+      "Sr. Security Engineer , European Sovereign Cloud (ESC) Threat Intelligence is outside Ali's programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.737172+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -638,13 +1806,13 @@
     "evidence_used": [],
     "flags": [],
     "overall": 3,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 3,
     "reasons": [],
     "recommendation": "skip",
     "recruiter_interest": 3,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.698891+00:00",
+    "scored_at": "2026-08-30T08:01:06.346300+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -658,13 +1826,13 @@
     "evidence_used": [],
     "flags": [],
     "overall": 8,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 8,
     "reasons": [],
     "recommendation": "skip",
     "recruiter_interest": 8,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.687850+00:00",
+    "scored_at": "2026-08-30T08:01:06.348887+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -678,13 +1846,174 @@
     "evidence_used": [],
     "flags": [],
     "overall": 12,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 12,
     "reasons": [],
     "recommendation": "skip",
     "recruiter_interest": 12,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.675112+00:00",
+    "scored_at": "2026-08-30T08:01:06.352299+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "5a4c55c26708d0c6": {
+    "blockers": [],
+    "canonical_id": "5a4c55c26708d0c6",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.740918+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "5b1c366fde15cfe4": {
+    "blockers": [],
+    "canonical_id": "5b1c366fde15cfe4",
+    "concerns": [
+      "Stripe's technical bar for TPMs is high and the Risk domain is new",
+      "Infrastructure/compliance depth may be probed hard"
+    ],
+    "confidence": "high",
+    "evidence_used": [
+      "led six Senior Programme Managers across five global sites, four countries",
+      "post-merger delivery rebuild across a 5,600+ employee product organisation",
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend"
+    ],
+    "flags": [],
+    "overall": 82,
+    "profile_version": "1.1.0",
+    "qualification_match": 82,
+    "reasons": [
+      "TPM at manager level, matching the current remit rather than stretching it",
+      "Risk and regulatory-compliance programmes at scale involve the cross-team dependency and governance work Ali runs",
+      "Stripe in Dublin carries strong recruiter credibility for a payments-adjacent move"
+    ],
+    "recommendation": "apply",
+    "recruiter_interest": 82,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T08:01:06.462451+00:00",
+    "surfaced": true,
+    "tier": "strong"
+  },
+  "5b6fb7beb9319880": {
+    "blockers": [],
+    "canonical_id": "5b6fb7beb9319880",
+    "concerns": [
+      "Scope and level unclear from the posting; AI delivery may expect technical depth"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 67,
+    "profile_version": "1.1.0",
+    "qualification_match": 67,
+    "reasons": [
+      "Delivery management at an AI company in London"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 66,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.501929+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "5cf09deeb8378b79": {
+    "blockers": [],
+    "canonical_id": "5cf09deeb8378b79",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.745039+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "5de4e562f6530abe": {
+    "blockers": [],
+    "canonical_id": "5de4e562f6530abe",
+    "concerns": [
+      "Agency posting; scope unclear and likely below band"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 61,
+    "profile_version": "1.1.0",
+    "qualification_match": 61,
+    "reasons": [
+      "Software delivery management in Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 60,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.575079+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "5e04955fbffb7663": {
+    "blockers": [],
+    "canonical_id": "5e04955fbffb7663",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.749028+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "5f18e849e72e67f0": {
+    "blockers": [],
+    "canonical_id": "5f18e849e72e67f0",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.753415+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -700,10 +2029,11 @@
       "~30% faster launch cycles across 20+ launches (PLR, company standard)"
     ],
     "flags": [
-      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role.",
+      "JD emphasises 'scrum master', a known weak-fit signal for Delivery Management"
     ],
     "overall": 69,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 70,
     "reasons": [
       "Technical project management at AVP level, which is mid-senior in banking rather than executive",
@@ -712,7 +2042,27 @@
     "recommendation": "research_more",
     "recruiter_interest": 68,
     "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.602695+00:00",
+    "scored_at": "2026-08-30T08:01:06.355075+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "613c3fe287272b74": {
+    "blockers": [],
+    "canonical_id": "613c3fe287272b74",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.757116+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -726,7 +2076,7 @@
     "evidence_used": [],
     "flags": [],
     "overall": 29,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 30,
     "reasons": [
       "London-based lead role"
@@ -734,7 +2084,29 @@
     "recommendation": "skip",
     "recruiter_interest": 28,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.643667+00:00",
+    "scored_at": "2026-08-30T08:01:06.357587+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "6361acb3c20b7613": {
+    "blockers": [],
+    "canonical_id": "6361acb3c20b7613",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.761865+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -752,7 +2124,7 @@
     ],
     "flags": [],
     "overall": 74,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 74,
     "reasons": [
       "Data-centre deployment/expansion programmes align with the 12-data-centre retirement and migration evidence",
@@ -761,9 +2133,29 @@
     "recommendation": "research_more",
     "recruiter_interest": 74,
     "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.584296+00:00",
+    "scored_at": "2026-08-30T08:01:06.359879+00:00",
     "surfaced": true,
     "tier": "worth reviewing"
+  },
+  "63f0b0a3931b3b6c": {
+    "blockers": [],
+    "canonical_id": "63f0b0a3931b3b6c",
+    "concerns": [
+      "Senior Product Analyst is outside Ali's programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.765694+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
   },
   "6451ce44a6735ce1": {
     "blockers": [],
@@ -780,7 +2172,7 @@
     ],
     "flags": [],
     "overall": 87,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 88,
     "reasons": [
       "Explicitly asks for a leader of a global TPM team, which is Ali's current remit rather than a stretch",
@@ -790,9 +2182,76 @@
     "recommendation": "apply",
     "recruiter_interest": 86,
     "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.575027+00:00",
+    "scored_at": "2026-08-30T08:01:06.362074+00:00",
     "surfaced": true,
     "tier": "very strong"
+  },
+  "66946dbbbf65e737": {
+    "blockers": [],
+    "canonical_id": "66946dbbbf65e737",
+    "concerns": [
+      "Energy-utility PMO delivery, likely below the target band"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 60,
+    "profile_version": "1.1.0",
+    "qualification_match": 60,
+    "reasons": [
+      "Delivery manager within a PMO in Ireland"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 59,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.583966+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "679958017c91c11d": {
+    "blockers": [],
+    "canonical_id": "679958017c91c11d",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.769824+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "68dcb0593444ad16": {
+    "blockers": [],
+    "canonical_id": "68dcb0593444ad16",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.773342+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
   },
   "6a635e38e4178dce": {
     "blockers": [],
@@ -809,7 +2268,7 @@
       "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
     ],
     "overall": 53,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 54,
     "reasons": [
       "Technical project management in Dublin"
@@ -817,7 +2276,7 @@
     "recommendation": "skip",
     "recruiter_interest": 52,
     "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.629948+00:00",
+    "scored_at": "2026-08-30T08:01:06.363939+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -835,7 +2294,7 @@
       "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
     ],
     "overall": 47,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 48,
     "reasons": [
       "Programme manager title in Dublin"
@@ -843,7 +2302,274 @@
     "recommendation": "skip",
     "recruiter_interest": 46,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.638122+00:00",
+    "scored_at": "2026-08-30T08:01:06.365841+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "6b71cc98dd907085": {
+    "blockers": [],
+    "canonical_id": "6b71cc98dd907085",
+    "concerns": [
+      "Ad-tech product operations often centres on campaign tooling rather than operating-model design"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 66,
+    "profile_version": "1.1.0",
+    "qualification_match": 66,
+    "reasons": [
+      "Product Operations Manager in London at a martech scale-up"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 65,
+    "role_family": "product_operations",
+    "scored_at": "2026-08-30T08:01:06.522014+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "6d2d057158df380c": {
+    "blockers": [],
+    "canonical_id": "6d2d057158df380c",
+    "concerns": [
+      "Senior Project Manager framing is a band below the target level"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [],
+    "overall": 66,
+    "profile_version": "1.1.0",
+    "qualification_match": 67,
+    "reasons": [
+      "PMO lead scope in Dublin"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 65,
+    "role_family": "transformation",
+    "scored_at": "2026-08-30T08:01:06.496482+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "6de95b89cdf30848": {
+    "blockers": [],
+    "canonical_id": "6de95b89cdf30848",
+    "concerns": [
+      "Very short posting; level and scope unclear, likely early-stage generalist"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 62,
+    "profile_version": "1.1.0",
+    "qualification_match": 62,
+    "reasons": [
+      "Product Ops role at a London software company"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 61,
+    "role_family": "product_operations",
+    "scored_at": "2026-08-30T08:01:06.536548+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "6e35a0076d3cc58e": {
+    "blockers": [],
+    "canonical_id": "6e35a0076d3cc58e",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.777050+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "6e9413c047fa11de": {
+    "blockers": [],
+    "canonical_id": "6e9413c047fa11de",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.781449+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "6f527337f65f4d9a": {
+    "blockers": [],
+    "canonical_id": "6f527337f65f4d9a",
+    "concerns": [
+      "Oracle-specific delivery is unsupported by Ali's evidence"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 61,
+    "profile_version": "1.1.0",
+    "qualification_match": 60,
+    "reasons": [
+      "Project delivery management at Deloitte Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 62,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.587247+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "700ad7031e231a19": {
+    "blockers": [],
+    "canonical_id": "700ad7031e231a19",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.785383+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "708ab54c74860589": {
+    "blockers": [],
+    "canonical_id": "708ab54c74860589",
+    "concerns": [
+      "Scale-up scope and stability need checking; CX ownership is adjacent to Ali's evidence"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [],
+    "overall": 69,
+    "profile_version": "1.1.0",
+    "qualification_match": 70,
+    "reasons": [
+      "Head of Strategic Initiatives spanning CX and operations, a transformation-shaped remit in Dublin"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 68,
+    "role_family": "transformation",
+    "scored_at": "2026-08-30T08:01:06.483476+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "71ecd991f5a2cac5": {
+    "blockers": [],
+    "canonical_id": "71ecd991f5a2cac5",
+    "concerns": [
+      "Trucking Coordinator is outside Ali's programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.788824+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "72a934523c72a59e": {
+    "blockers": [],
+    "canonical_id": "72a934523c72a59e",
+    "concerns": [
+      "Urban Outfitters Sales Associate (Contractual Change) - Dublin, Ireland is outside Ali's programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.792786+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "7304930859f90984": {
+    "blockers": [],
+    "canonical_id": "7304930859f90984",
+    "concerns": [
+      "Pharma data/AI portfolio implies scientific-domain and ML depth Ali must not claim"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [],
+    "overall": 62,
+    "profile_version": "1.1.0",
+    "qualification_match": 62,
+    "reasons": [
+      "Associate Director leading a data and AI product portfolio in Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 61,
+    "role_family": "ai_adoption",
+    "scored_at": "2026-08-30T08:01:06.594535+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "730abbe9cf865e96": {
+    "blockers": [],
+    "canonical_id": "730abbe9cf865e96",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.797339+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -857,13 +2583,53 @@
     "evidence_used": [],
     "flags": [],
     "overall": 8,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 8,
     "reasons": [],
     "recommendation": "skip",
     "recruiter_interest": 8,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.655517+00:00",
+    "scored_at": "2026-08-30T08:01:06.368467+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "75d13c10f88ac056": {
+    "blockers": [],
+    "canonical_id": "75d13c10f88ac056",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.802711+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "77078ef941b5fc0f": {
+    "blockers": [],
+    "canonical_id": "77078ef941b5fc0f",
+    "concerns": [
+      "Senior Infrastructure Engineer is outside Ali's programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.807067+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -877,13 +2643,138 @@
     "evidence_used": [],
     "flags": [],
     "overall": 3,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 3,
     "reasons": [],
     "recommendation": "skip",
     "recruiter_interest": 3,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.702472+00:00",
+    "scored_at": "2026-08-30T08:01:06.370243+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "7ae0502d5d4ece85": {
+    "blockers": [],
+    "canonical_id": "7ae0502d5d4ece85",
+    "concerns": [
+      "Consultancy model and the JD mentions PMP"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 65,
+    "profile_version": "1.1.0",
+    "qualification_match": 65,
+    "reasons": [
+      "Senior delivery management at a UK digital consultancy"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 64,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.555487+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "7b03f3b2455a77af": {
+    "blockers": [],
+    "canonical_id": "7b03f3b2455a77af",
+    "concerns": [
+      "IT Service Desk Administrator is outside Ali's programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.811172+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "7c6e633f382baaad": {
+    "blockers": [],
+    "canonical_id": "7c6e633f382baaad",
+    "concerns": [
+      "Engineering-delivery framing may expect hands-on technical depth"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 72,
+    "profile_version": "1.1.0",
+    "qualification_match": 72,
+    "reasons": [
+      "Senior Manager of global delivery engineering in Dublin, matching level and multi-site delivery ownership"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 71,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.479454+00:00",
+    "surfaced": true,
+    "tier": "worth reviewing"
+  },
+  "7f5ad3842d4556f8": {
+    "blockers": [],
+    "canonical_id": "7f5ad3842d4556f8",
+    "concerns": [
+      "'Hands-on delivery leadership' plus modern data capabilities implies depth the bank forbids claiming as ML engineering",
+      "Reinsurance domain is new"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "80% AI adoption across 40+ programme managers, 60%+ administration reduction",
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "AI-assisted product operations reducing administrative overhead across programme reporting, Jira and Confluence"
+    ],
+    "flags": [],
+    "overall": 74,
+    "profile_version": "1.1.0",
+    "qualification_match": 74,
+    "reasons": [
+      "Delivery leadership across multi-functional teams for AI-enabled products, pairing the delivery family with the AI differentiator",
+      "Dublin hybrid, in band"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 73,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.467016+00:00",
+    "surfaced": true,
+    "tier": "worth reviewing"
+  },
+  "7f8c15acbc629c69": {
+    "blockers": [],
+    "canonical_id": "7f8c15acbc629c69",
+    "concerns": [
+      "Large marketplace operator; product operations here may mean marketplace ops"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 63,
+    "profile_version": "1.1.0",
+    "qualification_match": 63,
+    "reasons": [
+      "Technical Product Operations Manager in Greater London"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 62,
+    "role_family": "product_operations",
+    "scored_at": "2026-08-30T08:01:06.530391+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -903,7 +2794,7 @@
       "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
     ],
     "overall": 71,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 72,
     "reasons": [
       "PMO programme management maps directly to the Global PMO title and portfolio governance evidence"
@@ -911,9 +2802,73 @@
     "recommendation": "research_more",
     "recruiter_interest": 70,
     "role_family": "transformation",
-    "scored_at": "2026-08-30T06:44:57.599704+00:00",
+    "scored_at": "2026-08-30T08:01:06.372585+00:00",
     "surfaced": true,
     "tier": "worth reviewing"
+  },
+  "81706c7320a9b04f": {
+    "blockers": [],
+    "canonical_id": "81706c7320a9b04f",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.815585+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "819e8c9bb1a21e03": {
+    "blockers": [],
+    "canonical_id": "819e8c9bb1a21e03",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.820395+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "829d5a96697965bb": {
+    "blockers": [],
+    "canonical_id": "829d5a96697965bb",
+    "concerns": [
+      "Business Analyst at AVP level is materially below the target band"
+    ],
+    "confidence": "high",
+    "evidence_used": [
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [],
+    "overall": 48,
+    "profile_version": "1.1.0",
+    "qualification_match": 48,
+    "reasons": [
+      "Transformation-adjacent role at State Street Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 47,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.611805+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
   },
   "8335a2b7b3a09dfe": {
     "blockers": [],
@@ -925,13 +2880,13 @@
     "evidence_used": [],
     "flags": [],
     "overall": 12,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 12,
     "reasons": [],
     "recommendation": "skip",
     "recruiter_interest": 12,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.665991+00:00",
+    "scored_at": "2026-08-30T08:01:06.375391+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -945,13 +2900,13 @@
     "evidence_used": [],
     "flags": [],
     "overall": 3,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 3,
     "reasons": [],
     "recommendation": "skip",
     "recruiter_interest": 3,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.704197+00:00",
+    "scored_at": "2026-08-30T08:01:06.377213+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -967,7 +2922,7 @@
     ],
     "flags": [],
     "overall": 61,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 62,
     "reasons": [
       "Senior R&D programme management in Dublin"
@@ -975,7 +2930,52 @@
     "recommendation": "skip",
     "recruiter_interest": 60,
     "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.615836+00:00",
+    "scored_at": "2026-08-30T08:01:06.379304+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "86f82543ba1d6159": {
+    "blockers": [],
+    "canonical_id": "86f82543ba1d6159",
+    "concerns": [
+      "Agency posting; software delivery may expect engineering-manager depth"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 62,
+    "profile_version": "1.1.0",
+    "qualification_match": 62,
+    "reasons": [
+      "Software delivery management in Dublin city with an onsite pattern"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 61,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.569031+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "87261483b22baca7": {
+    "blockers": [],
+    "canonical_id": "87261483b22baca7",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.825500+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -989,13 +2989,82 @@
     "evidence_used": [],
     "flags": [],
     "overall": 22,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 22,
     "reasons": [],
     "recommendation": "skip",
     "recruiter_interest": 22,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.645469+00:00",
+    "scored_at": "2026-08-30T08:01:06.381588+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "896724d42db52218": {
+    "blockers": [],
+    "canonical_id": "896724d42db52218",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.830014+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "89b30897bd62139e": {
+    "blockers": [],
+    "canonical_id": "89b30897bd62139e",
+    "concerns": [
+      "Mid-level strategy role, a band below target, and a degree requirement is stated"
+    ],
+    "confidence": "high",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 55,
+    "profile_version": "1.1.0",
+    "qualification_match": 55,
+    "reasons": [
+      "Strategy and operations management at a London fintech"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 54,
+    "role_family": "product_operations",
+    "scored_at": "2026-08-30T08:01:06.604262+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "8a01e8e600d58b4a": {
+    "blockers": [],
+    "canonical_id": "8a01e8e600d58b4a",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.834327+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1009,13 +3078,174 @@
     "evidence_used": [],
     "flags": [],
     "overall": 10,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 10,
     "reasons": [],
     "recommendation": "skip",
     "recruiter_interest": 10,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.692432+00:00",
+    "scored_at": "2026-08-30T08:01:06.384131+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "8b97d8425910388c": {
+    "blockers": [],
+    "canonical_id": "8b97d8425910388c",
+    "concerns": [
+      "Retail delivery scope is likely store/logistics rather than product"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 60,
+    "profile_version": "1.1.0",
+    "qualification_match": 60,
+    "reasons": [
+      "Delivery management at a major retailer in Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 59,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.581119+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "8c58e41e96385204": {
+    "blockers": [],
+    "canonical_id": "8c58e41e96385204",
+    "concerns": [
+      "National Security work may require UK security clearance Ali does not hold"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 67,
+    "profile_version": "1.1.0",
+    "qualification_match": 67,
+    "reasons": [
+      "Delivery management at an AI company, pairing delivery ownership with the AI differentiator"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 66,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.499226+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "8f1192e64bbf2e7f": {
+    "blockers": [],
+    "canonical_id": "8f1192e64bbf2e7f",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.838357+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "8f760a179b3c91d3": {
+    "blockers": [],
+    "canonical_id": "8f760a179b3c91d3",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD emphasises 'scrum master', a known weak-fit signal for Delivery Management"
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.842367+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "901cf58b1df575d4": {
+    "blockers": [],
+    "canonical_id": "901cf58b1df575d4",
+    "concerns": [
+      "Agency posting; likely engineering-delivery rather than product-delivery scope"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 63,
+    "profile_version": "1.1.0",
+    "qualification_match": 63,
+    "reasons": [
+      "Senior software delivery management in Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 62,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.571796+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "90c57a50d0008399": {
+    "blockers": [],
+    "canonical_id": "90c57a50d0008399",
+    "concerns": [
+      "Vendor Sales Specialist, EMEA SMB is outside Ali's programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.846670+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "91154e553a8ce4df": {
+    "blockers": [],
+    "canonical_id": "91154e553a8ce4df",
+    "concerns": [
+      "Supply-chain infrastructure domain is unsupported by Ali's evidence"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [],
+    "overall": 65,
+    "profile_version": "1.1.0",
+    "qualification_match": 65,
+    "reasons": [
+      "Programme management at AWS Dublin with EMEA infrastructure scope"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 64,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T08:01:06.511136+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1029,13 +3259,33 @@
     "evidence_used": [],
     "flags": [],
     "overall": 10,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 10,
     "reasons": [],
     "recommendation": "skip",
     "recruiter_interest": 10,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.697139+00:00",
+    "scored_at": "2026-08-30T08:01:06.386671+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "92fdf580ea4da9e4": {
+    "blockers": [],
+    "canonical_id": "92fdf580ea4da9e4",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.851210+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1055,7 +3305,7 @@
       "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
     ],
     "overall": 66,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 68,
     "reasons": [
       "Technical Programme Lead in Dublin, in band"
@@ -1063,7 +3313,7 @@
     "recommendation": "research_more",
     "recruiter_interest": 64,
     "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.606474+00:00",
+    "scored_at": "2026-08-30T08:01:06.388322+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1079,7 +3329,7 @@
     ],
     "flags": [],
     "overall": 61,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 62,
     "reasons": [
       "EMEA programme scope for data-centre power systems"
@@ -1087,7 +3337,7 @@
     "recommendation": "skip",
     "recruiter_interest": 60,
     "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.617297+00:00",
+    "scored_at": "2026-08-30T08:01:06.390842+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1101,13 +3351,13 @@
     "evidence_used": [],
     "flags": [],
     "overall": 22,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 22,
     "reasons": [],
     "recommendation": "skip",
     "recruiter_interest": 22,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.651444+00:00",
+    "scored_at": "2026-08-30T08:01:06.393156+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1123,7 +3373,7 @@
     ],
     "flags": [],
     "overall": 61,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 62,
     "reasons": [
       "AI transformation lead framing touches the AI-adoption differentiator"
@@ -1131,7 +3381,7 @@
     "recommendation": "skip",
     "recruiter_interest": 60,
     "role_family": "ai_adoption",
-    "scored_at": "2026-08-30T06:44:57.619162+00:00",
+    "scored_at": "2026-08-30T08:01:06.395674+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1149,7 +3399,7 @@
       "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
     ],
     "overall": 51,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 52,
     "reasons": [
       "Public-sector project management at Grant Thornton Dublin"
@@ -1157,7 +3407,7 @@
     "recommendation": "skip",
     "recruiter_interest": 50,
     "role_family": "transformation",
-    "scored_at": "2026-08-30T06:44:57.632458+00:00",
+    "scored_at": "2026-08-30T08:01:06.397902+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1177,7 +3427,7 @@
       "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
     ],
     "overall": 71,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 72,
     "reasons": [
       "Associate Director / Director level in a Big Four transformation practice, Dublin",
@@ -1186,9 +3436,53 @@
     "recommendation": "research_more",
     "recruiter_interest": 70,
     "role_family": "transformation",
-    "scored_at": "2026-08-30T06:44:57.591172+00:00",
+    "scored_at": "2026-08-30T08:01:06.400588+00:00",
     "surfaced": true,
     "tier": "worth reviewing"
+  },
+  "9f762044e49b45bb": {
+    "blockers": [],
+    "canonical_id": "9f762044e49b45bb",
+    "concerns": [
+      "Senior Software Engineer is outside Ali's programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [
+      "JD emphasises 'service delivery manager', a known weak-fit signal for Delivery Management"
+    ],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.855528+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "a02897562da7c46a": {
+    "blockers": [
+      "title signals a level well above target band ('chief')"
+    ],
+    "canonical_id": "a02897562da7c46a",
+    "concerns": [
+      "Suppressed by a hard blocker before scoring"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 20,
+    "profile_version": "1.1.0",
+    "qualification_match": 20,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 20,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.860953+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
   },
   "a07f24ecf19eb1ce": {
     "blockers": [],
@@ -1200,13 +3494,98 @@
     "evidence_used": [],
     "flags": [],
     "overall": 15,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 15,
     "reasons": [],
     "recommendation": "skip",
     "recruiter_interest": 15,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.670145+00:00",
+    "scored_at": "2026-08-30T08:01:06.403186+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "a0a5cc88d45b2dfd": {
+    "blockers": [],
+    "canonical_id": "a0a5cc88d45b2dfd",
+    "concerns": [
+      "Public-sector pace, and digital-delivery roles here often sit a band below"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 67,
+    "profile_version": "1.1.0",
+    "qualification_match": 68,
+    "reasons": [
+      "Digital delivery leadership in the Irish public sector, Dublin-based"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 66,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.491297+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "a169f4f4770164a1": {
+    "blockers": [],
+    "canonical_id": "a169f4f4770164a1",
+    "concerns": [
+      "Retail Sales Associate (Part Time, 8 hours) is outside Ali's programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.864788+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "a288ba86fce2d94f": {
+    "blockers": [],
+    "canonical_id": "a288ba86fce2d94f",
+    "concerns": [
+      "International Strategy & Operations Senior Manager, Commerce (French Speaking) is outside Ali's programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.869133+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "a2f66fcec8ea7978": {
+    "blockers": [],
+    "canonical_id": "a2f66fcec8ea7978",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.873915+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1223,7 +3602,7 @@
     ],
     "flags": [],
     "overall": 77,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 78,
     "reasons": [
       "Senior TPM scope at AWS in Dublin with large-scale programme ownership",
@@ -1232,7 +3611,7 @@
     "recommendation": "research_more",
     "recruiter_interest": 76,
     "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.579040+00:00",
+    "scored_at": "2026-08-30T08:01:06.405818+00:00",
     "surfaced": true,
     "tier": "strong"
   },
@@ -1246,13 +3625,210 @@
     "evidence_used": [],
     "flags": [],
     "overall": 22,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 22,
     "reasons": [],
     "recommendation": "skip",
     "recruiter_interest": 22,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.672077+00:00",
+    "scored_at": "2026-08-30T08:01:06.408212+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "a396a194876b20da": {
+    "blockers": [],
+    "canonical_id": "a396a194876b20da",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.878201+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "a55724cc8a6accd6": {
+    "blockers": [],
+    "canonical_id": "a55724cc8a6accd6",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.882580+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "a6216ed9f0761425": {
+    "blockers": [],
+    "canonical_id": "a6216ed9f0761425",
+    "concerns": [
+      "Agency posting; scope and level unspecified"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 61,
+    "profile_version": "1.1.0",
+    "qualification_match": 61,
+    "reasons": [
+      "Delivery management in the London area"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 60,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.561104+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "a638cdd0c5c5f91d": {
+    "blockers": [],
+    "canonical_id": "a638cdd0c5c5f91d",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.886861+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "a6dd6e937495a066": {
+    "blockers": [],
+    "canonical_id": "a6dd6e937495a066",
+    "concerns": [
+      "Ambiguous title; may be business operations rather than product operations"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 60,
+    "profile_version": "1.1.0",
+    "qualification_match": 60,
+    "reasons": [
+      "Product-side operations management in London"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 59,
+    "role_family": "product_operations",
+    "scored_at": "2026-08-30T08:01:06.542095+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "a8733c728ccdc4d4": {
+    "blockers": [],
+    "canonical_id": "a8733c728ccdc4d4",
+    "concerns": [
+      "Research-operations weighting sits away from delivery and operating-model evidence"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 60,
+    "profile_version": "1.1.0",
+    "qualification_match": 60,
+    "reasons": [
+      "Product and research operations in London"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 59,
+    "role_family": "product_operations",
+    "scored_at": "2026-08-30T08:01:06.539459+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "a9007e06e1a9c291": {
+    "blockers": [],
+    "canonical_id": "a9007e06e1a9c291",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.892149+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "a9ad117e22c76d70": {
+    "blockers": [],
+    "canonical_id": "a9ad117e22c76d70",
+    "concerns": [
+      "Spclst, Engineering is outside Ali's programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.897352+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "aa02a8e7d32bfe28": {
+    "blockers": [],
+    "canonical_id": "aa02a8e7d32bfe28",
+    "concerns": [
+      "UX Designer II is outside Ali's programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.901883+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1266,13 +3842,33 @@
     "evidence_used": [],
     "flags": [],
     "overall": 8,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 8,
     "reasons": [],
     "recommendation": "skip",
     "recruiter_interest": 8,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.663867+00:00",
+    "scored_at": "2026-08-30T08:01:06.411089+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "accd567403bbd2d3": {
+    "blockers": [],
+    "canonical_id": "accd567403bbd2d3",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.906591+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1282,22 +3878,46 @@
     "concerns": [
       "Delivery-services framing may be customer-project rather than product-platform"
     ],
-    "confidence": "low",
+    "confidence": "medium",
     "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
       "~30% faster launch cycles across 20+ launches (PLR, company standard)",
       "led six Senior Programme Managers across five global sites, four countries"
     ],
     "flags": [],
-    "overall": 69,
-    "profile_version": "1.0.0",
-    "qualification_match": 70,
+    "overall": 73,
+    "profile_version": "1.1.0",
+    "qualification_match": 74,
     "reasons": [
-      "Delivery programme management at a software vendor in Dublin"
+      "Delivery programme ownership maps directly to the end-to-end release lifecycle the function owned",
+      "Dublin-based software vendor, in band"
     ],
     "recommendation": "research_more",
-    "recruiter_interest": 68,
-    "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.604120+00:00",
+    "recruiter_interest": 72,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.297682+00:00",
+    "surfaced": true,
+    "tier": "worth reviewing"
+  },
+  "af5278f4fef8ce07": {
+    "blockers": [],
+    "canonical_id": "af5278f4fef8ce07",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.910957+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1311,13 +3931,13 @@
     "evidence_used": [],
     "flags": [],
     "overall": 10,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 10,
     "reasons": [],
     "recommendation": "skip",
     "recruiter_interest": 10,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.694808+00:00",
+    "scored_at": "2026-08-30T08:01:06.413471+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1331,13 +3951,105 @@
     "evidence_used": [],
     "flags": [],
     "overall": 8,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 8,
     "reasons": [],
     "recommendation": "skip",
     "recruiter_interest": 8,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.659582+00:00",
+    "scored_at": "2026-08-30T08:01:06.415937+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "b923770424990809": {
+    "blockers": [],
+    "canonical_id": "b923770424990809",
+    "concerns": [
+      "Consultancy delivery; level typically below the target band"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 63,
+    "profile_version": "1.1.0",
+    "qualification_match": 63,
+    "reasons": [
+      "Delivery management at a UK digital consultancy"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 62,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.551225+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "b92806f3a7bf31db": {
+    "blockers": [],
+    "canonical_id": "b92806f3a7bf31db",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.915736+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "ba229b8771a7e681": {
+    "blockers": [],
+    "canonical_id": "ba229b8771a7e681",
+    "concerns": [
+      "Workplace-tech service delivery is ITSM, an explicit weak-fit signal"
+    ],
+    "confidence": "high",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [
+      "JD emphasises 'service delivery manager', a known weak-fit signal for Delivery Management"
+    ],
+    "overall": 44,
+    "profile_version": "1.1.0",
+    "qualification_match": 44,
+    "reasons": [
+      "Delivery management title in London"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 43,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.628039+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "bb815992e536fb27": {
+    "blockers": [],
+    "canonical_id": "bb815992e536fb27",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.919886+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1351,13 +4063,40 @@
     "evidence_used": [],
     "flags": [],
     "overall": 8,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 8,
     "reasons": [],
     "recommendation": "skip",
     "recruiter_interest": 8,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.677334+00:00",
+    "scored_at": "2026-08-30T08:01:06.418285+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "c0e8a24a6fc78222": {
+    "blockers": [],
+    "canonical_id": "c0e8a24a6fc78222",
+    "concerns": [
+      "Outsourcing vendor role; the JD mentions PMP and scope is client-project shaped"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 61,
+    "profile_version": "1.1.0",
+    "qualification_match": 61,
+    "reasons": [
+      "Senior product delivery management, Dublin-listed"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 60,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.577949+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1373,7 +4112,7 @@
     ],
     "flags": [],
     "overall": 55,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 56,
     "reasons": [
       "Senior Manager level programme leadership in Dublin"
@@ -1381,7 +4120,7 @@
     "recommendation": "skip",
     "recruiter_interest": 54,
     "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.628497+00:00",
+    "scored_at": "2026-08-30T08:01:06.421092+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1389,23 +4128,25 @@
     "blockers": [],
     "canonical_id": "c3952139c74188ee",
     "concerns": [
-      "Oracle ERP delivery specificity is unsupported by Ali's evidence"
+      "Oracle ERP delivery specificity remains unsupported by Ali's evidence"
     ],
     "confidence": "medium",
     "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
       "post-merger delivery rebuild across a 5,600+ employee product organisation"
     ],
     "flags": [],
-    "overall": 65,
-    "profile_version": "1.0.0",
-    "qualification_match": 64,
+    "overall": 66,
+    "profile_version": "1.1.0",
+    "qualification_match": 66,
     "reasons": [
-      "Programme delivery leadership at Deloitte Dublin"
+      "Programme delivery leadership at a Big Four firm in Dublin",
+      "Delivery ownership now maps to a recognised family backed by release-lifecycle evidence"
     ],
     "recommendation": "skip",
     "recruiter_interest": 66,
-    "role_family": "transformation",
-    "scored_at": "2026-08-30T06:44:57.614571+00:00",
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.301177+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1424,7 +4165,7 @@
     ],
     "flags": [],
     "overall": 82,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 84,
     "reasons": [
       "Rack migrations, retirements and capacity installation are the same programme shape as the data-centre retirement and platform consolidation work",
@@ -1434,9 +4175,75 @@
     "recommendation": "apply",
     "recruiter_interest": 80,
     "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.576538+00:00",
+    "scored_at": "2026-08-30T08:01:06.423280+00:00",
     "surfaced": true,
     "tier": "strong"
+  },
+  "c72aaacf7f5d5f1e": {
+    "blockers": [],
+    "canonical_id": "c72aaacf7f5d5f1e",
+    "concerns": [
+      "Telecoms infrastructure domain is unsupported"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [],
+    "overall": 64,
+    "profile_version": "1.1.0",
+    "qualification_match": 64,
+    "reasons": [
+      "Engineering and operations programme management in Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 63,
+    "role_family": "technical_programme",
+    "scored_at": "2026-08-30T08:01:06.516177+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "c7fdfba713264466": {
+    "blockers": [],
+    "canonical_id": "c7fdfba713264466",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.924618+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "c913c09da3fb80c2": {
+    "blockers": [],
+    "canonical_id": "c913c09da3fb80c2",
+    "concerns": [
+      "Principal/Senior Systems Engineer is outside Ali's programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.929086+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
   },
   "ca56de16538b9d05": {
     "blockers": [],
@@ -1448,13 +4255,13 @@
     "evidence_used": [],
     "flags": [],
     "overall": 22,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 22,
     "reasons": [],
     "recommendation": "skip",
     "recruiter_interest": 22,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.653478+00:00",
+    "scored_at": "2026-08-30T08:01:06.425721+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1474,7 +4281,7 @@
       "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
     ],
     "overall": 73,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 74,
     "reasons": [
       "Senior Programme Manager at a major retailer, in band and in market"
@@ -1482,9 +4289,93 @@
     "recommendation": "research_more",
     "recruiter_interest": 72,
     "role_family": "transformation",
-    "scored_at": "2026-08-30T06:44:57.597926+00:00",
+    "scored_at": "2026-08-30T08:01:06.428095+00:00",
     "surfaced": true,
     "tier": "worth reviewing"
+  },
+  "cd2abba8d216472f": {
+    "blockers": [],
+    "canonical_id": "cd2abba8d216472f",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.933512+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "cf3f4637eb1ce509": {
+    "blockers": [],
+    "canonical_id": "cf3f4637eb1ce509",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.938094+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "cfd8f42e5338427a": {
+    "blockers": [
+      "location 'Paris' is outside Ali's IE/UK right to work"
+    ],
+    "canonical_id": "cfd8f42e5338427a",
+    "concerns": [
+      "Suppressed by a hard blocker before scoring"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 20,
+    "profile_version": "1.1.0",
+    "qualification_match": 20,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 20,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.942935+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "d02be709ecf2f763": {
+    "blockers": [],
+    "canonical_id": "d02be709ecf2f763",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.947843+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
   },
   "d2d4fa2988b26aa5": {
     "blockers": [],
@@ -1496,13 +4387,13 @@
     "evidence_used": [],
     "flags": [],
     "overall": 8,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 8,
     "reasons": [],
     "recommendation": "skip",
     "recruiter_interest": 8,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.649527+00:00",
+    "scored_at": "2026-08-30T08:01:06.430469+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1523,7 +4414,7 @@
       "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
     ],
     "overall": 82,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 84,
     "reasons": [
       "Core platform TPM role at a rail platform business, close to the platform-consolidation narrative",
@@ -1532,7 +4423,7 @@
     "recommendation": "research_more",
     "recruiter_interest": 80,
     "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.577757+00:00",
+    "scored_at": "2026-08-30T08:01:06.432914+00:00",
     "surfaced": true,
     "tier": "strong"
   },
@@ -1546,13 +4437,38 @@
     "evidence_used": [],
     "flags": [],
     "overall": 15,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 15,
     "reasons": [],
     "recommendation": "skip",
     "recruiter_interest": 15,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.690181+00:00",
+    "scored_at": "2026-08-30T08:01:06.435407+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "d454b04b0c380bcc": {
+    "blockers": [],
+    "canonical_id": "d454b04b0c380bcc",
+    "concerns": [
+      "Managed-services delivery is a support-operations remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 48,
+    "profile_version": "1.1.0",
+    "qualification_match": 48,
+    "reasons": [
+      "Delivery management within a managed cloud services practice"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 47,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.634687+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1566,13 +4482,77 @@
     "evidence_used": [],
     "flags": [],
     "overall": 8,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 8,
     "reasons": [],
     "recommendation": "skip",
     "recruiter_interest": 8,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.685621+00:00",
+    "scored_at": "2026-08-30T08:01:06.437645+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "d75ffbffa01ef06a": {
+    "blockers": [],
+    "canonical_id": "d75ffbffa01ef06a",
+    "concerns": [
+      "Trust and safety containment operations is unrelated to product or delivery leadership"
+    ],
+    "confidence": "high",
+    "evidence_used": [
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [],
+    "overall": 46,
+    "profile_version": "1.1.0",
+    "qualification_match": 46,
+    "reasons": [
+      "Global head-of level role in Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 45,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.638602+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "d95c7444105010ad": {
+    "blockers": [],
+    "canonical_id": "d95c7444105010ad",
+    "concerns": [
+      "Senior Operations Analyst- CL12 is outside Ali's programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.952594+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "daff91e6871e0280": {
+    "blockers": [],
+    "canonical_id": "daff91e6871e0280",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.957623+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1586,13 +4566,93 @@
     "evidence_used": [],
     "flags": [],
     "overall": 8,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 8,
     "reasons": [],
     "recommendation": "skip",
     "recruiter_interest": 8,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.667953+00:00",
+    "scored_at": "2026-08-30T08:01:06.440815+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "dca8429ea1c5455a": {
+    "blockers": [],
+    "canonical_id": "dca8429ea1c5455a",
+    "concerns": [
+      "Product BI & Ops Analyst is outside Ali's programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.962216+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "df04f1d27c0df337": {
+    "blockers": [],
+    "canonical_id": "df04f1d27c0df337",
+    "concerns": [
+      "Project Manager - Payroll Technology is outside Ali's programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.969945+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "df539a415f680dc0": {
+    "blockers": [],
+    "canonical_id": "df539a415f680dc0",
+    "concerns": [
+      "Software Development Engineer, Penrose Networks is outside Ali's programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.974408+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "e05791f1e6354870": {
+    "blockers": [],
+    "canonical_id": "e05791f1e6354870",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.979182+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1608,7 +4668,7 @@
     ],
     "flags": [],
     "overall": 57,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 58,
     "reasons": [
       "Programme manager title in Dublin"
@@ -1616,7 +4676,58 @@
     "recommendation": "skip",
     "recruiter_interest": 56,
     "role_family": "transformation",
-    "scored_at": "2026-08-30T06:44:57.622167+00:00",
+    "scored_at": "2026-08-30T08:01:06.443485+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "e19490e808d1be80": {
+    "blockers": [],
+    "canonical_id": "e19490e808d1be80",
+    "concerns": [
+      "Grid/energy infrastructure domain is unsupported, and the base location is ambiguous"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 66,
+    "profile_version": "1.1.0",
+    "qualification_match": 66,
+    "reasons": [
+      "Senior delivery management at AWS with large-scale infrastructure programmes"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 65,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.504862+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "e2218ee98d716ca5": {
+    "blockers": [],
+    "canonical_id": "e2218ee98d716ca5",
+    "concerns": [
+      "Client service operations in asset management is unrelated to product delivery"
+    ],
+    "confidence": "high",
+    "evidence_used": [
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [],
+    "overall": 44,
+    "profile_version": "1.1.0",
+    "qualification_match": 44,
+    "reasons": [
+      "Senior operations management in Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 43,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.642425+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1637,7 +4748,7 @@
       "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
     ],
     "overall": 74,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 76,
     "reasons": [
       "Programme Director title sits at the transformation/programme-director level Ali targets",
@@ -1646,31 +4757,136 @@
     "recommendation": "research_more",
     "recruiter_interest": 72,
     "role_family": "transformation",
-    "scored_at": "2026-08-30T06:44:57.588486+00:00",
+    "scored_at": "2026-08-30T08:01:06.445364+00:00",
     "surfaced": true,
     "tier": "worth reviewing"
+  },
+  "e31a28e9dd2ddfc1": {
+    "blockers": [],
+    "canonical_id": "e31a28e9dd2ddfc1",
+    "concerns": [
+      "Insurance operations focus sits away from product and platform delivery"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 61,
+    "profile_version": "1.1.0",
+    "qualification_match": 61,
+    "reasons": [
+      "Delivery operations leadership in London"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 60,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.598198+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
   },
   "e510285d3405e0d3": {
     "blockers": [],
     "canonical_id": "e510285d3405e0d3",
     "concerns": [
-      "Telecommunications infrastructure domain has no supporting evidence"
+      "Sales strategy and operations for an ad business, not product or delivery operations"
     ],
-    "confidence": "low",
+    "confidence": "medium",
     "evidence_used": [
-      "12 data centres retired, $1M data-centre cost removed in cross-brand consolidation"
+      "Norton Small Business expansion from 4 to 21 markets"
     ],
     "flags": [],
-    "overall": 65,
-    "profile_version": "1.0.0",
-    "qualification_match": 66,
+    "overall": 52,
+    "profile_version": "1.1.0",
+    "qualification_match": 53,
     "reasons": [
-      "Amazon programme management in Dublin with network delivery scope"
+      "Commercial operating-partner scope with pipeline governance"
     ],
     "recommendation": "skip",
-    "recruiter_interest": 64,
-    "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.611491+00:00",
+    "recruiter_interest": 51,
+    "role_family": "product_operations",
+    "scored_at": "2026-08-30T08:01:06.303748+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "e57591ca98497697": {
+    "blockers": [],
+    "canonical_id": "e57591ca98497697",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.984086+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "e8312ef367121b34": {
+    "blockers": [],
+    "canonical_id": "e8312ef367121b34",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.988305+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "ed02b0cad55c077c": {
+    "blockers": [],
+    "canonical_id": "ed02b0cad55c077c",
+    "concerns": [
+      "Store Manager - Drogheda (fixed term) is outside Ali's programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.992457+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "ed144163cf9c947d": {
+    "blockers": [],
+    "canonical_id": "ed144163cf9c947d",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:06.997154+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1684,7 +4900,7 @@
     "evidence_used": [],
     "flags": [],
     "overall": 34,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 35,
     "reasons": [
       "Programme-related title"
@@ -1692,7 +4908,105 @@
     "recommendation": "skip",
     "recruiter_interest": 32,
     "role_family": null,
-    "scored_at": "2026-08-30T06:44:57.641836+00:00",
+    "scored_at": "2026-08-30T08:01:06.447574+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "f0032ac780e777a0": {
+    "blockers": [],
+    "canonical_id": "f0032ac780e777a0",
+    "concerns": [
+      "'Specialist' sits well below the target band; a degree requirement is stated"
+    ],
+    "confidence": "high",
+    "evidence_used": [
+      "~30% faster launch cycles across 20+ launches (PLR, company standard)"
+    ],
+    "flags": [
+      "JD appears to require a degree; Ali completed four years of Germanistik but no bachelor's was awarded (bank Part 7). Check whether it is a hard gate or boilerplate an employer would waive for 15 years of evidence."
+    ],
+    "overall": 55,
+    "profile_version": "1.1.0",
+    "qualification_match": 55,
+    "reasons": [
+      "Transformation specialist role at a bank in Dublin"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 54,
+    "role_family": "transformation",
+    "scored_at": "2026-08-30T08:01:06.608040+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "f02bc71a4a881676": {
+    "blockers": [],
+    "canonical_id": "f02bc71a4a881676",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:07.004033+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "f137014ab8eaec18": {
+    "blockers": [],
+    "canonical_id": "f137014ab8eaec18",
+    "concerns": [
+      "Travel-retail technology domain is new; level unclear"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [],
+    "overall": 64,
+    "profile_version": "1.1.0",
+    "qualification_match": 64,
+    "reasons": [
+      "Technical delivery management in London"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 63,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.548182+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "f32273432af2d277": {
+    "blockers": [],
+    "canonical_id": "f32273432af2d277",
+    "concerns": [
+      "Consulting delivery model; level varies widely under this title"
+    ],
+    "confidence": "medium",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [
+      "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
+    ],
+    "overall": 68,
+    "profile_version": "1.1.0",
+    "qualification_match": 68,
+    "reasons": [
+      "Delivery lead management at Accenture Dublin with programme delivery ownership"
+    ],
+    "recommendation": "research_more",
+    "recruiter_interest": 67,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.493878+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1708,7 +5022,7 @@
     ],
     "flags": [],
     "overall": 57,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 58,
     "reasons": [
       "Programme manager scope in Dublin"
@@ -1716,7 +5030,7 @@
     "recommendation": "skip",
     "recruiter_interest": 56,
     "role_family": "transformation",
-    "scored_at": "2026-08-30T06:44:57.624944+00:00",
+    "scored_at": "2026-08-30T08:01:06.449361+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1735,7 +5049,7 @@
       "JD mentions PMP, which Ali does not hold (bank Part 7). Check whether it is mandatory or preferred before discounting the role."
     ],
     "overall": 67,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 68,
     "reasons": [
       "Technical Program Manager title in Dublin"
@@ -1743,7 +5057,54 @@
     "recommendation": "research_more",
     "recruiter_interest": 66,
     "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.605621+00:00",
+    "scored_at": "2026-08-30T08:01:06.451674+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "f85347240bf44239": {
+    "blockers": [],
+    "canonical_id": "f85347240bf44239",
+    "concerns": [
+      "Service delivery management is ITSM rather than product or programme delivery"
+    ],
+    "confidence": "high",
+    "evidence_used": [
+      "end-to-end release lifecycle and multi-platform release trains across Windows, macOS, iOS, Android, web and backend",
+      "designed and operationalised a Lean product operating model: rolling pre-PI planning, DoR/DoD gates, delivery/health/outcome metrics replacing status reporting with decision support"
+    ],
+    "flags": [
+      "JD emphasises 'service delivery manager', a known weak-fit signal for Delivery Management"
+    ],
+    "overall": 43,
+    "profile_version": "1.1.0",
+    "qualification_match": 43,
+    "reasons": [
+      "Service delivery title with a ServiceNow platform focus"
+    ],
+    "recommendation": "skip",
+    "recruiter_interest": 42,
+    "role_family": "delivery_management",
+    "scored_at": "2026-08-30T08:01:06.631002+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
+  },
+  "f9733122c4d9757f": {
+    "blockers": [],
+    "canonical_id": "f9733122c4d9757f",
+    "concerns": [
+      "Title does not map to a target role family; scope not programme, product-operations or delivery leadership"
+    ],
+    "confidence": "medium",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 45,
+    "profile_version": "1.1.0",
+    "qualification_match": 45,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 44,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:07.009446+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1761,7 +5122,7 @@
     ],
     "flags": [],
     "overall": 62,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 60,
     "reasons": [
       "Senior TPM scope on a mission-critical cloud platform programme, Dublin",
@@ -1770,7 +5131,7 @@
     "recommendation": "skip",
     "recruiter_interest": 64,
     "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.582609+00:00",
+    "scored_at": "2026-08-30T08:01:06.453746+00:00",
     "surfaced": false,
     "tier": "below threshold"
   },
@@ -1789,7 +5150,7 @@
     ],
     "flags": [],
     "overall": 84,
-    "profile_version": "1.0.0",
+    "profile_version": "1.1.0",
     "qualification_match": 85,
     "reasons": [
       "Dependency management, release planning and change readiness map directly to the release-train and portfolio governance remit",
@@ -1799,8 +5160,28 @@
     "recommendation": "apply",
     "recruiter_interest": 82,
     "role_family": "technical_programme",
-    "scored_at": "2026-08-30T06:44:57.575694+00:00",
+    "scored_at": "2026-08-30T08:01:06.455595+00:00",
     "surfaced": true,
     "tier": "strong"
+  },
+  "ffdf7d5eb6eedcca": {
+    "blockers": [],
+    "canonical_id": "ffdf7d5eb6eedcca",
+    "concerns": [
+      "Sales Representative with Ukrainian/Russian is outside Ali's programme, product-operations and delivery remit"
+    ],
+    "confidence": "high",
+    "evidence_used": [],
+    "flags": [],
+    "overall": 12,
+    "profile_version": "1.1.0",
+    "qualification_match": 12,
+    "reasons": [],
+    "recommendation": "skip",
+    "recruiter_interest": 12,
+    "role_family": null,
+    "scored_at": "2026-08-30T08:01:07.014056+00:00",
+    "surfaced": false,
+    "tier": "below threshold"
   }
 }

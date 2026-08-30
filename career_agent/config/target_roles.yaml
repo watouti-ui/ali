@@ -48,6 +48,7 @@ boards:
   # Apify LinkedIn/Indeed searches. Chosen for cost-vs-proven-reliability,
   # not lowest sticker price alone -- see the comparison in career_agent/README.md.
   # Each run spends real Apify credits: limitPerSource/limit caps that cost.
+  # --- Technical programme management ---
   - source: apify
     actor: curious_coder/linkedin-jobs-scraper  # 142k+ users, 4.59★ (140 ratings), $0.002/result
     input:
@@ -62,6 +63,54 @@ boards:
       title: Program Manager
       location: Dublin
       limit: 25
+  # --- Product operations ---
+  - source: apify
+    actor: curious_coder/linkedin-jobs-scraper
+    input:
+      keywords: Product Operations
+      location: Dublin, Ireland
+      limitPerSource: 25
+      scrapeCompany: false
+  - source: apify
+    actor: valig/indeed-jobs-scraper
+    input:
+      country: ie
+      title: Product Operations
+      location: Dublin
+      limit: 25
+  - source: apify
+    actor: curious_coder/linkedin-jobs-scraper
+    input:
+      keywords: Product Operations
+      location: London, United Kingdom
+      limitPerSource: 25
+      scrapeCompany: false
+  # --- Delivery management ---
+  # "Delivery Manager" spans a wide band, from single-team agile delivery
+  # up to Head of Delivery. The negative signals in candidate_profile.yaml
+  # pull the under-levelled ones down rather than filtering them here,
+  # since a title alone cannot tell them apart.
+  - source: apify
+    actor: curious_coder/linkedin-jobs-scraper
+    input:
+      keywords: Delivery Manager
+      location: Dublin, Ireland
+      limitPerSource: 25
+      scrapeCompany: false
+  - source: apify
+    actor: valig/indeed-jobs-scraper
+    input:
+      country: ie
+      title: Delivery Manager
+      location: Dublin
+      limit: 25
+  - source: apify
+    actor: curious_coder/linkedin-jobs-scraper
+    input:
+      keywords: Delivery Manager
+      location: London, United Kingdom
+      limitPerSource: 25
+      scrapeCompany: false
 # add more as you confirm target companies/searches. ATS board tokens are
 # usually visible in the company's careers page URL, e.g.:
 #   boards.greenhouse.io/<token>  -> source: greenhouse, token: <token>

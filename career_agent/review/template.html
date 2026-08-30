@@ -200,12 +200,12 @@ footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--rule);color:v
 <header>
   <div class="eyebrow">Phase 1 calibration</div>
   <h1>Does the Scout rank what you'd actually apply for?</h1>
-  <p class="lede">Seventy-six real jobs, scouted from Trainline's board plus LinkedIn and Indeed, scored against evidence bank v2.11. Twenty cleared the threshold. The scores are my judgement, not yours — which is exactly the problem. Mark each one and hand the verdicts back.</p>
+  <p class="lede">Real jobs scouted from an ATS board plus LinkedIn and Indeed across technical programme, product operations, delivery, transformation and AI roles, scored against evidence bank v2.11. The scores are my judgement, not yours — which is exactly the problem. Mark each one and hand the verdicts back.</p>
   <div class="stats">
-    <div class="stat"><div class="n" id="s1">76</div><div class="l">scored</div></div>
-    <div class="stat"><div class="n">20</div><div class="l">surfaced</div></div>
-    <div class="stat"><div class="n">23</div><div class="l">near misses</div></div>
-    <div class="stat"><div class="n">1</div><div class="l">blocked</div></div>
+    <div class="stat"><div class="n" id="s1">—</div><div class="l">scored</div></div>
+    <div class="stat"><div class="n" id="s2">—</div><div class="l">surfaced</div></div>
+    <div class="stat"><div class="n" id="s3">—</div><div class="l">near misses</div></div>
+    <div class="stat"><div class="n" id="s4">—</div><div class="l">families</div></div>
   </div>
 </header>
 
@@ -229,10 +229,10 @@ footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--rule);color:v
 
 <div class="sec" style="margin-top:18px">
   <div class="sec-h"><h2>Below the line</h2><span class="c" id="cnt-b"></span></div>
-  <p>Scored 50–69, so not surfaced. Worth your eye anyway: a role you'd chase down here means the thresholds or the weights are wrong.</p>
+  <p>Scored 60–69, close enough to the line that disagreeing about one implicates the threshold. Worth your eye anyway: a role you'd chase down here means the thresholds or the weights are wrong.</p>
 </div>
 <details class="near" id="neardet">
-  <summary><span class="arw">›</span> Show the 23 near misses <span class="sub">including both MongoDB roles</span></summary>
+  <summary><span class="arw">›</span> Show the near misses <span class="sub" id="nearsub"></span></summary>
   <div id="list-b"></div>
 </details>
 
@@ -307,6 +307,12 @@ footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--rule);color:v
   document.getElementById('cnt-b').textContent=D.near.length+' roles';
   document.getElementById('tot').textContent=ALL.length;
   document.getElementById('s1').textContent=D.total;
+  document.getElementById('s2').textContent=D.surfaced.length;
+  document.getElementById('s3').textContent=D.near.length;
+  var fams={}; D.surfaced.forEach(function(r){if(r.family) fams[r.family]=1});
+  document.getElementById('s4').textContent=Object.keys(fams).length;
+  document.getElementById('neardet').querySelector('summary .arw').nextSibling.textContent=' Show the '+D.near.length+' near misses ';
+  document.getElementById('nearsub').textContent='closest calls first';
 
   function tally(){
     var n=Object.keys(V).length;
