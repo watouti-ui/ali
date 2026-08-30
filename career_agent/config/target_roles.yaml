@@ -234,6 +234,284 @@ boards:
       location: Remote
       limit: 20
 
+  # --- Workday: the enterprise ATS, and the standard for the banks,
+  # pharma and corporates that dominate the Dublin and London markets.
+  #
+  # Each tenant's data centre (wd1/wd3/wd5/wd12) is part of its hostname
+  # and differs per employer, so it is configured, not derived. All six
+  # tenants below were probed live -- a wrong site path returns HTTP 422.
+  #
+  # Workday tenants are global, so the location goes into searchText:
+  # "program manager" alone returns 315 Mastercard jobs led by New York,
+  # Pune and Sao Paulo, while "program manager Dublin" returns 19 and
+  # leads with Dublin. Without it a small limit would fill with roles the
+  # hard filters then discard.
+  #
+  # The list carries no description, so detail_limit caps how many get a
+  # second request for one.
+  - source: workday
+    token: mastercard
+    site: CorporateCareers
+    dc: wd1
+    search_text: program manager Dublin
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: mastercard
+    site: CorporateCareers
+    dc: wd1
+    search_text: program manager London
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: mastercard
+    site: CorporateCareers
+    dc: wd1
+    search_text: product operations Dublin
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: mastercard
+    site: CorporateCareers
+    dc: wd1
+    search_text: product operations London
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: mastercard
+    site: CorporateCareers
+    dc: wd1
+    search_text: delivery manager Dublin
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: mastercard
+    site: CorporateCareers
+    dc: wd1
+    search_text: delivery manager London
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: citi
+    site: 2
+    dc: wd5
+    search_text: program manager Dublin
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: citi
+    site: 2
+    dc: wd5
+    search_text: program manager London
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: citi
+    site: 2
+    dc: wd5
+    search_text: product operations Dublin
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: citi
+    site: 2
+    dc: wd5
+    search_text: product operations London
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: citi
+    site: 2
+    dc: wd5
+    search_text: delivery manager Dublin
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: citi
+    site: 2
+    dc: wd5
+    search_text: delivery manager London
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: msd
+    site: SearchJobs
+    dc: wd5
+    search_text: program manager Dublin
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: msd
+    site: SearchJobs
+    dc: wd5
+    search_text: program manager London
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: msd
+    site: SearchJobs
+    dc: wd5
+    search_text: product operations Dublin
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: msd
+    site: SearchJobs
+    dc: wd5
+    search_text: product operations London
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: msd
+    site: SearchJobs
+    dc: wd5
+    search_text: delivery manager Dublin
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: msd
+    site: SearchJobs
+    dc: wd5
+    search_text: delivery manager London
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: pfizer
+    site: PfizerCareers
+    dc: wd1
+    search_text: program manager Dublin
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: pfizer
+    site: PfizerCareers
+    dc: wd1
+    search_text: program manager London
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: pfizer
+    site: PfizerCareers
+    dc: wd1
+    search_text: product operations Dublin
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: pfizer
+    site: PfizerCareers
+    dc: wd1
+    search_text: product operations London
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: pfizer
+    site: PfizerCareers
+    dc: wd1
+    search_text: delivery manager Dublin
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: pfizer
+    site: PfizerCareers
+    dc: wd1
+    search_text: delivery manager London
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: salesforce
+    site: External_Career_Site
+    dc: wd12
+    search_text: program manager Dublin
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: salesforce
+    site: External_Career_Site
+    dc: wd12
+    search_text: program manager London
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: salesforce
+    site: External_Career_Site
+    dc: wd12
+    search_text: product operations Dublin
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: salesforce
+    site: External_Career_Site
+    dc: wd12
+    search_text: product operations London
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: salesforce
+    site: External_Career_Site
+    dc: wd12
+    search_text: delivery manager Dublin
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: salesforce
+    site: External_Career_Site
+    dc: wd12
+    search_text: delivery manager London
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: workday
+    site: Workday
+    dc: wd5
+    search_text: program manager Dublin
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: workday
+    site: Workday
+    dc: wd5
+    search_text: program manager London
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: workday
+    site: Workday
+    dc: wd5
+    search_text: product operations Dublin
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: workday
+    site: Workday
+    dc: wd5
+    search_text: product operations London
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: workday
+    site: Workday
+    dc: wd5
+    search_text: delivery manager Dublin
+    limit: 12
+    detail_limit: 6
+  - source: workday
+    token: workday
+    site: Workday
+    dc: wd5
+    search_text: delivery manager London
+    limit: 12
+    detail_limit: 6
+
+  # --- SmartRecruiters: the company identifier is case-sensitive and is
+  # the one in the employer's careers URL. A wrong token returns 200 with
+  # an empty list, indistinguishable from an employer with no vacancies,
+  # so confirm a new token gives a non-zero totalFound before relying on
+  # it. Seeded with the one verified board; add real target employers.
+  - source: smartrecruiters
+    token: SmartRecruiters
+    limit: 30
+    detail_limit: 10
+
 # Stage 1 hard filters (spec section 4). Keep these conservative — false
 # suppression is worse than a bit of noise in the shortlist.
 hard_filters:

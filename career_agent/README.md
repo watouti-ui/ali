@@ -11,9 +11,12 @@ pipeline, not by this code.
 
 - `scout/schema.py` — canonical `JobRecord` and dedup key (`canonical_id`),
   stable across sources so the same real-world job collapses to one record.
-- `scout/sources/{greenhouse,lever,ashby}.py` — adapters for each ATS's
-  public, unauthenticated JSON job-board API. Verified live against real
-  boards (GitLab/Airbnb on Greenhouse, Trainline on Ashby).
+- `scout/sources/{greenhouse,lever,ashby,workday,smartrecruiters}.py` —
+  adapters for each ATS's public, unauthenticated JSON job-board API.
+  Every one was verified against a real live board before being shipped
+  (GitLab and Airbnb on Greenhouse, Trainline on Ashby, Mastercard on
+  Workday, SmartRecruiters' own board). See **ATS coverage** below for
+  what each covers and what was deliberately left out.
 - `scout/sources/apify.py` — runs a configured Apify actor synchronously
   and normalizes its dataset items into `JobRecord`. Actor output isn't
   one fixed shape (unlike the ATS adapters): it handles both flat fields
@@ -24,6 +27,51 @@ pipeline, not by this code.
   `APIFY_TOKEN` from the environment at run time — never hardcode a token
   in this repo. Actor IDs use Apify's Store format (`owner/actor-name`);
   the adapter converts to the `owner~actor-name` REST API expects.
+
+### ATS coverage
+
+The aggregator searches (LinkedIn, Indeed via Apify) do broad discovery.
+ATS adapters do the opposite job: complete, authoritative coverage of a
+named employer's board, with no ranking algorithm in between. Both matter
+— Mastercard's London Cardholder Services role showed up on LinkedIn
+*and* on their Workday board, but only Workday can guarantee nothing at
+that employer was missed.
+
+**Shipped, each verified against a live board:**
+
+| Platform | Endpoint style | Notes |
+|---|---|---|
+| Greenhouse | `boards-api.greenhouse.io/v1/boards/{token}/jobs` | Descriptions inline |
+| Lever | `api.lever.co/v0/postings/{token}` | Descriptions inline |
+| Ashby | `api.ashbyhq.com/posting-api/job-board/{name}` | Descriptions inline |
+| Workday | `POST /wday/cxs/{tenant}/{site}/jobs` | Data centre in hostname; descriptions need a second request |
+| SmartRecruiters | `api.smartrecruiters.com/v1/companies/{co}/postings` | Case-sensitive token; descriptions need a second request |
+
+Two traps worth knowing, both of which fail *silently*:
+
+- **A wrong SmartRecruiters token returns HTTP 200 with an empty list**,
+  which is indistinguishable from an employer with no vacancies. Confirm
+  a new token gives a non-zero `totalFound` before trusting it.
+- **A wrong Workday site path returns HTTP 422**, and the data centre
+  (`wd1`/`wd3`/`wd5`/`wd12`) differs per employer, so it is configured
+  rather than derived. Of fourteen plausible tenants probed, six worked;
+  the rest had a different site path, not a missing board.
+
+**Checked and deliberately not shipped:**
+
+- **Workable** — the public endpoints (`/api/v1/widget/accounts/{t}` and
+  `POST /api/v3/accounts/{t}/jobs`) respond, but every tenant tried
+  returned zero jobs, so the result shape could not be verified against
+  real data. Shipping an adapter written against a guessed shape is how
+  you get a source that silently returns nothing. Build it when a target
+  employer actually using it is identified.
+- **Recruitee, Personio** — Personio publishes XML rather than JSON, and
+  no Recruitee tenant tried resolved. Both are viable later; neither is
+  common among Ali's target employers.
+- **Teamtailor, iCIMS, Jobvite** — no public unauthenticated job API.
+  These need either an employer-issued API key or scraping, and scraping
+  a login-gated board is out of scope; an Apify actor is the right route
+  if one of them ever matters.
 
 ### Apify actors in use
 
